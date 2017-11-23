@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.uno.practicaandroid.Activity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/iBtn3Exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+        <ListView
+            android:id="@+id/lstPeliculas"
+            android:layout_width="match_parent"
+            android:layout_height="408dp">
+
+        </ListView>
+
+        <ImageButton
+            android:id="@+id/iBtn3Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="?android:attr/homeAsUpIndicator" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
