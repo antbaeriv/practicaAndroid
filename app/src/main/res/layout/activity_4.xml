@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.uno.practicaandroid.Activity4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img4Pelicula"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            app:srcCompat="@drawable/terminator"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/lbl4TituloPelicula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/img4Pelicula"
+            android:text="@string/lbl4TituloPelicula"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lbl4AnoPelicula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/lbl4TituloPelicula"
+            android:layout_below="@+id/lbl4TituloPelicula"
+            android:layout_marginTop="22dp"
+            android:text="@string/lbl4AnoPelicula" />
+
+        <TextView
+            android:id="@+id/lbl4PaisPelicula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/lbl4AnoPelicula"
+            android:layout_alignBottom="@+id/lbl4AnoPelicula"
+            android:layout_marginStart="23dp"
+            android:layout_toEndOf="@+id/lbl4AnoPelicula"
+            android:text="@string/lbl4PaisPelicula" />
+
+        <TextView
+            android:id="@+id/lbl4SinopsisPelicula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/lbl4PaisPelicula"
+            android:layout_alignStart="@+id/lbl4AnoPelicula"
+            android:layout_below="@+id/lbl4AnoPelicula"
+            android:layout_marginTop="25dp"
+            tools:text="@string/lbl4InfoPelicula1" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
