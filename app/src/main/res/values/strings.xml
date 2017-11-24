@@ -8,4 +8,56 @@
     <string name="lbl4PaisPelicula">Estados Unidos</string>
     <string name="lbl4InfoPelicula1">Los Ángeles, año 2029. Las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor, un hombre que nació en los años ochenta. Para acabar con la rebelión, las máquinas deciden enviar al pasado a un robot -Terminator- cuya misión será eliminar a Sarah Connor, la madre de John, e impedir así su nacimiento.</string>
     <string name="btn4Alquiler">Alquilar</string>
+
+
+
+    <string name="tituloAC1">Título: Gladiator</string>
+    <string name="duracionAC1">Duración: 150 min.</string>
+    <string name="paisAC1">País: Estados Unidos </string>
+    <string name="anioAC1">Año: 2000</string>
+    <string name="directorAC1">Director: Ridley Scott</string>
+    <string name="sinopsisAC1">Sinopsis: En el año 180, el Imperio Romano domina todo el mundo conocido. Tras una gran victoria sobre los bárbaros del norte, el anciano emperador Marco Aurelio (Richard Harris) decide transferir el poder a Máximo (Russell Crowe), bravo general de sus ejércitos y hombre de inquebrantable lealtad al imperio. Pero su hijo Cómodo (Joaquin Phoenix), que aspiraba al trono, no lo acepta y trata de asesinar a Máximo. </string>
+    <string name="urlFilmAC1">https://www.filmaffinity.com/es/film392075.html</string>
+    <string name="urlIMDBAC1">http://www.imdb.com/title/tt0172495/?ref_=fn_al_tt_1</string>
+    <string name="urlIRTAC1">https://www.rottentomatoes.com/m/gladiator</string>
+
+    <string name="tituloAC2">Título: Reservoir Dogs</string>
+    <string name="duracionAC2">Duración: 99 min.</string>
+    <string name="paisAC2">País: Estados Unidos</string>
+    <string name="anioAC2">Año: 1992</string>
+    <string name="directorAC2">Director: Quentin Tarantino</string>
+    <string name="sinopsisAC2">Sinopsis: Una banda organizada es contratada para atracar una empresa y llevarse unos diamantes. Sin embargo, antes de que suene la alarma, la policía ya está allí. Algunos miembros de la banda mueren en el enfrentamiento con las fuerzas del orden, y los demás se reúnen en el lugar convenido.</string>
+    <string name="urlFilmAC2">https://www.filmaffinity.com/es/film137887.html</string>
+    <string name="urlIMDBAC2">http://www.imdb.com/title/tt0105236/?ref_=nv_sr_1</string>
+    <string name="urlIRTAC2">https://www.rottentomatoes.com/m/reservoir_dogs</string>
+
+    <string name="tituloAC3">Título: Terminator</string>
+    <string name="duracionAC3">Duración: 108 min.</string>
+    <string name="paisAC3">País: Estados Unidos</string>
+    <string name="anioAC3">Año: 1984</string>
+    <string name="directorAC3">Director: James Cameron</string>
+    <string name="sinopsisAC3">Sinopsis: Los Ángeles, año 2029. Las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor, un hombre que nació en los años ochenta. Para acabar con la rebelión, las máquinas deciden enviar al pasado a un robot -Terminator- cuya misión será eliminar a Sarah Connor, la madre de John, e impedir así su nacimiento. </string>
+    <string name="urlFilmAC3">https://www.filmaffinity.com/es/film304107.html</string>
+    <string name="urlIMDBAC3">http://www.imdb.com/title/tt0088247/?ref_=fn_al_tt_1</string>
+    <string name="urlIRTAC3">https://www.rottentomatoes.com/franchise/terminator</string>
+
+    <string name="tituloAC4">Título: Shooter</string>
+    <string name="duracionAC4">Duración: 124 min.</string>
+    <string name="paisAC4">País: Estados Unidos</string>
+    <string name="anioAC4">Año: 2007</string>
+    <string name="directorAC4">Director: Antoine Fuqua</string>
+    <string name="sinopsisAC4">Sinopsis: Bob Lee Swagger (Mark Whalberg) es un ex-tirador de élite del ejército de los Estados Unidos que abandona las fuerzas armadas después del fracaso de una misión extraoficial. Cuando le piden que se reincorpore, regresa al servicio a regañadientes, pero vuelven a engañarlo. A pesar de llevar dos balas en el cuerpo y de ser el objetivo de una caza a nivel nacional, Swagger planea su venganza... </string>
+    <string name="urlFilmAC4">https://www.filmaffinity.com/es/film609118.html</string>
+    <string name="urlIMDBAC4">http://www.imdb.com/title/tt0822854/?ref_=nv_sr_2</string>
+    <string name="urlIRTAC4">https://www.rottentomatoes.com/m/shooter</string>
+
+    <string name="tituloAC5">Título: Léon</string>
+    <string name="duracionAC5">Duración: 106 min.</string>
+    <string name="paisAC5">País: Francia</string>
+    <string name="anioAC5">Año: 1994</string>
+    <string name="directorAC5">Director: Luc Besson</string>
+    <string name="sinopsisAC5">Sinopsis: Mathilda es una niña de doce años que no se lleva bien con su familia, excepto con su hermano pequeño. Su padre es un narcotraficante que hace negocios con Stan, un corrupto agente de la D.E.A. (Departamento gubernamental contra las drogas). Un día, mientras Mathilda está en un supermercado, Stan mata a su familia.</string>
+    <string name="urlFilmAC5">https://www.filmaffinity.com/es/film629496.html</string>
+    <string name="urlIMDBAC5">http://www.imdb.com/title/tt0110413/?ref_=nv_sr_2</string>
+    <string name="urlIRTAC5">https://www.rottentomatoes.com/m/leon_the_professional</string>
 </resources>

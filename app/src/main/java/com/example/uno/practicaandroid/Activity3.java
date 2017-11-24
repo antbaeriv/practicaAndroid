@@ -10,19 +10,11 @@ import android.widget.Toast;
 public class Activity3 extends AppCompatActivity {
 
     final Pelicula[] info = new Pelicula[]{
-            (new Pelicula("Gladiator","Estados Unidos","150 min",R.drawable.gladiator,
-                    "https://www.filmaffinity.com/es/film392075.html","http://www.imdb.com/title/tt0172495/?ref_=fn_al_tt_1","https://www.rottentomatoes.com/m/gladiator")),
-            (new Pelicula("Reservoir Dogs","Estados Unidos","99 min",R.drawable.reservoirdogs,
-                    "https://www.filmaffinity.com/es/film392075.html","http://www.imdb.com/title/tt0172495/?ref_=fn_al_tt_1","https://www.rottentomatoes.com/m/gladiator")),
-            (new Pelicula("Terminator","Estados Unidos","108 min",R.drawable.terminator,
-                    "https://www.filmaffinity.com/es/film392075.html","http://www.imdb.com/title/tt0172495/?ref_=fn_al_tt_1","https://www.rottentomatoes.com/m/gladiator")),
-            (new Pelicula("Shooter","Estados Unidos","124 min",R.drawable.shooter,
-                    "https://www.filmaffinity.com/es/film392075.html","http://www.imdb.com/title/tt0172495/?ref_=fn_al_tt_1","https://www.rottentomatoes.com/m/gladiator")),
-            (new Pelicula("Léon: the professional","Francia","106 min",R.drawable.leon,
-                    "https://www.filmaffinity.com/es/film392075.html","http://www.imdb.com/title/tt0172495/?ref_=fn_al_tt_1","https://www.rottentomatoes.com/m/gladiator"))
-
-
-
+            (new Pelicula(R.string.tituloAC1, R.string.paisAC1, R.string.duracionAC1, R.string.anioAC1, R.string.directorAC1, R.string.sinopsisAC1, R.drawable.gladiator,R.string.urlFilmAC1,R.string.urlIMDBAC1,R.string.urlIRTAC1)),
+            (new Pelicula(R.string.tituloAC2, R.string.paisAC2, R.string.duracionAC2, R.string.anioAC2, R.string.directorAC2, R.string.sinopsisAC2, R.drawable.reservoirdogs,R.string.urlFilmAC2,R.string.urlIMDBAC2,R.string.urlIRTAC2)),
+            (new Pelicula(R.string.tituloAC3, R.string.paisAC3, R.string.duracionAC3, R.string.anioAC3, R.string.directorAC3, R.string.sinopsisAC3, R.drawable.terminator,R.string.urlFilmAC3,R.string.urlIMDBAC3,R.string.urlIRTAC3)),
+            (new Pelicula(R.string.tituloAC4, R.string.paisAC4, R.string.duracionAC4, R.string.anioAC4, R.string.directorAC4, R.string.sinopsisAC4, R.drawable.shooter,R.string.urlFilmAC4,R.string.urlIMDBAC4,R.string.urlIRTAC4)),
+            (new Pelicula(R.string.tituloAC5, R.string.paisAC5, R.string.duracionAC5, R.string.anioAC5, R.string.directorAC5, R.string.sinopsisAC5, R.drawable.leon,R.string.urlFilmAC5,R.string.urlIMDBAC5,R.string.urlIRTAC5))
     };
     AdaptadorPeliculas adapta;
 
@@ -31,7 +23,7 @@ public class Activity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_3);
 
-        adapta= new AdaptadorPeliculas(this, info);
+        adapta = new AdaptadorPeliculas(this, info);
         ListView lista = (ListView) findViewById(R.id.lstPeliculas);
         lista.setAdapter(adapta);
 
@@ -40,7 +32,7 @@ public class Activity3 extends AppCompatActivity {
                     public void onItemClick(
                             AdapterView<?> adapter, View v, int position, long id) {
                         Pelicula item = (Pelicula) adapta.getItem(position);
-                        visualiza(item.getTitulo());
+
                     }
                 }
         );

@@ -19,19 +19,25 @@
         <TextView
             android:id="@+id/lblTitulo"
             android:layout_width="match_parent"
-            android:layout_height="33dp"
+            android:layout_height="25dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/lblAnio"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
             android:text="TextView" />
 
         <TextView
             android:id="@+id/lblDuracion"
             android:layout_width="match_parent"
-            android:layout_height="33dp"
+            android:layout_height="25dp"
             android:text="TextView" />
 
         <TextView
             android:id="@+id/lblPais"
             android:layout_width="match_parent"
-            android:layout_height="33dp"
+            android:layout_height="25dp"
             android:text="TextView" />
     </LinearLayout>
 </LinearLayout>
