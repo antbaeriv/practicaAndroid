@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VideoStudium</string>
+    <string name="lbl1User">Benutzer</string>
+    <string name="lbl1Pass">Passwort</string>
+    <string name="btn1Enter">EinTragen</string>
+    <string name="autorizado">"Autorisierter Zugriff "</string>
+    <string name="denegado">"Zugriff verweigert "</string>
+    <string name="lbl4TituloPelicula">Terminator</string>
+    <string name="lbl4AnoPelicula">1984</string>
+    <string name="lbl4PaisPelicula">USA</string>
+    <string name="lbl4InfoPelicula1">Los Angeles, Jahr 2029. Maschinen beherrschen die Welt.  Die Rebellen kämpfen sie haben als Führer John Connor, ein Mann, der in den achtziger Jahren geboren wurde. Um den Aufstand zu beenden, beschließen Maschinen, in die Vergangenheit in einem Roboter - Terminator - zu schicken, deren Mission zu beseitigen Johns Mutter Sarah Connor und damit verhindern, dass seine Geburt sein wird.</string>
+    <string name="btn4Alquiler">Miete</string>
+    <string name="wlc">Willkommen</string>
+    <string name="volver2">Rückkehr</string>
+</resources>
