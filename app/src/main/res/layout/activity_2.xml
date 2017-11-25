@@ -24,13 +24,38 @@
             tools:layout_editor_absoluteY="61dp" />
 
         <TextView
-            android:id="@+id/lblUser"
+            android:id="@+id/lbl2User"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="30sp"
             android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spnGeneros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn2Volver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/volver2" />
+
+            <Button
+                android:id="@+id/btn2Seleccionar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Seleccionar2" />
+        </LinearLayout>
 
     </LinearLayout>
 
