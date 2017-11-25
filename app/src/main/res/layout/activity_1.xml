@@ -66,6 +66,7 @@
             android:id="@+id/btn1Enter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="mostrarAct2"
             android:text="@string/btn1Enter" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
