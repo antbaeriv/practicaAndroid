@@ -12,7 +12,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/lblBienvenido"
+            android:id="@+id/lbl2Bienvenido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/wlc"
@@ -33,7 +33,7 @@
             android:textStyle="bold" />
 
         <Spinner
-            android:id="@+id/spnGeneros"
+            android:id="@+id/spn2Generos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

@@ -24,7 +24,7 @@ public class Activity2 extends AppCompatActivity {
     }
     public void InicializarUI(){
         lblUser = (TextView) findViewById(R.id.lbl2User);
-        spnGen = (Spinner) findViewById(R.id.spnGeneros);
+        spnGen = (Spinner) findViewById(R.id.spn2Generos);
     }
 
 }

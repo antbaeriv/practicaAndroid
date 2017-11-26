@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/practicaAndroid.iml" filepath="$PROJECT_DIR$/practicaAndroid.iml" />
       <module fileurl="file://C:\Users\JSureda\AndroidStudioProjects\projectAndroid\practicaAndroid.iml" filepath="C:\Users\JSureda\AndroidStudioProjects\projectAndroid\practicaAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projectAndroid.iml" filepath="$PROJECT_DIR$/projectAndroid.iml" />
       <module fileurl="file://C:\Users\xemy0\AndroidStudioProjects\practicaAndroid\.idea\projectAndroid.iml" filepath="C:\Users\xemy0\AndroidStudioProjects\practicaAndroid\.idea\projectAndroid.iml" />
       <module fileurl="file://C:\Users\UNO\AndroidStudioProjects\practicaAndroid\projectAndroid.iml" filepath="C:\Users\UNO\AndroidStudioProjects\practicaAndroid\projectAndroid.iml" />
     </modules>

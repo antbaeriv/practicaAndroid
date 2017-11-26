@@ -19,7 +19,7 @@
             app:srcCompat="@android:drawable/ic_lock_power_off" />
 
         <ListView
-            android:id="@+id/lstPeliculas"
+            android:id="@+id/lst3Peliculas"
             android:layout_width="match_parent"
             android:layout_height="408dp">
 

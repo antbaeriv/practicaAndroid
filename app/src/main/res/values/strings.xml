@@ -5,6 +5,9 @@
     <string name="btn1Enter">Entrar</string>
     <string name="autorizado">Acceso autorizado</string>
     <string name="denegado">Acceso denegado</string>
+    <string name="cat1">Acción</string>
+    <string name="cat2">Drama</string>
+    <string name="cat3">Ciencia Ficción</string>
     <string name="lbl4TituloPelicula">Terminator</string>
     <string name="lbl4AnoPelicula">1984</string>
     <string name="lbl4PaisPelicula">Estados Unidos</string>
