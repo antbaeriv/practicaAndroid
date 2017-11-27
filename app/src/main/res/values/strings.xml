@@ -86,7 +86,7 @@
     <string name="paisDM2">País: Estados Unidos</string>
     <string name="anioDM2">Año: 1942</string>
     <string name="directorDM2">Director: Michael Curtiz</string>
-    <string name="sinopsisDM2">Sinopsis: Años 40. A consecuencia de la Segunda Guerra Mundial, Casablanca era una ciudad a la que llegaban huyendo del nazismo gente de todas partes: llegar era fácil, pero salir era casi imposible, especialmente si el nombre del fugitivo figuraba en las listas de la Gestapo, que presionaba a la autoridades francesas al mando del corrupto inspector Renault. En este caso, el objetivo de la policía secreta alemana es el líder checo y héroe de la resistencia Victor Laszlo, cuya única esperanza es Rick Blaine, propietario del 'Rick’s Café' y antiguo amante de su mujer, Ilsa Lund. Rick e Ilsa se habían conocido en París, pero la entrada de las tropas alemanas en la capital francesa les separó.</string>
+    <string name="sinopsisDM2">Sinopsis: Años 40. A consecuencia de la Segunda Guerra Mundial, Casablanca era una ciudad a la que llegaban huyendo del nazismo gente de todas partes: llegar era fácil, pero salir era casi imposible, especialmente si el nombre del fugitivo figuraba en las listas de la Gestapo, que presionaba a la autoridades francesas al mando del corrupto inspector Renault. En este caso, el objetivo de la policía secreta alemana es el líder checo y héroe de la resistencia Victor Laszlo, cuya única esperanza es Rick Blaine, propietario del "Rick’s Café" y antiguo amante de su mujer, Ilsa Lund. Rick e Ilsa se habían conocido en París, pero la entrada de las tropas alemanas en la capital francesa les separó.</string>
     <string name="urlFilmDM2">https://www.filmaffinity.com/es/film165208.html</string>
     <string name="urlIMDBDM2">http://www.imdb.com/title/tt0034583/?ref_=nv_sr_1</string>
     <string name="urlIRTDM2">https://www.rottentomatoes.com/m/1003707_casablanca?</string>
@@ -120,4 +120,71 @@
     <string name="urlFilmDM5">https://www.filmaffinity.com/es/film814379.html</string>
     <string name="urlIMDBDM5">http://www.imdb.com/title/tt0120338/?ref_=nv_sr_1</string>
     <string name="urlIRTDM5">https://www.rottentomatoes.com/m/titanic</string>
+
+    <string name="tituloSF1">Rogue One: Una Historia de Star Wars</string>
+    <string name="duracionSF1">133 min.</string>
+    <string name="paisSF1">Estados Unidos.</string>
+    <string name="anioSF1">2016.</string>
+    <string name="directorSF1">Gareth Edwards.</string>
+    <string name="sinopsisSF1">El Imperio Galáctico ha terminado de construir el arma más poderosa de todas, la Estrella de la muerte, pero un grupo de rebeldes decide realizar una misión de muy alto riesgo: robar los planos de dicha estación antes de que entre en operaciones, mientras se enfrentan también al poderoso Lord Sith conocido como Darth Vader, discípulo del despiadado Emperador Palpatine. Film ambientado entre los episodios III y IV de Star Wars.</string>
+
+    <string name="urlFilmSF1">https://www.filmaffinity.com/es/film769224.html</string>
+    <string name="urlIMDBSF1">http://www.imdb.com/title/tt3748528/?ref_=nv_sr_2</string>
+    <string name="urlRTSF1">https://www.rottentomatoes.com/m/rogue_one_a_star_wars_story</string>
+
+
+
+
+    <string name="tituloSF2">2001 Una Odisea en el espacio</string>
+    <string name="duracionSF2">139 min.</string>
+    <string name="paisSF2">Reino Unido</string>
+    <string name="anioSF2">1968</string>
+    <string name="directorSF2">Stanley Kubrik</string>
+    <string name="sinopsisSF2">La película de ciencia-ficción por excelencia de la historia del cine narra los diversos periodos de la historia de la humanidad, no sólo del pasado, sino también del futuro. Hace millones de años, antes de la aparición del "homo sapiens", unos primates descubren un monolito que los conduce a un estadio de inteligencia superior. Millones de años después, otro monolito, enterrado en una luna, despierta el interés de los científicos. Por último, durante una misión de la NASA, HAL 9000, una máquina dotada de inteligencia artificial, se encarga de controlar todos los sistemas de una nave espacial tripulada.</string>
+
+    <string name="urlFilmSF2">https://www.filmaffinity.com/es/film171099.html</string>
+    <string name="urlIMDBSF2">http://www.imdb.com/title/tt0062622/?ref_=nv_sr_1</string>
+    <string name="urlRTSF2">https://www.rottentomatoes.com/m/1000085_2001_a_space_odyssey?</string>
+
+
+
+
+    <string name="tituloSF3">Star Trek: Primer contacto</string>
+    <string name="duracionSF3">111 min.</string>
+    <string name="paisSF3">Estados Unidos</string>
+    <string name="anioSF3">1996</string>
+    <string name="directorSF3">Jonathan Frakes</string>
+    <string name="sinopsisSF3">La USS-Enterprise se encuentra explorando el espacio, cuando recibe la noticia de que se ha detectado la presencia de un Cubo Borg dirigiéndose hacia la Tierra. El Alto Mando de la flota ordena a Picard que se dirijan a la Zona Neutral para el caso de que los romulanos decidan aprovechar la situación y ataquen a la Federación. Pero en realidad el Alto Mando desconfía de que Picard ayude al enemigo, debido a su anterior asimilación en el colectivo Borg. Cuando la Tierra es atacada y la flota no puede hacer frente a la amenaza, Picard desoye las órdenes y se enfrenta al Borg, liderando la flota en el ataque. El cubo Borg es destruido, pero una pequeña porción escapa y genera un túnel temporal hacia el pasado hasta el año 2063, con el fin de evitar que el Dr. Zefram Cochrane realice el primer viaje a velocidad de curvatura, y contacte con la primera raza extraterrestre. Picard y su tripulación deberán viajar al pasado para restablecer el tiempo y hacer frente a la amenaza Borg en el pasado.</string>
+
+    <string name="urlFilmSF3">https://www.filmaffinity.com/es/film880655.html</string>
+    <string name="urlIMDBSF3">http://www.imdb.com/title/tt0117731/?ref_=nv_sr_1</string>
+    <string name="urlRTSF3">https://www.rottentomatoes.com/m/star_trek_first_contact</string>
+
+
+
+
+    <string name="tituloSF4">Blade Runner</string>
+    <string name="duracionSF4">117 min.</string>
+    <string name="paisSF4">Estados Unidos</string>
+    <string name="anioSF4">1982</string>
+    <string name="directorSF4">Ridley Scott</string>
+    <string name="sinopsisSF4">A principios del siglo XXI, la poderosa Tyrell Corporation creó, gracias a los avances de la ingeniería genética, un robot llamado Nexus 6, un ser virtualmente idéntico al hombre pero superior a él en fuerza y agilidad, al que se dio el nombre de Replicante. Estos robots trabajaban como esclavos en las colonias exteriores de la Tierra. Después de la sangrienta rebelión de un equipo de Nexus-6, los Replicantes fueron desterrados de la Tierra. Brigadas especiales de policía, los Blade Runners, tenían órdenes de matar a todos los que no hubieran acatado la condena. Pero a esto no se le llamaba ejecución, se le llamaba "retiro". Tras un grave incidente, el ex Blade Runner Rick Deckard es llamado de nuevo al servicio para encontrar y "retirar" a unos replicantes rebeldes.</string>
+
+    <string name="urlFilmSF4">https://www.filmaffinity.com/es/film358476.html</string>
+    <string name="urlIMDBSF4">http://www.imdb.com/title/tt0083658/?ref_=nv_sr_2</string>
+    <string name="urlRTSF4">https://www.rottentomatoes.com/m/blade_runner</string>
+
+
+
+
+    <string name="tituloSF5">Matrix</string>
+    <string name="duracionSF5">131 min.</string>
+    <string name="paisSF5">Estados Unidos</string>
+    <string name="anioSF5">1999</string>
+    <string name="directorSF5">Hermanas Wachowski</string>
+    <string name="sinopsisSF5">Thomas Anderson es un brillante programador de una respetable compañía de software. Pero fuera del trabajo es Neo, un hacker que un día recibe una misteriosa visita...</string>
+
+    <string name="urlFilmSF5">https://www.filmaffinity.com/es/film932476.html</string>
+    <string name="urlIMDBSF5">http://www.imdb.com/title/tt0133093/?ref_=nv_sr_1</string>
+    <string name="urlRTSF5">https://www.rottentomatoes.com/m/matrix</string>
 </resources>
