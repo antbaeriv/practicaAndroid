@@ -68,4 +68,54 @@
     <string name="urlFilmAC5">https://www.filmaffinity.com/es/film629496.html</string>
     <string name="urlIMDBAC5">http://www.imdb.com/title/tt0110413/?ref_=nv_sr_2</string>
     <string name="urlIRTAC5">https://www.rottentomatoes.com/m/leon_the_professional</string>
+
+    <string name="tituloDM1">Título: Cadena perpetua</string>
+    <string name="durDMionDM1">Duración: 142 min.</string>
+    <string name="paisDM1">País: Estados Unidos </string>
+    <string name="anioDM1">Año: 1994</string>
+    <string name="directorDM1">Director: Frank Darabont</string>
+    <string name="sinopsisDM1">Sinopsis: Acusado del asesinato de su mujer, Andrew Dufresne (Tim Robbins), tras ser condenado a cadena perpetua, es enviado a la cárcel de Shawshank. Con el paso de los años conseguirá ganarse la confianza del director del centro y el respeto de sus compañeros de prisión, especialmente de Red (Morgan Freeman), el jefe de la mafia de los sobornos. </string>
+    <string name="urlFilmDM1">https://www.filmaffinity.com/es/film161026.html</string>
+    <string name="urlIMDBDM1">http://www.imdb.com/title/tt0111161/</string>
+    <string name="urlIRTDM1">https://www.rottentomatoes.com/m/shawshank_redemption/</string>
+
+    <string name="tituloDM2">Título: Casablanca</string>
+    <string name="durDMionDM2">Duración: 102 min.</string>
+    <string name="paisDM2">País: Estados Unidos</string>
+    <string name="anioDM2">Año: 1942</string>
+    <string name="directorDM2">Director: Michael Curtiz</string>
+    <string name="sinopsisDM2">Sinopsis: Años 40. A consecuencia de la Segunda Guerra Mundial, Casablanca era una ciudad a la que llegaban huyendo del nazismo gente de todas partes: llegar era fácil, pero salir era casi imposible, especialmente si el nombre del fugitivo figuraba en las listas de la Gestapo, que presionaba a la autoridades francesas al mando del corrupto inspector Renault. En este caso, el objetivo de la policía secreta alemana es el líder checo y héroe de la resistencia Victor Laszlo, cuya única esperanza es Rick Blaine, propietario del 'Rick’s Café' y antiguo amante de su mujer, Ilsa Lund. Rick e Ilsa se habían conocido en París, pero la entrada de las tropas alemanas en la capital francesa les separó.</string>
+    <string name="urlFilmDM2">https://www.filmaffinity.com/es/film165208.html</string>
+    <string name="urlIMDBDM2">http://www.imdb.com/title/tt0034583/?ref_=nv_sr_1</string>
+    <string name="urlIRTDM2">https://www.rottentomatoes.com/m/1003707_casablanca?</string>
+
+    <string name="tituloDM3">Título: Cisne Negro</string>
+    <string name="durDMionDM3">Duración: 109 min.</string>
+    <string name="paisDM3">País: Estados Unidos</string>
+    <string name="anioDM3">Año: 2010</string>
+    <string name="directorDM3">Director: Darren Aronofsky</string>
+    <string name="sinopsisDM3">Sinopsis: Nina (Natalie Portman), una brillante bailarina que forma parte de una compañía de ballet de Nueva York, vive completamente absorbida por la danza. La presión de su controladora madre (Barbara Hershey), la rivalidad con su compañera Lily (Mila Kunis) y las exigencias del severo director (Vincent Cassel) se irán incrementando a medida que se acerca el día del estreno. Esta tensión provoca en Nina un agotamiento nervioso y una confusión mental que la incapacitan para distinguir entre realidad y ficción. </string>
+    <string name="urlFilmDM3">https://www.filmaffinity.com/es/film458406.html</string>
+    <string name="urlIMDBDM3">http://www.imdb.com/title/tt0947798/?ref_=nv_sr_1</string>
+    <string name="urlIRTDM3">https://www.rottentomatoes.com/m/black_swan_2010</string>
+
+    <string name="tituloDM4">Título: Lo Imposible</string>
+    <string name="durDMionDM4">Duración: 107 min.</string>
+    <string name="paisDM4">País: España</string>
+    <string name="anioDM4">Año: 2012</string>
+    <string name="directorDM4">Director: José Antonio Bayona</string>
+    <string name="sinopsisDM4">Sinopsis: Diciembre del año 2004. María (Naomi Watts), Henry (Ewan McGregor) y sus tres hijos pequeños vuelan desde Japón a Tailandia para pasar las vacaciones de Navidad en la playa. Una mañana, mientras se encuentran todos en la piscina del complejo a orillas del mar, un tremendo tsunami destroza el hotel y gran parte de la costa del sudeste asiático. Este desastre cambió para siempre la vida de millones de personas. Esta es sólo la historia de una familia.</string>
+    <string name="urlFilmDM4">https://www.filmaffinity.com/es/film329915.html</string>
+    <string name="urlIMDBDM4">http://www.imdb.com/title/tt1649419/?ref_=nv_sr_1</string>
+    <string name="urlIRTDM4">https://www.rottentomatoes.com/m/the_impossible_2012</string>
+
+    <string name="tituloDM5">Título: Titanic</string>
+    <string name="durDMionDM5">Duración: 195 min.</string>
+    <string name="paisDM5">País: Estados Unidos</string>
+    <string name="anioDM5">Año: 1997</string>
+    <string name="directorDM5">Director: James Cameron</string>
+    <string name="sinopsisDM5">Sinopsis: Jack (DiCaprio), un joven artista, gana en una partida de cartas un pasaje para viajar a América en el Titanic, el transatlántico más grande y seguro jamás construido. A bordo conoce a Rose (Kate Winslet), una joven de una buena familia venida a menos que va a contraer un matrimonio de conveniencia con Cal (Billy Zane), un millonario engreído a quien sólo interesa el prestigioso apellido de su prometida. Jack y Rose se enamoran, pero el prometido y la madre de ella ponen todo tipo de trabas a su relación. Mientras, el gigantesco y lujoso trasatlántico se aproxima hacia un inmenso iceberg.</string>
+    <string name="urlFilmDM5">https://www.filmaffinity.com/es/film814379.html</string>
+    <string name="urlIMDBDM5">http://www.imdb.com/title/tt0120338/?ref_=nv_sr_1</string>
+    <string name="urlIRTDM5">https://www.rottentomatoes.com/m/titanic</string>
 </resources>
