@@ -21,102 +21,102 @@
     <string name="Seleccionar2">Seleccionar</string>
 
 
-    <string name="tituloAC1">Título: Gladiator</string>
-    <string name="duracionAC1">Duración: 150 min.</string>
-    <string name="paisAC1">País: Estados Unidos </string>
-    <string name="anioAC1">Año: 2000</string>
-    <string name="directorAC1">Director: Ridley Scott</string>
-    <string name="sinopsisAC1">Sinopsis: En el año 180, el Imperio Romano domina todo el mundo conocido. Tras una gran victoria sobre los bárbaros del norte, el anciano emperador Marco Aurelio (Richard Harris) decide transferir el poder a Máximo (Russell Crowe), bravo general de sus ejércitos y hombre de inquebrantable lealtad al imperio. Pero su hijo Cómodo (Joaquin Phoenix), que aspiraba al trono, no lo acepta y trata de asesinar a Máximo. </string>
+    <string name="tituloAC1">Gladiator</string>
+    <string name="duracionAC1">150 min.</string>
+    <string name="paisAC1">Estados Unidos </string>
+    <string name="anioAC1">2000</string>
+    <string name="directorAC1">Ridley Scott</string>
+    <string name="sinopsisAC1">En el año 180, el Imperio Romano domina todo el mundo conocido. Tras una gran victoria sobre los bárbaros del norte, el anciano emperador Marco Aurelio (Richard Harris) decide transferir el poder a Máximo (Russell Crowe), bravo general de sus ejércitos y hombre de inquebrantable lealtad al imperio. Pero su hijo Cómodo (Joaquin Phoenix), que aspiraba al trono, no lo acepta y trata de asesinar a Máximo. </string>
     <string name="urlFilmAC1">https://www.filmaffinity.com/es/film392075.html</string>
     <string name="urlIMDBAC1">http://www.imdb.com/title/tt0172495/?ref_=fn_al_tt_1</string>
     <string name="urlIRTAC1">https://www.rottentomatoes.com/m/gladiator</string>
 
-    <string name="tituloAC2">Título: Reservoir Dogs</string>
-    <string name="duracionAC2">Duración: 99 min.</string>
-    <string name="paisAC2">País: Estados Unidos</string>
-    <string name="anioAC2">Año: 1992</string>
-    <string name="directorAC2">Director: Quentin Tarantino</string>
-    <string name="sinopsisAC2">Sinopsis: Una banda organizada es contratada para atracar una empresa y llevarse unos diamantes. Sin embargo, antes de que suene la alarma, la policía ya está allí. Algunos miembros de la banda mueren en el enfrentamiento con las fuerzas del orden, y los demás se reúnen en el lugar convenido.</string>
+    <string name="tituloAC2">Reservoir Dogs</string>
+    <string name="duracionAC2">99 min.</string>
+    <string name="paisAC2">Estados Unidos</string>
+    <string name="anioAC2">1992</string>
+    <string name="directorAC2">Quentin Tarantino</string>
+    <string name="sinopsisAC2">Una banda organizada es contratada para atracar una empresa y llevarse unos diamantes. Sin embargo, antes de que suene la alarma, la policía ya está allí. Algunos miembros de la banda mueren en el enfrentamiento con las fuerzas del orden, y los demás se reúnen en el lugar convenido.</string>
     <string name="urlFilmAC2">https://www.filmaffinity.com/es/film137887.html</string>
     <string name="urlIMDBAC2">http://www.imdb.com/title/tt0105236/?ref_=nv_sr_1</string>
     <string name="urlIRTAC2">https://www.rottentomatoes.com/m/reservoir_dogs</string>
 
-    <string name="tituloAC3">Título: Terminator</string>
-    <string name="duracionAC3">Duración: 108 min.</string>
-    <string name="paisAC3">País: Estados Unidos</string>
-    <string name="anioAC3">Año: 1984</string>
-    <string name="directorAC3">Director: James Cameron</string>
-    <string name="sinopsisAC3">Sinopsis: Los Ángeles, año 2029. Las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor, un hombre que nació en los años ochenta. Para acabar con la rebelión, las máquinas deciden enviar al pasado a un robot -Terminator- cuya misión será eliminar a Sarah Connor, la madre de John, e impedir así su nacimiento. </string>
+    <string name="tituloAC3">Terminator</string>
+    <string name="duracionAC3">108 min.</string>
+    <string name="paisAC3">Estados Unidos</string>
+    <string name="anioAC3">1984</string>
+    <string name="directorAC3">James Cameron</string>
+    <string name="sinopsisAC3">Los Ángeles, año 2029. Las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor, un hombre que nació en los años ochenta. Para acabar con la rebelión, las máquinas deciden enviar al pasado a un robot -Terminator- cuya misión será eliminar a Sarah Connor, la madre de John, e impedir así su nacimiento. </string>
     <string name="urlFilmAC3">https://www.filmaffinity.com/es/film304107.html</string>
     <string name="urlIMDBAC3">http://www.imdb.com/title/tt0088247/?ref_=fn_al_tt_1</string>
     <string name="urlIRTAC3">https://www.rottentomatoes.com/franchise/terminator</string>
 
-    <string name="tituloAC4">Título: Shooter</string>
-    <string name="duracionAC4">Duración: 124 min.</string>
-    <string name="paisAC4">País: Estados Unidos</string>
-    <string name="anioAC4">Año: 2007</string>
-    <string name="directorAC4">Director: Antoine Fuqua</string>
-    <string name="sinopsisAC4">Sinopsis: Bob Lee Swagger (Mark Whalberg) es un ex-tirador de élite del ejército de los Estados Unidos que abandona las fuerzas armadas después del fracaso de una misión extraoficial. Cuando le piden que se reincorpore, regresa al servicio a regañadientes, pero vuelven a engañarlo. A pesar de llevar dos balas en el cuerpo y de ser el objetivo de una caza a nivel nacional, Swagger planea su venganza... </string>
+    <string name="tituloAC4">Shooter</string>
+    <string name="duracionAC4">124 min.</string>
+    <string name="paisAC4">Estados Unidos</string>
+    <string name="anioAC4">2007</string>
+    <string name="directorAC4">Antoine Fuqua</string>
+    <string name="sinopsisAC4">Bob Lee Swagger (Mark Whalberg) es un ex-tirador de élite del ejército de los Estados Unidos que abandona las fuerzas armadas después del fracaso de una misión extraoficial. Cuando le piden que se reincorpore, regresa al servicio a regañadientes, pero vuelven a engañarlo. A pesar de llevar dos balas en el cuerpo y de ser el objetivo de una caza a nivel nacional, Swagger planea su venganza... </string>
     <string name="urlFilmAC4">https://www.filmaffinity.com/es/film609118.html</string>
     <string name="urlIMDBAC4">http://www.imdb.com/title/tt0822854/?ref_=nv_sr_2</string>
     <string name="urlIRTAC4">https://www.rottentomatoes.com/m/shooter</string>
 
-    <string name="tituloAC5">Título: Léon</string>
-    <string name="duracionAC5">Duración: 106 min.</string>
-    <string name="paisAC5">País: Francia</string>
-    <string name="anioAC5">Año: 1994</string>
-    <string name="directorAC5">Director: Luc Besson</string>
-    <string name="sinopsisAC5">Sinopsis: Mathilda es una niña de doce años que no se lleva bien con su familia, excepto con su hermano pequeño. Su padre es un narcotraficante que hace negocios con Stan, un corrupto agente de la D.E.A. (Departamento gubernamental contra las drogas). Un día, mientras Mathilda está en un supermercado, Stan mata a su familia.</string>
+    <string name="tituloAC5">Léon</string>
+    <string name="duracionAC5">106 min.</string>
+    <string name="paisAC5">Francia</string>
+    <string name="anioAC5">1994</string>
+    <string name="directorAC5">Luc Besson</string>
+    <string name="sinopsisAC5">Mathilda es una niña de doce años que no se lleva bien con su familia, excepto con su hermano pequeño. Su padre es un narcotraficante que hace negocios con Stan, un corrupto agente de la D.E.A. (Departamento gubernamental contra las drogas). Un día, mientras Mathilda está en un supermercado, Stan mata a su familia.</string>
     <string name="urlFilmAC5">https://www.filmaffinity.com/es/film629496.html</string>
     <string name="urlIMDBAC5">http://www.imdb.com/title/tt0110413/?ref_=nv_sr_2</string>
     <string name="urlIRTAC5">https://www.rottentomatoes.com/m/leon_the_professional</string>
 
-    <string name="tituloDM1">Título: Cadena perpetua</string>
-    <string name="durDMionDM1">Duración: 142 min.</string>
-    <string name="paisDM1">País: Estados Unidos </string>
-    <string name="anioDM1">Año: 1994</string>
-    <string name="directorDM1">Director: Frank Darabont</string>
-    <string name="sinopsisDM1">Sinopsis: Acusado del asesinato de su mujer, Andrew Dufresne (Tim Robbins), tras ser condenado a cadena perpetua, es enviado a la cárcel de Shawshank. Con el paso de los años conseguirá ganarse la confianza del director del centro y el respeto de sus compañeros de prisión, especialmente de Red (Morgan Freeman), el jefe de la mafia de los sobornos. </string>
+    <string name="tituloDM1">Cadena perpetua</string>
+    <string name="duracionDM1">142 min.</string>
+    <string name="paisDM1">Estados Unidos </string>
+    <string name="anioDM1">1994</string>
+    <string name="directorDM1">Frank Darabont</string>
+    <string name="sinopsisDM1">Acusado del asesinato de su mujer, Andrew Dufresne (Tim Robbins), tras ser condenado a cadena perpetua, es enviado a la cárcel de Shawshank. Con el paso de los años conseguirá ganarse la confianza del director del centro y el respeto de sus compañeros de prisión, especialmente de Red (Morgan Freeman), el jefe de la mafia de los sobornos. </string>
     <string name="urlFilmDM1">https://www.filmaffinity.com/es/film161026.html</string>
     <string name="urlIMDBDM1">http://www.imdb.com/title/tt0111161/</string>
     <string name="urlIRTDM1">https://www.rottentomatoes.com/m/shawshank_redemption/</string>
 
-    <string name="tituloDM2">Título: Casablanca</string>
-    <string name="durDMionDM2">Duración: 102 min.</string>
-    <string name="paisDM2">País: Estados Unidos</string>
-    <string name="anioDM2">Año: 1942</string>
-    <string name="directorDM2">Director: Michael Curtiz</string>
-    <string name="sinopsisDM2">Sinopsis: Años 40. A consecuencia de la Segunda Guerra Mundial, Casablanca era una ciudad a la que llegaban huyendo del nazismo gente de todas partes: llegar era fácil, pero salir era casi imposible, especialmente si el nombre del fugitivo figuraba en las listas de la Gestapo, que presionaba a la autoridades francesas al mando del corrupto inspector Renault. En este caso, el objetivo de la policía secreta alemana es el líder checo y héroe de la resistencia Victor Laszlo, cuya única esperanza es Rick Blaine, propietario del "Rick’s Café" y antiguo amante de su mujer, Ilsa Lund. Rick e Ilsa se habían conocido en París, pero la entrada de las tropas alemanas en la capital francesa les separó.</string>
+    <string name="tituloDM2">Casablanca</string>
+    <string name="duracionDM2">102 min.</string>
+    <string name="paisDM2">Estados Unidos</string>
+    <string name="anioDM2">1942</string>
+    <string name="directorDM2">Michael Curtiz</string>
+    <string name="sinopsisDM2">Años 40. A consecuencia de la Segunda Guerra Mundial, Casablanca era una ciudad a la que llegaban huyendo del nazismo gente de todas partes: llegar era fácil, pero salir era casi imposible, especialmente si el nombre del fugitivo figuraba en las listas de la Gestapo, que presionaba a la autoridades francesas al mando del corrupto inspector Renault. En este caso, el objetivo de la policía secreta alemana es el líder checo y héroe de la resistencia Victor Laszlo, cuya única esperanza es Rick Blaine, propietario del "Rick’s Café" y antiguo amante de su mujer, Ilsa Lund. Rick e Ilsa se habían conocido en París, pero la entrada de las tropas alemanas en la capital francesa les separó.</string>
     <string name="urlFilmDM2">https://www.filmaffinity.com/es/film165208.html</string>
     <string name="urlIMDBDM2">http://www.imdb.com/title/tt0034583/?ref_=nv_sr_1</string>
     <string name="urlIRTDM2">https://www.rottentomatoes.com/m/1003707_casablanca?</string>
 
-    <string name="tituloDM3">Título: Cisne Negro</string>
-    <string name="durDMionDM3">Duración: 109 min.</string>
-    <string name="paisDM3">País: Estados Unidos</string>
-    <string name="anioDM3">Año: 2010</string>
-    <string name="directorDM3">Director: Darren Aronofsky</string>
-    <string name="sinopsisDM3">Sinopsis: Nina (Natalie Portman), una brillante bailarina que forma parte de una compañía de ballet de Nueva York, vive completamente absorbida por la danza. La presión de su controladora madre (Barbara Hershey), la rivalidad con su compañera Lily (Mila Kunis) y las exigencias del severo director (Vincent Cassel) se irán incrementando a medida que se acerca el día del estreno. Esta tensión provoca en Nina un agotamiento nervioso y una confusión mental que la incapacitan para distinguir entre realidad y ficción. </string>
+    <string name="tituloDM3">Cisne Negro</string>
+    <string name="duracionDM3">109 min.</string>
+    <string name="paisDM3">Estados Unidos</string>
+    <string name="anioDM3">2010</string>
+    <string name="directorDM3">Darren Aronofsky</string>
+    <string name="sinopsisDM3">Nina (Natalie Portman), una brillante bailarina que forma parte de una compañía de ballet de Nueva York, vive completamente absorbida por la danza. La presión de su controladora madre (Barbara Hershey), la rivalidad con su compañera Lily (Mila Kunis) y las exigencias del severo director (Vincent Cassel) se irán incrementando a medida que se acerca el día del estreno. Esta tensión provoca en Nina un agotamiento nervioso y una confusión mental que la incapacitan para distinguir entre realidad y ficción. </string>
     <string name="urlFilmDM3">https://www.filmaffinity.com/es/film458406.html</string>
     <string name="urlIMDBDM3">http://www.imdb.com/title/tt0947798/?ref_=nv_sr_1</string>
     <string name="urlIRTDM3">https://www.rottentomatoes.com/m/black_swan_2010</string>
 
-    <string name="tituloDM4">Título: Lo Imposible</string>
-    <string name="durDMionDM4">Duración: 107 min.</string>
-    <string name="paisDM4">País: España</string>
-    <string name="anioDM4">Año: 2012</string>
-    <string name="directorDM4">Director: José Antonio Bayona</string>
-    <string name="sinopsisDM4">Sinopsis: Diciembre del año 2004. María (Naomi Watts), Henry (Ewan McGregor) y sus tres hijos pequeños vuelan desde Japón a Tailandia para pasar las vacaciones de Navidad en la playa. Una mañana, mientras se encuentran todos en la piscina del complejo a orillas del mar, un tremendo tsunami destroza el hotel y gran parte de la costa del sudeste asiático. Este desastre cambió para siempre la vida de millones de personas. Esta es sólo la historia de una familia.</string>
+    <string name="tituloDM4">Lo Imposible</string>
+    <string name="duracionDM4">107 min.</string>
+    <string name="paisDM4">España</string>
+    <string name="anioDM4">2012</string>
+    <string name="directorDM4">José Antonio Bayona</string>
+    <string name="sinopsisDM4">Diciembre del año 2004. María (Naomi Watts), Henry (Ewan McGregor) y sus tres hijos pequeños vuelan desde Japón a Tailandia para pasar las vacaciones de Navidad en la playa. Una mañana, mientras se encuentran todos en la piscina del complejo a orillas del mar, un tremendo tsunami destroza el hotel y gran parte de la costa del sudeste asiático. Este desastre cambió para siempre la vida de millones de personas. Esta es sólo la historia de una familia.</string>
     <string name="urlFilmDM4">https://www.filmaffinity.com/es/film329915.html</string>
     <string name="urlIMDBDM4">http://www.imdb.com/title/tt1649419/?ref_=nv_sr_1</string>
     <string name="urlIRTDM4">https://www.rottentomatoes.com/m/the_impossible_2012</string>
 
-    <string name="tituloDM5">Título: Titanic</string>
-    <string name="durDMionDM5">Duración: 195 min.</string>
-    <string name="paisDM5">País: Estados Unidos</string>
-    <string name="anioDM5">Año: 1997</string>
-    <string name="directorDM5">Director: James Cameron</string>
-    <string name="sinopsisDM5">Sinopsis: Jack (DiCaprio), un joven artista, gana en una partida de cartas un pasaje para viajar a América en el Titanic, el transatlántico más grande y seguro jamás construido. A bordo conoce a Rose (Kate Winslet), una joven de una buena familia venida a menos que va a contraer un matrimonio de conveniencia con Cal (Billy Zane), un millonario engreído a quien sólo interesa el prestigioso apellido de su prometida. Jack y Rose se enamoran, pero el prometido y la madre de ella ponen todo tipo de trabas a su relación. Mientras, el gigantesco y lujoso trasatlántico se aproxima hacia un inmenso iceberg.</string>
+    <string name="tituloDM5">Titanic</string>
+    <string name="duracionDM5">195 min.</string>
+    <string name="paisDM5">Estados Unidos</string>
+    <string name="anioDM5">1997</string>
+    <string name="directorDM5">James Cameron</string>
+    <string name="sinopsisDM5">Jack (DiCaprio), un joven artista, gana en una partida de cartas un pasaje para viajar a América en el Titanic, el transatlántico más grande y seguro jamás construido. A bordo conoce a Rose (Kate Winslet), una joven de una buena familia venida a menos que va a contraer un matrimonio de conveniencia con Cal (Billy Zane), un millonario engreído a quien sólo interesa el prestigioso apellido de su prometida. Jack y Rose se enamoran, pero el prometido y la madre de ella ponen todo tipo de trabas a su relación. Mientras, el gigantesco y lujoso trasatlántico se aproxima hacia un inmenso iceberg.</string>
     <string name="urlFilmDM5">https://www.filmaffinity.com/es/film814379.html</string>
     <string name="urlIMDBDM5">http://www.imdb.com/title/tt0120338/?ref_=nv_sr_1</string>
     <string name="urlIRTDM5">https://www.rottentomatoes.com/m/titanic</string>
@@ -132,9 +132,6 @@
     <string name="urlIMDBSF1">http://www.imdb.com/title/tt3748528/?ref_=nv_sr_2</string>
     <string name="urlRTSF1">https://www.rottentomatoes.com/m/rogue_one_a_star_wars_story</string>
 
-
-
-
     <string name="tituloSF2">2001 Una Odisea en el espacio</string>
     <string name="duracionSF2">139 min.</string>
     <string name="paisSF2">Reino Unido</string>
@@ -145,9 +142,6 @@
     <string name="urlFilmSF2">https://www.filmaffinity.com/es/film171099.html</string>
     <string name="urlIMDBSF2">http://www.imdb.com/title/tt0062622/?ref_=nv_sr_1</string>
     <string name="urlRTSF2">https://www.rottentomatoes.com/m/1000085_2001_a_space_odyssey?</string>
-
-
-
 
     <string name="tituloSF3">Star Trek: Primer contacto</string>
     <string name="duracionSF3">111 min.</string>
@@ -160,9 +154,6 @@
     <string name="urlIMDBSF3">http://www.imdb.com/title/tt0117731/?ref_=nv_sr_1</string>
     <string name="urlRTSF3">https://www.rottentomatoes.com/m/star_trek_first_contact</string>
 
-
-
-
     <string name="tituloSF4">Blade Runner</string>
     <string name="duracionSF4">117 min.</string>
     <string name="paisSF4">Estados Unidos</string>
@@ -173,9 +164,6 @@
     <string name="urlFilmSF4">https://www.filmaffinity.com/es/film358476.html</string>
     <string name="urlIMDBSF4">http://www.imdb.com/title/tt0083658/?ref_=nv_sr_2</string>
     <string name="urlRTSF4">https://www.rottentomatoes.com/m/blade_runner</string>
-
-
-
 
     <string name="tituloSF5">Matrix</string>
     <string name="duracionSF5">131 min.</string>

@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".SeleccionGenero" />
         <activity android:name=".ListaPeliculas" />
-        <activity android:name=".InfoPeliculas"></activity>
+        <activity android:name=".FichaPeliculas"></activity>
     </application>
 
 </manifest>

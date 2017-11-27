@@ -12,7 +12,7 @@ public class Portada extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.Portada);
+        setContentView(R.layout.inicio);
         inicializarUI();
     }
     public void inicializarUI() {

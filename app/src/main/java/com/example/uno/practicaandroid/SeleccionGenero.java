@@ -16,7 +16,7 @@ public class SeleccionGenero extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.SeleccionGenero);
+        setContentView(R.layout.seleccion_genero);
         nom = getIntent().getStringExtra("Usuario");
         InicializarUI();
         lblUser.setText(nom);

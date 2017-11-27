@@ -3,13 +3,13 @@ package com.example.uno.practicaandroid;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class InfoPeliculas extends AppCompatActivity {
+public class FichaPeliculas extends AppCompatActivity {
     Pelicula[] info = new Pelicula[5];
     int posicion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.InfoPeliculas);
+        setContentView(R.layout.ficha_peliculas);
         posicion = getIntent().getIntExtra("posicion",0);
         info= (Pelicula[]) getIntent().getSerializableExtra("pelicula");
     }
