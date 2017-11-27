@@ -6,10 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
-public class Activity3 extends AppCompatActivity {
+public class ListaPeliculas extends AppCompatActivity {
     int categoria=R.string.cat1;
     ListView lista;
     Pelicula[] info = new Pelicula[5];
@@ -18,7 +16,7 @@ public class Activity3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_3);
+        setContentView(R.layout.ListaPeliculas);
         //categoria = getIntent().getStringExtra("Usuario");
         rellenarArray(categoria);
         inicializarUI();
@@ -26,7 +24,7 @@ public class Activity3 extends AppCompatActivity {
                 new AdapterView.OnItemClickListener() {
                     public void onItemClick(
                             AdapterView<?> adapter, View v, int position, long id) {
-                        Intent intencion = new Intent(getApplicationContext(), Activity4.class);
+                        Intent intencion = new Intent(getApplicationContext(), InfoPeliculas.class);
                         intencion.putExtra("pelicula",info);
                         intencion.putExtra("posicion",position);
                         startActivity(intencion);

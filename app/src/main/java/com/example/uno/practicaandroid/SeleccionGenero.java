@@ -6,7 +6,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-public class Activity2 extends AppCompatActivity {
+public class SeleccionGenero extends AppCompatActivity {
 
     String nom;
     String[]generos = {"Seleccione un género","Acción","Drama","Ciencia Ficción"};
@@ -16,7 +16,7 @@ public class Activity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_2);
+        setContentView(R.layout.SeleccionGenero);
         nom = getIntent().getStringExtra("Usuario");
         InicializarUI();
         lblUser.setText(nom);
