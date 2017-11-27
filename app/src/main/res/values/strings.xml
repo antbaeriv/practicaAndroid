@@ -19,6 +19,9 @@
     <string name="wlc">Bienvenido,</string>
     <string name="volver2">Volver</string>
     <string name="Seleccionar2">Seleccionar</string>
+    <string name="lbl4lblPais">País:</string>
+    <string name="lbl4lblAnio">Año:</string>
+    <string name="lbl4lblDirector">Director:</string>
 
 
     <string name="tituloAC1">Gladiator</string>
