@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">VideoStudium</string>
+<string name="lbl1User">User:</string>
+<string name="lbl1Pass">Password:</string>
+<string name="btn1Enter">Sing in</string>
+<string name="autorizado">Authorized access</string>
+<string name="denegado">Access denied</string>
+<string name="cat1">Action</string>
+<string name="cat2">Drama</string>
+<string name="cat3">Sci-Fi</string>
+<string name="btn4Alquiler">Rent</string>
+<string name="btn4AccEnlaces">GO</string>
+<string name="wlc">Welcome,</string>
+<string name="volver2">Back</string>
+<string name="Seleccionar2">Select</string>
+
+
+<string name="tituloAC1">Gladiator</string>
+<string name="duracionAC1">150 min.</string>
+<string name="paisAC1">USA </string>
+<string name="anioAC1">2000</string>
+<string name="directorAC1">Ridley Scott</string>
+<string name="sinopsisAC1">In the year 180, the Roman Empire rules all the known world. After a great victory over the barbarians of the north, the old Emperor Marcus Aurelius (Richard Harris) decides to transfer power to Maximus (Russell Crowe), brave general of his armies and man of unwavering loyalty to the empire. But his son Comodo (Joaquin Phoenix), who aspired to the throne, doesnt accept it and tries to assassinate Maximus. </string>
+<string name="urlFilmAC1">https://www.filmaffinity.com/en/film392075.html</string>
+<string name="urlIMDBAC1">http://www.imdb.com/title/tt0172495/?ref_=fn_al_tt_1</string>
+<string name="urlRTAC1">https://www.rottentomatoes.com/m/gladiator</string>
+
+<string name="tituloAC2">Reservoir Dogs</string>
+<string name="duracionAC2"> 99 min.</string>
+<string name="paisAC2">USA</string>
+<string name="anioAC2">1992</string>
+<string name="directorAC2">Quentin Tarantino</string>
+<string name="sinopsisAC2">An organized gang is hired to rob a company and take away some diamonds. However, before the alarm goes on, the polie are already there. Some members of the band die in confrontation with the forces of order, and the others meet in the agreed place.</string>
+<string name="urlFilmAC2">https://www.filmaffinity.com/en/film137887.html</string>
+<string name="urlIMDBAC2">http://www.imdb.com/title/tt0105236/?ref_=nv_sr_1</string>
+<string name="urlRTAC2">https://www.rottentomatoes.com/m/reservoir_dogs</string>
+
+<string name="tituloAC3">Terminator</string>
+<string name="duracionAC3"> 108 min.</string>
+<string name="paisAC3">USA</string>
+<string name="anioAC3">1984</string>
+<string name="directorAC3">James Cameron</string>
+<string name="sinopsisAC3">Los Angeles, year 2029. Machines rules the world. The rebels who fight against them are led by John Connor, a man born in the eighties. To end the rebelion, the machines decide to send the past to a robot -Terminator- whose mission will be to eliminate Sarah Connor, Johns mother, and prevent his birth.</string>
+<string name="urlFilmAC3">https://www.filmaffinity.com/en/film304107.html</string>
+<string name="urlIMDBAC3">http://www.imdb.com/title/tt0088247/?ref_=fn_al_tt_1</string>
+<string name="urlRTAC3">https://www.rottentomatoes.com/franchise/terminator</string>
+
+<string name="tituloAC4">Shooter</string>
+<string name="duracionAC4"> 124 min.</string>
+<string name="paisAC4">USA</string>
+<string name="anioAC4">2007</string>
+<string name="directorAC4">Antoine Fuqua</string>
+<string name="sinopsisAC4">Bob Lee Swagger (Mark Whalberg) is an elite ex-marksman of the US Army who leaves the armed forces after the failure of an unofficial mission. When they ask him to rejoin, he reluctantly returns to the service, but they trick him again. Despite carrying two bullets in the body and being the target of a nationwide hunt, Swagger plans his revenge...</string>
+<string name="urlFilmAC4">https://www.filmaffinity.com/en/film609118.html</string>
+<string name="urlIMDBAC4">http://www.imdb.com/title/tt0822854/?ref_=nv_sr_2</string>
+<string name="urlRTAC4">https://www.rottentomatoes.com/m/shooter</string>
+
+<string name="tituloAC5">Lion</string>
+<string name="duracionAC5"> 106 min.</string>
+<string name="paisAC5">France</string>
+<string name="anioAC5">1994</string>
+<string name="directorAC5">Luc Besson</string>
+<string name="sinopsisAC5">Mathilda is a twelve-year-old girl who doesnt get on well with her family, except with her little brother. His father is a drug dealer who does business with Stan, a corrupt agent of the D.E.A. (Government Department against drugs). One day, while Mathilda is in a supermarket, Stan kills his family.</string>
+<string name="urlFilmAC5">https://www.filmaffinity.com/en/film629496.html</string>
+<string name="urlIMDBAC5">http://www.imdb.com/title/tt0110413/?ref_=nv_sr_2</string>
+<string name="urlRTAC5">https://www.rottentomatoes.com/m/leon_the_professional</string>
+
+<string name="tituloDM1">The shawshank redemption</string>
+<string name="duracionDM1"> 142 min.</string>
+<string name="paisDM1">USA </string>
+<string name="anioDM1">1994</string>
+<string name="directorDM1">Frank Darabont</string>
+<string name="sinopsisDM1">Accused of the murder of his wife, Andrew Dufresne (Tim Robbins), after being sentenced to life imprisonment, he is sent to Shawshank prison. Over the years, he will gain the trust of the director of the center and the respect of his fellow prisoners, especially Red (Morgan Freeman), the boss of the bribe mafia.</string>
+<string name="urlFilmDM1">https://www.filmaffinity.com/en/film161026.html</string>
+<string name="urlIMDBDM1">http://www.imdb.com/title/tt0111161/</string>
+<string name="urlRTDM1">https://www.rottentomatoes.com/m/shawshank_redemption/</string>
+
+<string name="tituloDM2">Casablanca</string>
+<string name="duracionDM2"> 102 min.</string>
+<string name="paisDM2">USA</string>
+<string name="anioDM2">1942</string>
+<string name="directorDM2">Michael Curtiz</string>
+<string name="sinopsisDM2">The 40s. As a result of the Second World War, Casablanca was a city that people from everywhere got fleeing out was almost impossible, especially if the name of the the fugitive was on the Gestapo lists, wich put pressure on the French authorities under the corrupt inspector Renault. In this case, the objetive of the German secret police is the Czech leader and hero of the resistance Victor Laszlo, whose only hope is Rick Blaine, owner of the "Rick's Cafe" and former lover of his wife, Ilsa Lund. Rick and Ilsa had met in Paris, but the entry of German troops in the French capital separated them.</string>
+<string name="urlFilmDM2">https://www.filmaffinity.com/en/film165208.html</string>
+<string name="urlIMDBDM2">http://www.imdb.com/title/tt0034583/?ref_=nv_sr_1</string>
+<string name="urlRTDM2">https://www.rottentomatoes.com/m/1003707_casablanca?</string>
+
+<string name="tituloDM3">Black Swan</string>
+<string name="duracionDM3"> 109 min.</string>
+<string name="paisDM3">USA</string>
+<string name="anioDM3">2010</string>
+<string name="directorDM3">Darren Aronofsky</string>
+<string name="sinopsisDM3">Nina (Natalie Portman), a brilliant dancer who is part of a New York ballet company, lives completely absorbed by dance. The pressure of its controlling mother (Barbara Hershey), the rivalry with its companion Lily (Mila Kunis) and the exigencies of the severe director (Vincent Cassel) will be increased as the day of the opening approaches. This tension causes in Nina a nervous exhaustion and a mental confusion that incapacitates her to distinguish between reality and fiction. </string>
+<string name="urlFilmDM3">https://www.filmaffinity.com/en/film458406.html</string>
+<string name="urlIMDBDM3">http://www.imdb.com/title/tt0947798/?ref_=nv_sr_1</string>
+<string name="urlRTDM3">https://www.rottentomatoes.com/m/black_swan_2010</string>
+
+<string name="tituloDM4">The Impossible</string>
+<string name="duracionDM4"> 107 min.</string>
+<string name="paisDM4">Spain</string>
+<string name="anioDM4">2012</string>
+<string name="directorDM4">José Antonio Bayona</string>
+<string name="sinopsisDM4">December 2004. Maria (Naomi Watts), Henry (Ewan McGregor) and their three small children fly from japan to Thailand to spend the Christmas holidays on the beach. One morning, while everyone is in the pool of the seaside resort, a tremendous tsunami destroys the hotel and much of the coast of Southeast Asia. This disaster changed the lives of millions of people forever. This is just the story of a family. </string>
+<string name="urlFilmDM4">https://www.filmaffinity.com/en/film329915.html</string>
+<string name="urlIMDBDM4">http://www.imdb.com/title/tt1649419/?ref_=nv_sr_1</string>
+<string name="urlRTDM4">https://www.rottentomatoes.com/m/the_impossible_2012</string>
+
+<string name="tituloDM5">Titanic</string>
+<string name="duracionDM5"> 195 min.</string>
+<string name="paisDM5">USA</string>
+<string name="anioDM5">1997</string>
+<string name="directorDM5">James Cameron</string>
+<string name="sinopsisDM5">Jack (Leonardo DiCaprio), a young artist, wins in a game of cards a ticket to travel to America on the Titanic, the largest and safest ocean liner ever built. On board he meets Rose (Kate Winslet), a young woman from a good family who comes unless she is going to get a marriage of convenience with Cal (Billy Zane), a cocky millionaire who is only interested on the prestigious surname of his fiancée. Jack and Rose fall in love, bt the fiancée and her mother put all kinds of obstacles in their relationship. Meanwhile, the gigantic and luxurious transatlantic is approaching an immense iceberg.</string>
+<string name="urlFilmDM5">https://www.filmaffinity.com/en/film814379.html</string>
+<string name="urlIMDBDM5">http://www.imdb.com/title/tt0120338/?ref_=nv_sr_1</string>
+<string name="urlRTDM5">https://www.rottentomatoes.com/m/titanic</string>
+
+<string name="tituloSF1">Rogue One: A Star Wars Story</string>
+<string name="duracionSF1">133 min.</string>
+<string name="paisSF1">USA</string>
+<string name="anioSF1">2016</string>
+<string name="directorSF1">Gareth Edwards</string>
+<string name="sinopsisSF1">The Galactic Empire has finished building the most powerful weapon of all, the Death Star, but a group of rebels decides to to carry out a mission of very high risk: to steal the plans of that station before it enters operations, while facing also the mighty Sith Lord known as Darth Vader, disciple of the ruthless Emperor Palpatine. Film set between episodes III and IV of Star Wars.</string>
+
+<string name="urlFilmSF1">https://www.filmaffinity.com/en/film769224.html</string>
+<string name="urlIMDBSF1">http://www.imdb.com/title/tt3748528/?ref_=nv_sr_2</string>
+<string name="urlRTSF1">https://www.rottentomatoes.com/m/rogue_one_a_star_wars_story</string>
+
+<string name="tituloSF2">2001 a space odyssey</string>
+<string name="duracionSF2">139 min.</string>
+<string name="paisSF2">United Kingdom</string>
+<string name="anioSF2">1968</string>
+<string name="directorSF2">Stanley Kubrik</string>
+<string name="sinopsisSF2">The Sci-Fi film par excellence of the history of cinema tells the diverse periods of the history of humanity, not only of the past, but also of the future. Millions of years ago, before the appearance of "homo sapiens", primates discover a monolith that leads them to a higher intelligence stage. Millions of years later, another monolith, buried in a moon, arouses the interes of scientists. Finally, during a NASA mission, HAL 9000, a machine equipped with artificial intelligence, is responsible for controlling all the systems of a manned spacecraft. </string>
+
+<string name="urlFilmSF2">https://www.filmaffinity.com/en/film171099.html</string>
+<string name="urlIMDBSF2">http://www.imdb.com/title/tt0062622/?ref_=nv_sr_1</string>
+<string name="urlRTSF2">https://www.rottentomatoes.com/m/1000085_2001_a_space_odyssey?</string>
+
+<string name="tituloSF3">Star Trek: First contact</string>
+<string name="duracionSF3">111 min.</string>
+<string name="paisSF3">USA</string>
+<string name="anioSF3">1996</string>
+<string name="directorSF3">Jonathan Frakes</string>
+<string name="sinopsisSF3">The USS-Enterprise is exploring the space, when it receives the news that it has detected the presence of a Borg Cube moving towards the Earth. The High Command of the fleet orders Picard (Patrick Stewart) to go to the Neutral Zone in case the Romulans decide to take advantage of the situation and attack the Federation. But in reality the High Command distrusts that Picard helps the enemy, due to his previous assimilation into the Borg collective. When the Earth is attacked and the fleet cant face the threat, Picard ignores the prders and confronts the Borg, leading the fleet in the attack. The Borg Cube is destroyed, but a small portion escapes and generates a temporary tunnel to the past until the year 2063, in order to prevent Dr. Zefram Cochrane (James Cromwell) from making the first trip at the speed of curvature, and contact the first race alien. Picard and his crew mst travel to the past to restore time and face the Borg threat in the past. </string>
+
+<string name="urlFilmSF3">https://www.filmaffinity.com/en/film880655.html</string>
+<string name="urlIMDBSF3">http://www.imdb.com/title/tt0117731/?ref_=nv_sr_1</string>
+<string name="urlRTSF3">https://www.rottentomatoes.com/m/star_trek_first_contact</string>
+
+<string name="tituloSF4">Blade Runner</string>
+<string name="duracionSF4">117 min.</string>
+<string name="paisSF4">USA</string>
+<string name="anioSF4">1982</string>
+<string name="directorSF4">Ridley Scott</string>
+<string name="sinopsisSF4">At the begginning of the 21st century, the powerful Tyrell Corporation created, thanks to the advances of genetic engineering, a robot called Nexus 6, a being virtually identical to man but superior to him in strength and agility, wichh was given the name of Replicant. These robots worked as slaves in the outer colonies of the Earth. After the bloody rebelion of a Nexus 6 team, the Replicators were banished from Earth. Special police brigades, the Blade Runners, had orders to kill all those who had not complied with the sentence. But this was not called execution, it was called "retirement". After a serious incident, the former Blade Runner Rick Deckard is called back to the service to find and "remove" rebellious replicants.</string>
+
+<string name="urlFilmSF4">https://www.filmaffinity.com/en/film358476.html</string>
+<string name="urlIMDBSF4">http://www.imdb.com/title/tt0083658/?ref_=nv_sr_2</string>
+<string name="urlRTSF4">https://www.rottentomatoes.com/m/blade_runner</string>
+
+<string name="tituloSF5">Matrix</string>
+<string name="duracionSF5">131 min.</string>
+<string name="paisSF5">USA</string>
+<string name="anioSF5">1999</string>
+<string name="directorSF5">Wachowski sisters</string>
+<string name="sinopsisSF5">Thomas Anderson (Keanu Reevees) is a brilliant programmer for a reputable software company. But outside of work is Neo, a hacker who one day receives a mysterious visit...</string>
+
+<string name="urlFilmSF5">https://www.filmaffinity.com/en/film932476.html</string>
+<string name="urlIMDBSF5">http://www.imdb.com/title/tt0133093/?ref_=nv_sr_1</string>
+<string name="urlRTSF5">https://www.rottentomatoes.com/m/matrix</string>
+
+<string name="lbl6gracias">Thank you for your rent</string>
+<string name="lbl6resumen">Rent product:</string>
+    <string name="validez">The selected value isnt valid</string>
+    <string name="lbl4lblPais">Country:</string>
+    <string name="lbl4lblAnio">Year:</string>
+    <string name="lbl4lblDirector">Director:</string>
+</resources>
