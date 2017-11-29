@@ -8,16 +8,16 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
             android:id="@+id/lbl2Bienvenido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginEnd="97dp"
-            android:layout_marginTop="39dp"
+            android:layout_below="@+id/btn2Exit"
+            android:layout_centerHorizontal="true"
             android:text="@string/wlc"
             android:textAlignment="center"
             android:textColor="@android:color/black"
@@ -39,11 +39,10 @@
 
         <Spinner
             android:id="@+id/spn2Generos"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/lbl2User"
-            android:layout_marginTop="57dp" />
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
 
         <ImageButton
             android:id="@+id/btn2Exit"
@@ -59,9 +58,9 @@
             android:id="@+id/imageButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/spn2Generos"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="79dp"
+            android:layout_marginBottom="20dp"
             app:srcCompat="?attr/actionModeCloseDrawable" />
 
     </RelativeLayout>
