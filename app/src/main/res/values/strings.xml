@@ -178,4 +178,6 @@
     <string name="urlFilmSF5">https://www.filmaffinity.com/es/film932476.html</string>
     <string name="urlIMDBSF5">http://www.imdb.com/title/tt0133093/?ref_=nv_sr_1</string>
     <string name="urlRTSF5">https://www.rottentomatoes.com/m/matrix</string>
+
+    <string name="lbl6gracias">Gracias por su alquiler</string>
 </resources>
