@@ -38,6 +38,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginEnd="10dp"
             android:layout_marginTop="10dp"
+            android:contentDescription="@string/volver2"
             android:onClick="MostrarActividad1"
             app:srcCompat="@android:drawable/ic_lock_power_off" />
 
@@ -48,6 +49,7 @@
             android:layout_below="@+id/spn2Generos"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="79dp"
+            android:contentDescription="@string/Seleccionar2"
             app:srcCompat="?attr/actionModeCloseDrawable" />
 
     </RelativeLayout>
