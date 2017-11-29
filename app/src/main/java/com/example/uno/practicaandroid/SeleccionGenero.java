@@ -36,13 +36,13 @@ public class SeleccionGenero extends AppCompatActivity {
     }
 
     public void MostrarActividad3(View v){
-        String generoS = spnGen.getSelectedItem().toString();
+        //String generoS = spnGen.getSelectedItem().toString();
         Integer genero = spnGen.getSelectedItemPosition();
         if(genero==0){
             Toast.makeText(this, R.string.validez, Toast.LENGTH_SHORT).show();
         }else{
             Intent intento = new Intent(getApplicationContext(),ListaPeliculas.class);
-            intento.putExtra("genero",generoS);
+            intento.putExtra("genero",genero);
             startActivity(intento);
         }
 

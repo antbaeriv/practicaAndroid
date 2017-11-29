@@ -41,7 +41,7 @@
             android:layout_marginTop="10dp"
             android:contentDescription="@string/volver2"
             android:onClick="MostrarActividad1"
-            app:srcCompat="@android:drawable/ic_lock_power_off" />
+            app:srcCompat="@drawable/home" />
 
         <ImageButton
             android:id="@+id/imageButton3"
