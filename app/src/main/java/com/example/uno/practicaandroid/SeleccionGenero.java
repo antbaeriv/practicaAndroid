@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class SeleccionGenero extends AppCompatActivity {
 
@@ -32,6 +33,20 @@ public class SeleccionGenero extends AppCompatActivity {
     public void MostrarActividad1(View v){
         Intent intento = new Intent(getApplicationContext(),Portada.class);
         startActivity(intento);
+    }
+
+    public void MostrarActividad3(View v){
+        String generoS = spnGen.getSelectedItem().toString();
+        Integer genero = spnGen.getSelectedItemPosition();
+        if(genero==0){
+            Toast.makeText(this, R.string.validez, Toast.LENGTH_SHORT).show();
+        }else{
+            Intent intento = new Intent(getApplicationContext(),ListaPeliculas.class);
+            intento.putExtra("genero",generoS);
+            startActivity(intento);
+        }
+
+
     }
 
 }

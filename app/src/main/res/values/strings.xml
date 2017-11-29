@@ -181,4 +181,5 @@
 
     <string name="lbl6gracias">Gracias por su alquiler</string>
     <string name="lbl6resumen">Producto alquilado:</string>
+    <string name="validez">El valor seleccionado no es válido</string>
 </resources>
