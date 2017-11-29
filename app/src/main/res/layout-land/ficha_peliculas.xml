@@ -103,7 +103,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="10dp"
             android:layout_marginTop="10dp"
-            app:srcCompat="@android:drawable/ic_lock_power_off" />
+            app:srcCompat="@drawable/home" />
 
         <ImageButton
             android:id="@+id/btn4Back"
@@ -112,7 +112,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="10dp"
             android:layout_marginStart="10dp"
-            app:srcCompat="?attr/homeAsUpIndicator" />
+            app:srcCompat="@drawable/backarrow" />
 
         <Button
             android:id="@+id/btn4Alquiler"

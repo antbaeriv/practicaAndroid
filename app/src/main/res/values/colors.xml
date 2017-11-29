@@ -5,5 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorNetflix">#B9090B</color>
     <color name="colorGrisSuave">#E0E0E0</color>
-    B9090B
+    <color name="transparente">#0000</color>
 </resources>
