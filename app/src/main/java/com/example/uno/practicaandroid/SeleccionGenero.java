@@ -1,7 +1,9 @@
 package com.example.uno.practicaandroid;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -25,6 +27,11 @@ public class SeleccionGenero extends AppCompatActivity {
     public void InicializarUI(){
         lblUser = (TextView) findViewById(R.id.lbl2User);
         spnGen = (Spinner) findViewById(R.id.spn2Generos);
+    }
+
+    public void MostrarActividad1(View v){
+        Intent intento = new Intent(getApplicationContext(),Portada.class);
+        startActivity(intento);
     }
 
 }
