@@ -19,7 +19,7 @@ public class SeleccionGenero extends AppCompatActivity {
         setContentView(R.layout.seleccion_genero);
         nom = getIntent().getStringExtra("Usuario");
         InicializarUI();
-        lblUser.setText(nom);
+        lblUser.setText("Bienvenido, "+nom);
         spnGen.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,generos));
     }
     public void InicializarUI(){
