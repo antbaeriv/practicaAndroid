@@ -12,17 +12,21 @@
 
         <ImageButton
             android:id="@+id/iBtn3Back2"
+            style="@style/BtnImagen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="12dp"
             app:srcCompat="@drawable/backarrow"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="313dp" />
 
         <ImageButton
             android:id="@+id/iBtn3Exit"
+            style="@style/BtnImagen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
