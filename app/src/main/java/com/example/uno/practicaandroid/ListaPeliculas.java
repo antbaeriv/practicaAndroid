@@ -55,11 +55,11 @@ public class ListaPeliculas extends AppCompatActivity {
             info[4] = (new Pelicula(R.string.tituloDM5, R.string.paisDM5, R.string.duracionDM5, R.string.anioDM5, R.string.directorDM5, R.string.sinopsisDM5, R.drawable.titanic, R.string.urlFilmDM5, R.string.urlIMDBDM5, R.string.urlRTDM5));
 
         } else if (cat==(R.string.cat3)) {
-            info[0] = (new Pelicula(R.string.tituloSF1, R.string.paisSF1, R.string.duracionSF1, R.string.anioSF1, R.string.directorSF1, R.string.sinopsisSF1, R.drawable.gladiator, R.string.urlFilmSF1, R.string.urlIMDBSF1, R.string.urlRTSF1));
-            info[1] = (new Pelicula(R.string.tituloSF2, R.string.paisSF2, R.string.duracionSF2, R.string.anioSF2, R.string.directorSF2, R.string.sinopsisSF2, R.drawable.casablanca, R.string.urlFilmSF2, R.string.urlIMDBSF2, R.string.urlRTSF2));
-            info[2] = (new Pelicula(R.string.tituloSF3, R.string.paisSF3, R.string.duracionSF3, R.string.anioSF3, R.string.directorSF3, R.string.sinopsisSF3, R.drawable.cisnenegro, R.string.urlFilmSF3, R.string.urlIMDBSF3, R.string.urlRTSF3));
-            info[3] = (new Pelicula(R.string.tituloSF4, R.string.paisSF4, R.string.duracionSF4, R.string.anioSF4, R.string.directorSF4, R.string.sinopsisSF4, R.drawable.shooter, R.string.urlFilmSF4, R.string.urlIMDBSF4, R.string.urlRTSF4));
-            info[4] = (new Pelicula(R.string.tituloSF5, R.string.paisSF5, R.string.duracionSF5, R.string.anioSF5, R.string.directorSF5, R.string.sinopsisSF5, R.drawable.leon, R.string.urlFilmSF5, R.string.urlIMDBSF5, R.string.urlRTSF5));
+            info[0] = (new Pelicula(R.string.tituloSF1, R.string.paisSF1, R.string.duracionSF1, R.string.anioSF1, R.string.directorSF1, R.string.sinopsisSF1, R.drawable.rogue, R.string.urlFilmSF1, R.string.urlIMDBSF1, R.string.urlRTSF1));
+            info[1] = (new Pelicula(R.string.tituloSF2, R.string.paisSF2, R.string.duracionSF2, R.string.anioSF2, R.string.directorSF2, R.string.sinopsisSF2, R.drawable.odisea, R.string.urlFilmSF2, R.string.urlIMDBSF2, R.string.urlRTSF2));
+            info[2] = (new Pelicula(R.string.tituloSF3, R.string.paisSF3, R.string.duracionSF3, R.string.anioSF3, R.string.directorSF3, R.string.sinopsisSF3, R.drawable.startrek, R.string.urlFilmSF3, R.string.urlIMDBSF3, R.string.urlRTSF3));
+            info[3] = (new Pelicula(R.string.tituloSF4, R.string.paisSF4, R.string.duracionSF4, R.string.anioSF4, R.string.directorSF4, R.string.sinopsisSF4, R.drawable.brunner, R.string.urlFilmSF4, R.string.urlIMDBSF4, R.string.urlRTSF4));
+            info[4] = (new Pelicula(R.string.tituloSF5, R.string.paisSF5, R.string.duracionSF5, R.string.anioSF5, R.string.directorSF5, R.string.sinopsisSF5, R.drawable.matrix, R.string.urlFilmSF5, R.string.urlIMDBSF5, R.string.urlRTSF5));
 
         }
     }
