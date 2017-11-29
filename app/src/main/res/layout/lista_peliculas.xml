@@ -12,14 +12,14 @@
 
         <ImageButton
             android:id="@+id/iBtn3Back"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:layout_gravity="left"
             android:layout_marginBottom="10dp"
             android:layout_marginStart="10dp"
-            app:srcCompat="?android:attr/homeAsUpIndicator" />
+            app:srcCompat="@drawable/backarrow" />
 
         <ListView
             android:id="@+id/lst3Peliculas"
@@ -39,7 +39,7 @@
             android:layout_gravity="right"
             android:layout_marginEnd="10dp"
             android:layout_marginTop="10dp"
-            app:srcCompat="@android:drawable/ic_lock_power_off" />
+            app:srcCompat="@drawable/power" />
     </RelativeLayout>
 
     <LinearLayout
