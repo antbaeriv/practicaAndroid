@@ -55,6 +55,15 @@
             android:layout_marginTop="10dp"
             app:srcCompat="@android:drawable/ic_lock_power_off" />
 
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spn2Generos"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="79dp"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
