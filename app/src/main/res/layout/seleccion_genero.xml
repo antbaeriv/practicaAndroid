@@ -14,8 +14,10 @@
             android:id="@+id/lbl2Bienvenido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/btn2Volver"
-            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="97dp"
+            android:layout_marginTop="39dp"
             android:text="@string/wlc"
             android:textAlignment="center"
             android:textColor="@android:color/black"
@@ -42,6 +44,16 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/lbl2User"
             android:layout_marginTop="57dp" />
+
+        <ImageButton
+            android:id="@+id/btn2Exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@android:drawable/ic_lock_power_off" />
 
     </RelativeLayout>
 
