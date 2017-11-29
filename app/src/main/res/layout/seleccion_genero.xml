@@ -50,6 +50,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="79dp"
             android:contentDescription="@string/Seleccionar2"
+            android:onClick="MostrarActividad3"
             app:srcCompat="?attr/actionModeCloseDrawable" />
 
     </RelativeLayout>
