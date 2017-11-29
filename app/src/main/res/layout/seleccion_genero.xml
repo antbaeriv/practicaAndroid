@@ -6,15 +6,16 @@
     android:layout_height="match_parent"
     tools:context="com.example.uno.practicaandroid.SeleccionGenero">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/lbl2Bienvenido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btn2Volver"
+            android:layout_alignParentStart="true"
             android:text="@string/wlc"
             android:textAlignment="center"
             android:textColor="@android:color/black"
@@ -27,6 +28,8 @@
             android:id="@+id/lbl2User"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/lbl2Bienvenido"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="30sp"
@@ -35,28 +38,11 @@
         <Spinner
             android:id="@+id/spn2Generos"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/lbl2User"
+            android:layout_marginTop="57dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/btn2Volver"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/volver2" />
-
-            <Button
-                android:id="@+id/btn2Seleccionar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/Seleccionar2" />
-        </LinearLayout>
-
-    </LinearLayout>
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
