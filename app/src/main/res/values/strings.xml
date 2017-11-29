@@ -180,4 +180,5 @@
     <string name="urlRTSF5">https://www.rottentomatoes.com/m/matrix</string>
 
     <string name="lbl6gracias">Gracias por su alquiler</string>
+    <string name="lbl6resumen">Producto alquilado:</string>
 </resources>
