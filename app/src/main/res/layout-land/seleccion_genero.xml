@@ -41,7 +41,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginTop="10dp"
             android:contentDescription="@string/volver2"
-            android:onClick="MostrarActividad1"
+            android:onClick="mostrarInicio"
             app:srcCompat="@drawable/home" />
 
         <ImageButton
@@ -52,7 +52,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="20dp"
             android:contentDescription="@string/btn4AccEnlaces"
-            android:onClick="MostrarActividad3"
+            android:onClick="mostrarListaPeliculas"
             app:srcCompat="?attr/actionModeCloseDrawable" />
 
     </RelativeLayout>

@@ -20,7 +20,7 @@ public class Portada extends AppCompatActivity {
         pass = (TextView) findViewById(R.id.txt1Pass);
 
     }
-    public void mostrarAct2(View v) {
+    public void iniciarSesion(View v) {
         boolean ok = ((user.getText().toString().equals("Studium")) && (pass.getText().toString().equals("Studium")));
         int valor = ok ? R.string.autorizado : R.string.denegado;
         Toast.makeText(this, valor, Toast.LENGTH_SHORT).show();

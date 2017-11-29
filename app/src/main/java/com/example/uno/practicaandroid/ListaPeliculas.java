@@ -5,12 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 public class ListaPeliculas extends AppCompatActivity {
     //int categoria=R.string.cat1;
     Integer categoria;
     ListView lista;
+    ImageButton atras, home;
     Pelicula[] info = new Pelicula[5];
     AdaptadorPeliculas adapta;
 
@@ -32,10 +34,13 @@ public class ListaPeliculas extends AppCompatActivity {
                     }
                 }
         );
+
     }
 
     public void inicializarUI() {
         adapta = new AdaptadorPeliculas(this, info);
+        atras = (ImageButton)findViewById(R.id.iBtn3Back);
+        home = (ImageButton)findViewById(R.id.iBtn3Home);
         lista = (ListView) findViewById(R.id.lst3Peliculas);
         lista.setAdapter(adapta);
     }
@@ -63,5 +68,14 @@ public class ListaPeliculas extends AppCompatActivity {
             info[4] = (new Pelicula(R.string.tituloSF5, R.string.paisSF5, R.string.duracionSF5, R.string.anioSF5, R.string.directorSF5, R.string.sinopsisSF5, R.drawable.matrix, R.string.urlFilmSF5, R.string.urlIMDBSF5, R.string.urlRTSF5));
 
         }
+    }
+
+    public void mostrarInicio(View v) {
+        Intent intencion = new Intent(getApplicationContext(), Portada.class);
+        startActivity(intencion);
+    }
+    public void volverAtras(View v) {
+        Intent intencion = new Intent(getApplicationContext(), SeleccionGenero.class);
+        startActivity(intencion);
     }
 }

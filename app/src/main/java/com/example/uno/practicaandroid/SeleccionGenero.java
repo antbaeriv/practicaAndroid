@@ -21,21 +21,21 @@ public class SeleccionGenero extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.seleccion_genero);
         nom = getIntent().getStringExtra("Usuario");
-        InicializarUI();
+        inicializarUI();
         lblUser.setText("Bienvenido, "+nom);
         spnGen.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,generos));
     }
-    public void InicializarUI(){
+    public void inicializarUI(){
         lblUser = (TextView) findViewById(R.id.lbl2User);
         spnGen = (Spinner) findViewById(R.id.spn2Generos);
     }
 
-    public void MostrarActividad1(View v){
+    public void mostrarInicio(View v){
         Intent intento = new Intent(getApplicationContext(),Portada.class);
         startActivity(intento);
     }
 
-    public void MostrarActividad3(View v){
+    public void mostrarListaPeliculas(View v){
         //String generoS = spnGen.getSelectedItem().toString();
         Integer genero = spnGen.getSelectedItemPosition();
         if(genero==0){

@@ -24,11 +24,12 @@
 
         <Spinner
             android:id="@+id/spn2Generos"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
             android:layout_below="@+id/lbl2User"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="68dp" />
+            android:layout_marginTop="68dp"
+            android:minWidth="250dp" />
 
         <ImageButton
             android:id="@+id/btn2Exit"
@@ -40,7 +41,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginTop="10dp"
             android:contentDescription="@string/volver2"
-            android:onClick="MostrarActividad1"
+            android:onClick="mostrarInicio"
             app:srcCompat="@drawable/home" />
 
         <ImageButton
@@ -51,7 +52,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="79dp"
             android:contentDescription="@string/Seleccionar2"
-            android:onClick="MostrarActividad3"
+            android:onClick="mostrarListaPeliculas"
             app:srcCompat="?attr/actionModeCloseDrawable" />
 
     </RelativeLayout>
