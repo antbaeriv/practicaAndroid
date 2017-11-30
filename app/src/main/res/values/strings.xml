@@ -182,4 +182,11 @@
     <string name="lbl6gracias">Gracias por su alquiler</string>
     <string name="lbl6resumen">Producto alquilado:</string>
     <string name="validez">El valor seleccionado no es válido</string>
+    <string name="lbl5Seleccionar">Seleccione el metodo de pago:</string>
+    <string name="lbl5Importe">Importe:</string>
+    <string name="lbl5MetodoPago1">Tarjeta</string>
+    <string name="lbl5MetodoPago2">Efectivo</string>
+    <string name="lbl5MetodoPago3">PayPal</string>
+    <string name="lbl5Precio"></string>
+    <string name="btn5Pagar">Pagar</string>
 </resources>

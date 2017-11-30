@@ -46,6 +46,7 @@
 
         <ImageButton
             android:id="@+id/imageButton3"
+            style="@style/BtnImagen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/spn2Generos"
@@ -53,7 +54,8 @@
             android:layout_marginTop="79dp"
             android:contentDescription="@string/Seleccionar2"
             android:onClick="mostrarListaPeliculas"
-            app:srcCompat="?attr/actionModeCloseDrawable" />
+            android:rotation="180"
+            app:srcCompat="@drawable/backarrow" />
 
     </RelativeLayout>
 

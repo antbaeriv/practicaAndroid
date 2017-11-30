@@ -6,4 +6,95 @@
     android:layout_height="match_parent"
     tools:context="com.example.uno.practicaandroid.MetodoPago">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btn5Home"
+            style="@style/BtnImagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/btn5Back"
+            style="@style/BtnImagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            app:srcCompat="@drawable/backarrow" />
+
+        <TextView
+            android:id="@+id/lbl5Seleccionar"
+            android:layout_width="275dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/btn5Home"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:text="@string/lbl5Seleccionar"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbx5Pago1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/lbl5Seleccionar"
+            android:layout_below="@+id/lbl5Seleccionar"
+            android:layout_marginTop="36dp"
+            android:text="@string/lbl5MetodoPago1" />
+
+        <CheckBox
+            android:id="@+id/cbx5Pago2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cbx5Pago1"
+            android:layout_below="@+id/cbx5Pago1"
+            android:layout_marginTop="27dp"
+            android:text="@string/lbl5MetodoPago2" />
+
+        <CheckBox
+            android:id="@+id/cbx5Pago3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cbx5Pago2"
+            android:layout_below="@+id/cbx5Pago2"
+            android:layout_marginTop="23dp"
+            android:text="@string/lbl5MetodoPago3" />
+
+        <TextView
+            android:id="@+id/lbl5Importe"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/cbx5Pago2"
+            android:layout_alignEnd="@+id/lbl5Seleccionar"
+            android:layout_marginEnd="17dp"
+            android:text="@string/lbl5Importe"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lbl5Precio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cbx5Pago2"
+            android:layout_alignEnd="@+id/lbl5Importe"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn5Pagar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btn5Back"
+            android:layout_toEndOf="@+id/lbl5Precio"
+            android:text="@string/btn5Pagar" />
+
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
