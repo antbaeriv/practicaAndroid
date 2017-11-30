@@ -9,19 +9,31 @@ import android.widget.Toast;
 
 public class Portada extends AppCompatActivity {
     TextView user, pass;
+    int[] cuentas = {R.string.usuario1, R.string.usuario2, R.string.usuario3, R.string.usuario4, R.string.administrador};
+    String cadena;
+    String[] userPass;
+    boolean ok = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.inicio);
         inicializarUI();
     }
+
     public void inicializarUI() {
         user = (TextView) findViewById(R.id.txt1User);
         pass = (TextView) findViewById(R.id.txt1Pass);
 
     }
+
     public void iniciarSesion(View v) {
-        boolean ok = ((user.getText().toString().equals("Studium")) && (pass.getText().toString().equals("Studium")));
+        for (int i = 0; i < cuentas.length; i++) {
+            cadena = getString(cuentas[i]);
+            userPass = cadena.split("-");
+            ok = ((user.getText().toString().equals(userPass[0])) && (pass.getText().toString().equals(userPass[1])));
+
+        }
         int valor = ok ? R.string.autorizado : R.string.denegado;
         Toast.makeText(this, valor, Toast.LENGTH_SHORT).show();
         if (ok) {

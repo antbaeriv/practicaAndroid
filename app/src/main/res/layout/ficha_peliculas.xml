@@ -26,7 +26,7 @@
             android:id="@+id/lbl4lblPais"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/lbl4AnoPelicula"
+            android:layout_alignEnd="@+id/lbl4AnioPelicula"
             android:layout_below="@+id/img4Pelicula"
             android:text="@string/lbl4lblPais" />
 
@@ -45,12 +45,12 @@
             android:id="@+id/lbl4lblAnio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/lbl4AnoPelicula"
+            android:layout_above="@+id/lbl4AnioPelicula"
             android:layout_alignStart="@+id/lbl4lblPais"
             android:text="@string/lbl4lblAnio" />
 
         <TextView
-            android:id="@+id/lbl4AnoPelicula"
+            android:id="@+id/lbl4AnioPelicula"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@+id/lbl4DirectorPelicula"
@@ -95,11 +95,12 @@
         <ImageButton
             android:id="@+id/iBtn4Home"
             style="@style/BtnImagen"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="14dp"
-            android:layout_toEndOf="@+id/lbl4SinopsisPelicula"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
             android:onClick="mostrarInicio"
             app:srcCompat="@drawable/home" />
 

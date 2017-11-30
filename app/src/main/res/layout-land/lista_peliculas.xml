@@ -11,7 +11,7 @@
         android:layout_height="match_parent">
 
         <ImageButton
-            android:id="@+id/iBtn3Back"
+            android:id="@+id/btn3Back"
             style="@style/BtnImagen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
             tools:layout_editor_absoluteY="313dp" />
 
         <ImageButton
-            android:id="@+id/iBtn3Home"
+            android:id="@+id/btn3Home"
             style="@style/BtnImagen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
             android:id="@+id/lst3Peliculas"
             android:layout_width="400dp"
             android:layout_height="200dp"
-            android:layout_above="@+id/iBtn3Back"
+            android:layout_above="@+id/btn3Back"
             android:layout_centerHorizontal="true">
 
         </ListView>

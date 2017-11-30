@@ -50,4 +50,5 @@ public class AdaptadorPeliculas extends ArrayAdapter {
         holder.imagen.setImageResource(info[position].getImagen());
         return (item);
     }
+
 }

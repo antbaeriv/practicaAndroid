@@ -52,7 +52,7 @@
             android:text="@string/lbl4lblAnio" />
 
         <TextView
-            android:id="@+id/lbl4AnoPelicula"
+            android:id="@+id/lbl4AnioPelicula"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignStart="@+id/lbl4PaisPelicula"

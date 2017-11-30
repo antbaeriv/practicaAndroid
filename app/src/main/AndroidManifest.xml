@@ -19,8 +19,8 @@
         <activity android:name=".SeleccionGenero" />
         <activity android:name=".ListaPeliculas" />
         <activity android:name=".FichaPeliculas" />
-        <activity android:name=".ConfirmaCompra" />
         <activity android:name=".MetodoPago"></activity>
+        <activity android:name=".ConfirmaCompra" />
     </application>
 
 </manifest>

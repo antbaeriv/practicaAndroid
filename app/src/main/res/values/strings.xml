@@ -8,6 +8,15 @@
     <string name="cat1">Acción</string>
     <string name="cat2">Drama</string>
     <string name="cat3">Ciencia Ficción</string>
+    <string name="administrador">Admin-Admin</string>
+    <string name="usuario1">Cifredo-Studium01</string>
+    <string name="usuario2">Gonzalez-Studium02</string>
+    <string name="usuario3">Baena-Studium03</string>
+    <string name="usuario4">Sureda-Studium04</string>
+
+
+
+
     <string name="lbl4TituloPelicula">Terminator</string>
     <string name="lbl4AnoPelicula">1984</string>
     <string name="lbl4PaisPelicula">Estados Unidos</string>

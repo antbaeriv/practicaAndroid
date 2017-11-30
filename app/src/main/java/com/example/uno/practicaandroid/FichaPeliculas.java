@@ -8,35 +8,47 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class FichaPeliculas extends AppCompatActivity {
-    Pelicula[] info = new Pelicula[5];
-    int posicion;
+    String titulo, anio, director, pais, sinopsis, url1, url2, url3;
+    int imagen;
     TextView lblSinopsis, lblTitulo, lblDirector, lblPais, lblAnio;
     ImageView imgPelicula;
     ImageButton atras, home;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ficha_peliculas);
-        posicion = getIntent().getIntExtra("posicion",0);
-        info= (Pelicula[]) getIntent().getSerializableExtra("pelicula");
+        titulo = getIntent().getStringExtra("titulo");
+        anio = getIntent().getStringExtra("anio");
+        pais = getIntent().getStringExtra("pais");
+        director = getIntent().getStringExtra("director");
+        sinopsis = getIntent().getStringExtra("sinopsis");
+        imagen = getIntent().getIntExtra("imagen", 0);
+        url1 = getIntent().getStringExtra("url1");
+        url2 = getIntent().getStringExtra("url2");
+        url3 = getIntent().getStringExtra("url3");
         inicializarUI();
         lblSinopsis.setMovementMethod(new ScrollingMovementMethod());
-        lblSinopsis.setText(info[posicion].getSinopsis());
-        lblTitulo.setText(info[posicion].getTitulo());
-        lblAnio.setText(info[posicion].getAnio());
-        lblDirector.setText(info[posicion].getDirector());
-        lblPais.setText(info[posicion].getNacionalidad());
-        imgPelicula.setImageResource(info[posicion].getImagen());
-        atras = (ImageButton)findViewById(R.id.iBtn4Back);
-        home = (ImageButton)findViewById(R.id.iBtn4Home);
+        lblTitulo.setText(titulo);
+        lblAnio.setText(anio);
+        lblDirector.setText(director);
+        lblPais.setText(pais);
+        lblSinopsis.setText(sinopsis);
+        imgPelicula.setImageResource(imagen);
+
+
     }
+
     public void inicializarUI() {
-     lblSinopsis = (TextView) findViewById(R.id.lbl4SinopsisPelicula);
-     lblTitulo = (TextView) findViewById(R.id.lbl4TituloPelicula);
-     lblDirector = (TextView) findViewById(R.id.lbl4TituloPelicula);
-     lblPais = (TextView) findViewById(R.id.lbl4TituloPelicula);
-     lblAnio = (TextView) findViewById(R.id.lbl4TituloPelicula);
-     imgPelicula = (ImageView) findViewById(R.id.img4Pelicula);
+
+        lblTitulo = (TextView) findViewById(R.id.lbl4TituloPelicula);
+        lblDirector = (TextView) findViewById(R.id.lbl4DirectorPelicula);
+        lblPais = (TextView) findViewById(R.id.lbl4PaisPelicula);
+        lblAnio = (TextView) findViewById(R.id.lbl4AnioPelicula);
+        imgPelicula = (ImageView) findViewById(R.id.img4Pelicula);
+        lblSinopsis = (TextView) findViewById(R.id.lbl4SinopsisPelicula);
+        atras = (ImageButton) findViewById(R.id.iBtn4Back);
+        home = (ImageButton) findViewById(R.id.iBtn4Home);
 
     }
 }
