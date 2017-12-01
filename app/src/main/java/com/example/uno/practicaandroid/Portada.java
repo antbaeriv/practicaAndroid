@@ -1,6 +1,7 @@
 package com.example.uno.practicaandroid;
 
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,7 @@ public class Portada extends AppCompatActivity {
     String cadena;
     String[] userPass;
     boolean ok = false;
+    boolean exit = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,5 +45,25 @@ public class Portada extends AppCompatActivity {
             startActivity(intencion);
 
         }
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        if (exit) {
+            finish(); // finish activity
+        } else {
+            Toast.makeText(this, R.string.salir,
+                    Toast.LENGTH_SHORT).show();
+            exit = true;
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    exit = false;
+                }
+            }, 3 * 1000);
+
+        }
+
     }
 }

@@ -14,7 +14,7 @@
 <string name="wlc">Welcome,</string>
 <string name="volver2">Back</string>
 <string name="Seleccionar2">Select</string>
-
+    <string name="salir">Press back again to exit</string>
 
 <string name="tituloAC1">Gladiator</string>
 <string name="duracionAC1">150 min.</string>

@@ -31,9 +31,12 @@ public class SeleccionGenero extends AppCompatActivity {
     }
 
     public void mostrarInicio(View v){
-        Intent intento = new Intent(getApplicationContext(),Portada.class);
-        startActivity(intento);
+        Intent i = getBaseContext().getPackageManager()
+                .getLaunchIntentForPackage( getBaseContext().getPackageName() );
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
     }
+
 
     public void mostrarListaPeliculas(View v){
         //String generoS = spnGen.getSelectedItem().toString();

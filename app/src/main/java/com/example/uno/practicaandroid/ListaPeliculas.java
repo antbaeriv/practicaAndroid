@@ -63,7 +63,7 @@ public class ListaPeliculas extends AppCompatActivity {
 
         } else if (cat == 2) {
             info[0] = (new Pelicula(R.string.tituloDM1, R.string.paisDM1, R.string.duracionDM1, R.string.anioDM1, R.string.directorDM1, R.string.sinopsisDM1, R.drawable.cadenaperp, R.string.urlFilmDM1, R.string.urlIMDBDM1, R.string.urlRTDM1));
-            info[1] = (new Pelicula(R.string.tituloDM2, R.string.paisDM2, R.string.duracionDM2, R.string.anioDM2, R.string.directorDM2, R.string.sinopsisDM2, R.drawable.reservoirdogs, R.string.urlFilmAC2, R.string.urlIMDBAC2, R.string.urlRTDM2));
+            info[1] = (new Pelicula(R.string.tituloDM2, R.string.paisDM2, R.string.duracionDM2, R.string.anioDM2, R.string.directorDM2, R.string.sinopsisDM2, R.drawable.reservoirdogs, R.string.urlFilmDM2, R.string.urlIMDBAC2, R.string.urlRTDM2));
             info[2] = (new Pelicula(R.string.tituloDM3, R.string.paisDM3, R.string.duracionDM3, R.string.anioDM3, R.string.directorDM3, R.string.sinopsisDM3, R.drawable.cisnenegro, R.string.urlFilmDM3, R.string.urlIMDBDM3, R.string.urlRTDM3));
             info[3] = (new Pelicula(R.string.tituloDM4, R.string.paisDM4, R.string.duracionDM4, R.string.anioDM4, R.string.directorDM4, R.string.sinopsisDM4, R.drawable.imposible, R.string.urlFilmDM4, R.string.urlIMDBDM4, R.string.urlRTDM4));
             info[4] = (new Pelicula(R.string.tituloDM5, R.string.paisDM5, R.string.duracionDM5, R.string.anioDM5, R.string.directorDM5, R.string.sinopsisDM5, R.drawable.titanic, R.string.urlFilmDM5, R.string.urlIMDBDM5, R.string.urlRTDM5));
@@ -79,9 +79,6 @@ public class ListaPeliculas extends AppCompatActivity {
     }
 
     public void mostrarInicio(View v) {
-        /*Intent intencion = new Intent(getApplicationContext(), Portada.class);
-        startActivity(intencion);*/
-
         Intent i = getBaseContext().getPackageManager()
                 .getLaunchIntentForPackage( getBaseContext().getPackageName() );
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -89,7 +86,6 @@ public class ListaPeliculas extends AppCompatActivity {
     }
 
     public void volverAtras(View v) {
-        Intent intencion = new Intent(getApplicationContext(), SeleccionGenero.class);
-        startActivity(intencion);
+        onBackPressed();
     }
 }

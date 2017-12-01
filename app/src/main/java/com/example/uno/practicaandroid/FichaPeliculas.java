@@ -72,8 +72,6 @@ public class FichaPeliculas extends AppCompatActivity {
             intento.putExtra("link",link);
             startActivity(intento);
         }
-
-
     }
     public void mostrarInicio(View v) {
         Intent i = getBaseContext().getPackageManager()
@@ -83,7 +81,6 @@ public class FichaPeliculas extends AppCompatActivity {
     }
 
     public void volverAtras(View v) {
-        Intent intencion = new Intent(getApplicationContext(), ListaPeliculas.class);
-        startActivity(intencion);
+        onBackPressed();
     }
 }
