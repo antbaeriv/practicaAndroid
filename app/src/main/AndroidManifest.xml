@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.uno.practicaandroid">
+    <uses-permission android:name="android.permission.ACTION_VIEW"/>
 
     <application
         android:allowBackup="true"

@@ -1,6 +1,7 @@
 package com.example.uno.practicaandroid;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
@@ -67,10 +68,21 @@ public class FichaPeliculas extends AppCompatActivity {
         Integer link = spnEnlaces.getSelectedItemPosition();
         if(link==0){
             Toast.makeText(this, R.string.validez, Toast.LENGTH_SHORT).show();
-        }else{
-            Intent intento = new Intent();
-            intento.putExtra("link",link);
-            startActivity(intento);
+        }else if (link == 1){
+
+                    Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url1));
+            startActivity(i);
+        }else if (link == 2){
+
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url2));
+            startActivity(i);
+        }else if (link == 3){
+
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url3));
+            startActivity(i);
         }
     }
     public void mostrarInicio(View v) {
@@ -82,5 +94,9 @@ public class FichaPeliculas extends AppCompatActivity {
 
     public void volverAtras(View v) {
         onBackPressed();
+    }
+    public void alquilarPelicula(View v) {
+        Intent intencion = new Intent(getApplicationContext(), MetodoPago.class);
+        startActivity(intencion);
     }
 }
