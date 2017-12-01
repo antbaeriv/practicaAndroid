@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/img4Pelicula"
@@ -19,7 +20,6 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="12dp"
-            app:srcCompat="@drawable/cisnenegro"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp" />
 
@@ -38,7 +38,6 @@
             android:layout_alignTop="@+id/iBtn4Home"
             android:layout_marginHorizontal="7dp"
             android:layout_toEndOf="@+id/lbl4PaisPelicula"
-            android:text="@string/tituloSF1"
             android:textColor="@android:color/black"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -56,8 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignStart="@+id/lbl4PaisPelicula"
-            android:layout_below="@+id/lbl4PaisPelicula"
-            android:text="@string/lbl4AnoPelicula" />
+            android:layout_below="@+id/lbl4PaisPelicula" />
 
         <TextView
             android:id="@+id/lbl4lblDirector"
@@ -73,8 +71,7 @@
             android:layout_height="20dp"
             android:layout_below="@+id/img4Pelicula"
             android:layout_marginStart="12dp"
-            android:layout_toEndOf="@+id/iBtn4Back"
-            android:text="@string/lbl4PaisPelicula" />
+            android:layout_toEndOf="@+id/iBtn4Back" />
 
         <TextView
             android:id="@+id/lbl4DirectorPelicula"
@@ -82,8 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/lbl4lblDirector"
             android:layout_alignBottom="@+id/lbl4lblDirector"
-            android:layout_alignEnd="@+id/lbl4PaisPelicula"
-            android:text="@string/lbl4DirectorPelicula" />
+            android:layout_alignEnd="@+id/lbl4PaisPelicula" />
 
         <TextView
             android:id="@+id/lbl4SinopsisPelicula"
@@ -93,8 +89,7 @@
             android:layout_below="@+id/lbl4TituloPelicula"
             android:layout_marginHorizontal="7dp"
             android:layout_marginStart="11dp"
-            android:scrollbars="vertical"
-            android:text="@string/sinopsisDM2" />
+            android:scrollbars="vertical" />
 
         <ImageButton
             android:id="@+id/iBtn4Home"

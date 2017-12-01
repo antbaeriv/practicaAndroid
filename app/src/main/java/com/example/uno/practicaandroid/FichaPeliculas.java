@@ -1,11 +1,16 @@
 package com.example.uno.practicaandroid;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
+import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class FichaPeliculas extends AppCompatActivity {
     String titulo, anio, director, pais, sinopsis, url1, url2, url3;
@@ -13,6 +18,9 @@ public class FichaPeliculas extends AppCompatActivity {
     TextView lblSinopsis, lblTitulo, lblDirector, lblPais, lblAnio;
     ImageView imgPelicula;
     ImageButton atras, home;
+    String[]enlaces = {"Seleccione un enlace para tener mas información:", "Filmaffinity", "IMDB", "Rotten Romatoes"};
+    Spinner spnEnlaces;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +43,7 @@ public class FichaPeliculas extends AppCompatActivity {
         lblPais.setText(pais);
         lblSinopsis.setText(sinopsis);
         imgPelicula.setImageResource(imagen);
+        spnEnlaces.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,enlaces));
 
 
     }
@@ -49,6 +58,32 @@ public class FichaPeliculas extends AppCompatActivity {
         lblSinopsis = (TextView) findViewById(R.id.lbl4SinopsisPelicula);
         atras = (ImageButton) findViewById(R.id.iBtn4Back);
         home = (ImageButton) findViewById(R.id.iBtn4Home);
+        spnEnlaces = (Spinner) findViewById(R.id.spn4EnlacesPeliculas);
 
+    }
+
+    public void accederEnlace(View v){
+        //String generoS = spnGen.getSelectedItem().toString();
+        Integer link = spnEnlaces.getSelectedItemPosition();
+        if(link==0){
+            Toast.makeText(this, R.string.validez, Toast.LENGTH_SHORT).show();
+        }else{
+            Intent intento = new Intent();
+            intento.putExtra("link",link);
+            startActivity(intento);
+        }
+
+
+    }
+    public void mostrarInicio(View v) {
+        Intent i = getBaseContext().getPackageManager()
+                .getLaunchIntentForPackage( getBaseContext().getPackageName() );
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+    }
+
+    public void volverAtras(View v) {
+        Intent intencion = new Intent(getApplicationContext(), ListaPeliculas.class);
+        startActivity(intencion);
     }
 }

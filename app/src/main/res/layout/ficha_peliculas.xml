@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/img4Pelicula"
@@ -19,6 +20,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="12dp"
+            android:contentDescription="@string/imagenInfo"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp" />
 
@@ -35,7 +37,7 @@
             android:layout_width="175dp"
             android:layout_height="100dp"
             android:layout_alignTop="@+id/iBtn4Home"
-            android:layout_marginHorizontal="7dp"
+
             android:layout_toEndOf="@+id/lbl4PaisPelicula"
             android:textColor="@android:color/black"
             android:textSize="24sp"
@@ -89,7 +91,7 @@
             android:layout_height="275dp"
             android:layout_alignStart="@+id/lbl4TituloPelicula"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="7dp"
+
             android:scrollbars="vertical" />
 
         <ImageButton
@@ -101,6 +103,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginEnd="10dp"
             android:layout_marginTop="10dp"
+            android:contentDescription="@string/casa"
             android:onClick="mostrarInicio"
             app:srcCompat="@drawable/home" />
 
@@ -112,6 +115,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="10dp"
             android:layout_marginStart="10dp"
+            android:contentDescription="@string/volver2"
             android:onClick="volverAtras"
             app:srcCompat="@drawable/backarrow" />
 
@@ -129,9 +133,8 @@
             android:id="@+id/spn4EnlacesPeliculas"
             android:layout_width="200dp"
             android:layout_height="40dp"
-            android:layout_above="@+id/iBtn4Back"
-            android:layout_alignStart="@+id/img4Pelicula"
-            android:layout_marginBottom="18dp" />
+            android:layout_marginBottom="18dp"
+            android:layout_below="@+id/lbl4DirectorPelicula" />
 
         <Button
             android:id="@+id/btn4AccEnlaces"
@@ -140,6 +143,7 @@
             android:layout_height="40dp"
             android:layout_alignEnd="@+id/iBtn4Home"
             android:layout_alignTop="@+id/spn4EnlacesPeliculas"
+            android:onClick="accederEnlace"
             android:text="@string/btn4AccEnlaces" />
 
     </RelativeLayout>
