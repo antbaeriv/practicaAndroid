@@ -19,7 +19,7 @@ public class FichaPeliculas extends AppCompatActivity {
     TextView lblSinopsis, lblTitulo, lblDirector, lblPais, lblAnio;
     ImageView imgPelicula;
     ImageButton atras, home;
-    String[]enlaces = {"Seleccione un enlace para tener mas información:", "Filmaffinity", "IMDB", "Rotten Romatoes"};
+    String[]enlaces = {"Enlaces a criticas", "Filmaffinity", "IMDB", "Rotten Romatoes"};
     Spinner spnEnlaces;
 
 
