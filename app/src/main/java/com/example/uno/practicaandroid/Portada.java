@@ -34,7 +34,7 @@ public class Portada extends AppCompatActivity {
             cadena = getString(cuentas[i]);
             userPass = cadena.split("-");
             ok = ((user.getText().toString().equals(userPass[0])) && (pass.getText().toString().equals(userPass[1])));
-
+            if(ok){break;}
         }
         int valor = ok ? R.string.autorizado : R.string.denegado;
         Toast.makeText(this, valor, Toast.LENGTH_SHORT).show();

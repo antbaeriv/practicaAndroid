@@ -32,6 +32,7 @@
 
         <ImageButton
             android:id="@+id/imageButton"
+            style="@style/BtnImagen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/lbl6Producto"
@@ -46,6 +47,7 @@
             android:layout_below="@+id/lbl6gracias"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="34dp"
+            android:onClick="finalizarCompra"
             android:text="@string/lbl6resumen"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="18sp"

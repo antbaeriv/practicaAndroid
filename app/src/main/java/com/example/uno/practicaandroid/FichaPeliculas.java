@@ -19,9 +19,8 @@ public class FichaPeliculas extends AppCompatActivity {
     TextView lblSinopsis, lblTitulo, lblDirector, lblPais, lblAnio;
     ImageView imgPelicula;
     ImageButton atras, home;
-    String[]enlaces = {"Seleccione un enlace para tener mas información:", "Filmaffinity", "IMDB", "Rotten Romatoes"};
     Spinner spnEnlaces;
-
+    ArrayAdapter<CharSequence> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +43,9 @@ public class FichaPeliculas extends AppCompatActivity {
         lblPais.setText(pais);
         lblSinopsis.setText(sinopsis);
         imgPelicula.setImageResource(imagen);
-        spnEnlaces.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,enlaces));
+        adapter = ArrayAdapter.createFromResource(this, R.array.spinCriticas, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spnEnlaces.setAdapter(adapter);
 
 
     }
@@ -86,8 +87,7 @@ public class FichaPeliculas extends AppCompatActivity {
         }
     }
     public void mostrarInicio(View v) {
-        Intent i = getBaseContext().getPackageManager()
-                .getLaunchIntentForPackage( getBaseContext().getPackageName() );
+        Intent i = new Intent(getApplicationContext(),Portada.class);
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }

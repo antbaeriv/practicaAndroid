@@ -15,7 +15,12 @@
     <string name="usuario4">Sureda-Studium04</string>
 <string name="salir">Vuelva a presionar para salir</string>
 
-
+    <string-array name="spinCriticas">
+        <item>Ver críticas:</item>
+        <item>Filmaffinity</item>
+        <item>IMDB</item>
+        <item>RottenTomatoes</item>
+    </string-array>
 
     <string name="lbl4TituloPelicula">Terminator</string>
     <string name="lbl4AnoPelicula">1984</string>

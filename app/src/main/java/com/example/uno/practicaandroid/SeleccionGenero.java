@@ -31,8 +31,7 @@ public class SeleccionGenero extends AppCompatActivity {
     }
 
     public void mostrarInicio(View v){
-        Intent i = getBaseContext().getPackageManager()
-                .getLaunchIntentForPackage( getBaseContext().getPackageName() );
+        Intent i = new Intent(getApplicationContext(),Portada.class);
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }
