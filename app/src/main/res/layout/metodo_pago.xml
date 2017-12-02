@@ -19,6 +19,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginEnd="10dp"
             android:layout_marginTop="10dp"
+            android:onClick="mostrarInicio"
             app:srcCompat="@drawable/home" />
 
         <ImageButton
@@ -30,6 +31,7 @@
             android:layout_alignParentStart="true"
             android:layout_marginBottom="10dp"
             android:layout_marginStart="10dp"
+            android:onClick="mostrarListaPeliculas"
             app:srcCompat="@drawable/backarrow" />
 
         <TextView
@@ -93,6 +95,7 @@
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/btn5Back"
             android:layout_alignEnd="@+id/btn5Home"
+            android:onClick="mostrarFinalizacionCompra"
             android:text="@string/btn5Pagar" />
 
         <TextView
