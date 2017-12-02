@@ -45,33 +45,6 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <CheckBox
-            android:id="@+id/cbx5Pago1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/lbl5Seleccionar"
-            android:layout_below="@+id/lbl5Seleccionar"
-            android:layout_marginTop="36dp"
-            android:text="@string/lbl5MetodoPago1" />
-
-        <CheckBox
-            android:id="@+id/cbx5Pago2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/cbx5Pago1"
-            android:layout_below="@+id/cbx5Pago1"
-            android:layout_marginTop="27dp"
-            android:text="@string/lbl5MetodoPago2" />
-
-        <CheckBox
-            android:id="@+id/cbx5Pago3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/cbx5Pago2"
-            android:layout_below="@+id/cbx5Pago2"
-            android:layout_marginTop="23dp"
-            android:text="@string/lbl5MetodoPago3" />
-
         <TextView
             android:id="@+id/lbl5Importe"
             android:layout_width="60dp"
@@ -105,6 +78,36 @@
             android:layout_below="@+id/btn5Home"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="21dp" />
+
+        <RadioGroup
+            android:id="@+id/rg5Pago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/lbl5Seleccionar"
+            android:layout_below="@+id/lbl5Seleccionar">
+
+            <RadioButton
+                android:id="@+id/rb5Tarjeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lbl5MetodoPago1" />
+
+            <RadioButton
+                android:id="@+id/rb5Efectivo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lbl5MetodoPago2" />
+
+            <RadioButton
+                android:id="@+id/rb5Paypal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lbl5MetodoPago3" />
+
+        </RadioGroup>
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

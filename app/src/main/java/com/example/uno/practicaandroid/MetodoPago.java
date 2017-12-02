@@ -4,17 +4,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.CheckBox;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class MetodoPago extends AppCompatActivity {
     TextView lblProducto;
     TextView lblPrecio;
-    CheckBox chkTarjeta;
-    CheckBox chkEfectivo;
-    CheckBox chkPaypal;
-
+    RadioButton rbT;
+    RadioButton rbE;
+    RadioButton rbP;
+    RadioGroup radioGroup;
     String titulo;
     int cartel;
 
@@ -35,10 +36,10 @@ public class MetodoPago extends AppCompatActivity {
     public void inicializarUI(){
         lblPrecio = (TextView) findViewById(R.id.lbl5Precio);
         lblProducto = (TextView) findViewById(R.id.lbl5PeliculaAlquilada);
-        chkTarjeta = (CheckBox) findViewById(R.id.cbx5Pago1);
-        chkEfectivo = (CheckBox) findViewById(R.id.cbx5Pago2);
-        chkPaypal = (CheckBox) findViewById(R.id.cbx5Pago3);
-
+        rbT = (RadioButton) findViewById(R.id.rb5Tarjeta);
+        rbE = (RadioButton) findViewById(R.id.rb5Efectivo);
+        rbP = (RadioButton) findViewById(R.id.rb5Paypal);
+        radioGroup = (RadioGroup) findViewById(R.id.rg5Pago);
     }
 
     public void mostrarInicio(View v){
@@ -48,20 +49,22 @@ public class MetodoPago extends AppCompatActivity {
     }
 
     public void mostrarFinalizacionCompra(View v){
-        if(chkTarjeta.isChecked()){
+        Integer nombre=0;
+        Integer id;
+        if(rbT.isChecked() || rbE.isChecked() || rbP.isChecked()){
             Intent intento = new Intent(getApplicationContext(),ConfirmaCompra.class);
             intento.putExtra("titulo", lblProducto.getText());
             intento.putExtra("cartel", cartel);
-            startActivity(intento);
-        }else if(chkEfectivo.isChecked()) {
-            Intent intento = new Intent(getApplicationContext(), ConfirmaCompra.class);
-            intento.putExtra("titulo", lblProducto.getText());
-            intento.putExtra("cartel", cartel);
-            startActivity(intento);
-        }else if(chkEfectivo.isChecked()) {
-            Intent intento = new Intent(getApplicationContext(), ConfirmaCompra.class);
-            intento.putExtra("titulo", lblProducto.getText());
-            intento.putExtra("cartel", cartel);
+            id =radioGroup.getCheckedRadioButtonId();
+            if(id == rbT.getId()){
+                nombre = R.string.lbl5MetodoPago1;
+            }else if(id==rbE.getId()){
+                nombre=R.string.lbl5MetodoPago2;
+            }else if(id==rbP.getId()){
+                nombre=R.string.lbl5MetodoPago3;
+            }
+
+            intento.putExtra("pago",nombre.toString());
             startActivity(intento);
         }else{
             Toast.makeText(this,R.string.validez5Checkbox, Toast.LENGTH_SHORT).show();
