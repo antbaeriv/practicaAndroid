@@ -15,12 +15,19 @@ public class MetodoPago extends AppCompatActivity {
     CheckBox chkEfectivo;
     CheckBox chkPaypal;
 
+    String titulo;
+    int cartel;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.metodo_pago);
         inicializarUI();
+
+        titulo = getIntent().getStringExtra("titulo");
+        cartel = getIntent().getIntExtra("imagen", 0);
+        lblProducto.setText(titulo);
 
     }
 
@@ -43,12 +50,18 @@ public class MetodoPago extends AppCompatActivity {
     public void mostrarFinalizacionCompra(View v){
         if(chkTarjeta.isChecked()){
             Intent intento = new Intent(getApplicationContext(),ConfirmaCompra.class);
+            intento.putExtra("titulo", lblProducto.getText());
+            intento.putExtra("cartel", cartel);
             startActivity(intento);
         }else if(chkEfectivo.isChecked()) {
             Intent intento = new Intent(getApplicationContext(), ConfirmaCompra.class);
+            intento.putExtra("titulo", lblProducto.getText());
+            intento.putExtra("cartel", cartel);
             startActivity(intento);
         }else if(chkEfectivo.isChecked()) {
             Intent intento = new Intent(getApplicationContext(), ConfirmaCompra.class);
+            intento.putExtra("titulo", lblProducto.getText());
+            intento.putExtra("cartel", cartel);
             startActivity(intento);
         }else{
             Toast.makeText(this,R.string.validez5Checkbox, Toast.LENGTH_SHORT).show();
