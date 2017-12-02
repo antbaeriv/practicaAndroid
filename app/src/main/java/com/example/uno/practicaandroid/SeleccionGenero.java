@@ -11,19 +11,22 @@ import android.widget.Toast;
 
 public class SeleccionGenero extends AppCompatActivity {
 
-    String nom;
+    String nombre;
     TextView lblUser;
     Spinner spnGen;
-
+    ArrayAdapter<CharSequence> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.seleccion_genero);
-        nom = getIntent().getStringExtra("Usuario");
+        nombre = getIntent().getStringExtra("usuario");
         inicializarUI();
-        lblUser.setText("Bienvenido, "+nom);
-        spnGen.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,R.array.spnGeneros));
+        lblUser.setText(getString(R.string.wlc)+" "+nombre);
+        adapter = ArrayAdapter.createFromResource(this, R.array.spnGeneros, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spnGen.setAdapter(adapter);
+
     }
     public void inicializarUI(){
         lblUser = (TextView) findViewById(R.id.lbl2User);
@@ -43,9 +46,10 @@ public class SeleccionGenero extends AppCompatActivity {
         if(genero==0){
             Toast.makeText(this, R.string.validez, Toast.LENGTH_SHORT).show();
         }else{
-            Intent intento = new Intent(getApplicationContext(),ListaPeliculas.class);
-            intento.putExtra("genero",genero);
-            startActivity(intento);
+            Intent intencion = new Intent(getApplicationContext(),ListaPeliculas.class);
+            intencion.putExtra("genero",genero);
+            intencion.putExtra("usuario",nombre);
+            startActivity(intencion);
         }
 
 

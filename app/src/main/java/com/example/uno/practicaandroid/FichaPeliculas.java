@@ -14,7 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class FichaPeliculas extends AppCompatActivity {
-    String titulo, anio, director, pais, sinopsis, url1, url2, url3;
+    String titulo, anio, director, pais, sinopsis, url1, url2, url3, nombre;
     int imagen;
     TextView lblSinopsis, lblTitulo, lblDirector, lblPais, lblAnio;
     ImageView imgPelicula;
@@ -26,6 +26,7 @@ public class FichaPeliculas extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ficha_peliculas);
+        nombre = getIntent().getStringExtra("usuario");
         titulo = getIntent().getStringExtra("titulo");
         anio = getIntent().getStringExtra("anio");
         pais = getIntent().getStringExtra("pais");
@@ -97,6 +98,9 @@ public class FichaPeliculas extends AppCompatActivity {
     }
     public void alquilarPelicula(View v) {
         Intent intencion = new Intent(getApplicationContext(), MetodoPago.class);
+        intencion.putExtra("titulo", titulo);
+        intencion.putExtra("imagen", imagen);
+        intencion.putExtra("usuario",nombre);
         startActivity(intencion);
     }
 }

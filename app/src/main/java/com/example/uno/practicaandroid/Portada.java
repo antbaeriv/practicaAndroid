@@ -41,7 +41,7 @@ public class Portada extends AppCompatActivity {
         if (ok) {
             String usuario = user.getText().toString();
             Intent intencion = new Intent(getApplicationContext(), SeleccionGenero.class);
-            intencion.putExtra("Usuario", usuario);
+            intencion.putExtra("usuario", usuario);
             startActivity(intencion);
 
         }

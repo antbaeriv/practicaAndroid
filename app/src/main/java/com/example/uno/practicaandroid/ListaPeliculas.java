@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 
 public class ListaPeliculas extends AppCompatActivity {
-    //int categoria=R.string.cat1;
+    String nombre;
     Integer categoria;
     ListView lista;
     ImageButton atras, home;
@@ -19,6 +19,7 @@ public class ListaPeliculas extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.lista_peliculas);
+        nombre = getIntent().getStringExtra("usuario");
         categoria = getIntent().getIntExtra("genero", 0);
         rellenarArray(categoria);
         adapta= new AdaptadorPeliculas(this, info);
@@ -39,6 +40,7 @@ public class ListaPeliculas extends AppCompatActivity {
                 intencion.putExtra("url1", getString(info[position].getUrlFil()));
                 intencion.putExtra("url2", getString(info[position].getUrlImdb()));
                 intencion.putExtra("url3", getString(info[position].getUrlRt()));
+                intencion.putExtra("usuario",nombre);
                 startActivity(intencion);
             }
         }
@@ -80,8 +82,6 @@ public class ListaPeliculas extends AppCompatActivity {
 
     public void mostrarInicio(View v) {
         Intent i = new Intent(getApplicationContext(),Portada.class);
-       // Intent i = getBaseContext().getPackageManager()
-       //         .getLaunchIntentForPackage( getBaseContext().getPackageName() );
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }

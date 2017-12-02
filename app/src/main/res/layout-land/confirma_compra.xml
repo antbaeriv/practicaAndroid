@@ -10,15 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="16dp">
 
         <TextView
             android:id="@+id/lbl6gracias"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btn6Exit"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="22dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="26dp"
             android:text="@string/lbl6gracias"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="24sp"
@@ -27,10 +28,11 @@
         <TextView
             android:id="@+id/lbl6Producto"
             android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/btn6Exit"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="15dp" />
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/img6Prod"
+            android:layout_below="@+id/img6Prod"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/btn6Exit"
@@ -40,15 +42,16 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="21dp"
+            android:onClick="salirAlquiler"
             app:srcCompat="@drawable/home" />
 
         <TextView
             android:id="@+id/lbl6Resumen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/lbl6gracias"
             android:layout_below="@+id/lbl6gracias"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="29dp"
             android:text="@string/lbl6resumen"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="18sp"
@@ -56,11 +59,11 @@
 
         <ImageView
             android:id="@+id/img6Prod"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_below="@+id/lbl6Resumen"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp" />
+            android:layout_width="125dp"
+            android:layout_height="175dp"
+            android:layout_alignTop="@+id/lbl6gracias"
+            android:layout_marginStart="25dp"
+            android:layout_toEndOf="@+id/btn6Exit" />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

@@ -10,14 +10,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MetodoPago extends AppCompatActivity {
-    TextView lblProducto;
-    TextView lblPrecio;
-    RadioButton rbT;
-    RadioButton rbE;
-    RadioButton rbP;
+    TextView lblProducto,lblPrecio;
+    RadioButton rbT,rbE,rbP;
     RadioGroup radioGroup;
-    String titulo;
-    int cartel;
+    String titulo, nombre;
+    int imagen;
 
 
     @Override
@@ -25,13 +22,12 @@ public class MetodoPago extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.metodo_pago);
         inicializarUI();
-
+        nombre = getIntent().getStringExtra("usuario");
         titulo = getIntent().getStringExtra("titulo");
-        cartel = getIntent().getIntExtra("imagen", 0);
+        imagen = getIntent().getIntExtra("imagen", 0);
         lblProducto.setText(titulo);
 
     }
-
 
     public void inicializarUI(){
         lblPrecio = (TextView) findViewById(R.id.lbl5Precio);
@@ -49,23 +45,23 @@ public class MetodoPago extends AppCompatActivity {
     }
 
     public void mostrarFinalizacionCompra(View v){
-        Integer nombre=0;
+        Integer nPago=0;
         Integer id;
         if(rbT.isChecked() || rbE.isChecked() || rbP.isChecked()){
-            Intent intento = new Intent(getApplicationContext(),ConfirmaCompra.class);
-            intento.putExtra("titulo", lblProducto.getText());
-            intento.putExtra("cartel", cartel);
+            Intent intencion = new Intent(getApplicationContext(),ConfirmaCompra.class);
+            intencion.putExtra("titulo", titulo);
+            intencion.putExtra("cartel", imagen);
             id =radioGroup.getCheckedRadioButtonId();
             if(id == rbT.getId()){
-                nombre = R.string.lbl5MetodoPago1;
+                nPago = R.string.lbl5MetodoPago1;
             }else if(id==rbE.getId()){
-                nombre=R.string.lbl5MetodoPago2;
+                nPago=R.string.lbl5MetodoPago2;
             }else if(id==rbP.getId()){
-                nombre=R.string.lbl5MetodoPago3;
+                nPago=R.string.lbl5MetodoPago3;
             }
-
-            intento.putExtra("pago",nombre.toString());
-            startActivity(intento);
+            intencion.putExtra("usuario",nombre);
+            intencion.putExtra("pago",nPago.toString());
+            startActivity(intencion);
         }else{
             Toast.makeText(this,R.string.validez5Checkbox, Toast.LENGTH_SHORT).show();
         }

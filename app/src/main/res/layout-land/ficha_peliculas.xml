@@ -128,7 +128,8 @@
             android:layout_height="35dp"
             android:layout_alignStart="@+id/lbl4SinopsisPelicula"
             android:layout_alignTop="@+id/btn4AccEnlaces"
-            android:layout_marginStart="51dp" />
+            android:layout_marginStart="51dp"
+            android:spinnerMode="dialog" />
 
         <Button
             android:id="@+id/btn4AccEnlaces"
