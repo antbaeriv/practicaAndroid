@@ -12,7 +12,6 @@ import android.widget.Toast;
 public class SeleccionGenero extends AppCompatActivity {
 
     String nom;
-    String[]generos = {"Seleccione un género","Acción","Drama","Ciencia Ficción"};
     TextView lblUser;
     Spinner spnGen;
 
@@ -24,7 +23,7 @@ public class SeleccionGenero extends AppCompatActivity {
         nom = getIntent().getStringExtra("Usuario");
         inicializarUI();
         lblUser.setText("Bienvenido, "+nom);
-        spnGen.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,generos));
+        spnGen.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,R.array.spnGeneros));
     }
     public void inicializarUI(){
         lblUser = (TextView) findViewById(R.id.lbl2User);

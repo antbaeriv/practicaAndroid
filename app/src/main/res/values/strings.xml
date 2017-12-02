@@ -22,6 +22,13 @@
         <item>RottenTomatoes</item>
     </string-array>
 
+    <string-array name="spnGeneros">
+        <item>Seleccione un género</item>
+        <item>Acción</item>
+        <item>Drama</item>
+        <item>Ciencia Ficción</item>
+    </string-array>
+
     <string name="lbl4TituloPelicula">Terminator</string>
     <string name="lbl4AnoPelicula">1984</string>
     <string name="lbl4PaisPelicula">Estados Unidos</string>
@@ -208,4 +215,6 @@
     <string name="lblSpnEnlaces"></string>
 
     <string name="validez5Checkbox">Debe seleccionar una forma de pago</string>
+
+    <string name="bienvenido">Bienvenido, </string>
 </resources>
