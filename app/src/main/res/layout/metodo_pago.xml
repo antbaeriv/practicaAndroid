@@ -49,9 +49,8 @@
             android:id="@+id/lbl5Importe"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/cbx5Pago2"
-            android:layout_alignEnd="@+id/lbl5Seleccionar"
-            android:layout_marginEnd="17dp"
+            android:layout_above="@+id/lbl5Precio"
+            android:layout_toStartOf="@+id/btn5Pagar"
             android:text="@string/lbl5Importe"
             android:textStyle="bold" />
 
@@ -59,8 +58,8 @@
             android:id="@+id/lbl5Precio"
             android:layout_width="75dp"
             android:layout_height="25dp"
-            android:layout_alignBottom="@+id/cbx5Pago2"
-            android:layout_alignStart="@+id/lbl5Importe" />
+            android:layout_alignStart="@+id/lbl5Importe"
+            android:layout_below="@+id/rg5Pago" />
 
         <Button
             android:id="@+id/btn5Pagar"
