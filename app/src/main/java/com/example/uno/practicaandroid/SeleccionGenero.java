@@ -16,6 +16,7 @@ public class SeleccionGenero extends AppCompatActivity {
     TextView lblUser;
     Spinner spnGen;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
