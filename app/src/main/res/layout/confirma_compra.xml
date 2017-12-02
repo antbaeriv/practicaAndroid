@@ -40,7 +40,7 @@
             android:layout_below="@+id/lbl6Producto"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="42dp"
-            app:srcCompat="@android:drawable/checkbox_on_background" />
+            app:srcCompat="@drawable/home" />
 
         <TextView
             android:id="@+id/lbl6Resumen"
