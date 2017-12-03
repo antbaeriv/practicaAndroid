@@ -180,4 +180,7 @@
     <string name="lbl5MetodoPago1">Credit card</string>
     <string name="lbl5MetodoPago2">Cash</string>
     <string name="validez5Checkbox">You must select a paid method</string>
+    <string name="lbl5Seleccionar">Select a paid method:</string>
+    <string name="lbl5Importe">Price:</string>
+    <string name="btn5Pagar">Pay</string>
 </resources>

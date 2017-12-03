@@ -209,7 +209,7 @@
     <string name="lbl5Importe">Importe:</string>
     <string name="lbl5MetodoPago1">Tarjeta</string>
     <string name="lbl5MetodoPago2">Efectivo</string>
-    <string name="lbl5MetodoPago3">PayPal</string>
+    <string name="lbl5MetodoPago3" translatable="false">PayPal</string>
     <string name="btn5Pagar">Pagar</string>
 
     <string name="lblSpnEnlaces"></string>
