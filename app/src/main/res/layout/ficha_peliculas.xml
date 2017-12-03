@@ -101,8 +101,6 @@
         <ImageButton
             android:id="@+id/btn4Home"
             style="@style/BtnImagen"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
             android:layout_marginEnd="10dp"
@@ -114,8 +112,6 @@
         <ImageButton
             android:id="@+id/btn4Back"
             style="@style/BtnImagen"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="10dp"
             android:layout_marginStart="10dp"
@@ -126,9 +122,6 @@
         <Button
             android:id="@+id/btn4Alquiler"
             style="@style/BtnNormal"
-            android:layout_width="90dp"
-            android:layout_height="40dp"
-
             android:layout_alignStart="@+id/btn4AccEnlaces"
             android:layout_alignTop="@+id/btn4Back"
             android:onClick="alquilarPelicula"
@@ -145,10 +138,8 @@
         <Button
             android:id="@+id/btn4AccEnlaces"
             style="@style/BtnNormal"
-            android:layout_width="90dp"
-            android:layout_height="40dp"
             android:layout_alignEnd="@+id/btn4Home"
-            android:layout_below="@+id/lbl4DirectorPelicula"
+            android:layout_below="@+id/lbl4SinopsisPelicula"
             android:layout_marginTop="15dp"
             android:onClick="accederEnlace"
             android:text="@string/btn4AccEnlaces" />
