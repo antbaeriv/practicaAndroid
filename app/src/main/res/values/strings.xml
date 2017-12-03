@@ -8,11 +8,11 @@
     <string name="cat1">Acción</string>
     <string name="cat2">Drama</string>
     <string name="cat3">Ciencia Ficción</string>
-    <string name="administrador">Admin-Admin</string>
-    <string name="usuario1">Cifredo-Studium01</string>
-    <string name="usuario2">Gonzalez-Studium02</string>
-    <string name="usuario3">Baena-Studium03</string>
-    <string name="usuario4">Sureda-Studium04</string>
+    <string name="administrador" translatable="false">Admin-Admin</string>
+    <string name="usuario1" translatable="false">Cifredo-Studium01</string>
+    <string name="usuario2" translatable="false">Gonzalez-Studium02</string>
+    <string name="usuario3" translatable="false">Baena-Studium03</string>
+    <string name="usuario4" translatable="false">Sureda-Studium04</string>
     <string name="salir">Vuelva a presionar para salir</string>
 
     <string-array name="spinCriticas">
@@ -29,11 +29,6 @@
         <item>Ciencia Ficción</item>
     </string-array>
 
-    <string name="lbl4TituloPelicula">Terminator</string>
-    <string name="lbl4AnoPelicula">1984</string>
-    <string name="lbl4PaisPelicula">Estados Unidos</string>
-    <string name="lbl4DirectorPelicula">James Cameron</string>
-    <string name="lbl4InfoPelicula1">Los Ángeles, año 2029. Las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor, un hombre que nació en los años ochenta. Para acabar con la rebelión, las máquinas deciden enviar al pasado a un robot -Terminator- cuya misión será eliminar a Sarah Connor, la madre de John, e impedir así su nacimiento.</string>
     <string name="btn4Alquiler">Alquilar</string>
     <string name="btn4AccEnlaces">Ir</string>
 
@@ -215,5 +210,5 @@
     <string name="lblSpnEnlaces"></string>
 
     <string name="validez5Checkbox">Debe seleccionar una forma de pago</string>
-    <string name="seleccionPago">Has seleccionado como método de pago: </string>
+    <string name="seleccionPago">Pago realizado mediante:</string>
 </resources>
