@@ -59,8 +59,8 @@ public class FichaPeliculas extends AppCompatActivity {
         lblAnio = (TextView) findViewById(R.id.lbl4AnioPelicula);
         imgPelicula = (ImageView) findViewById(R.id.img4Pelicula);
         lblSinopsis = (TextView) findViewById(R.id.lbl4SinopsisPelicula);
-        atras = (ImageButton) findViewById(R.id.iBtn4Back);
-        home = (ImageButton) findViewById(R.id.iBtn4Home);
+        atras = (ImageButton) findViewById(R.id.btn4Back);
+        home = (ImageButton) findViewById(R.id.btn4Home);
         spnEnlaces = (Spinner) findViewById(R.id.spn4EnlacesPeliculas);
 
     }

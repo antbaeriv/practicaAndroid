@@ -46,7 +46,7 @@
             app:srcCompat="@drawable/home" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/btn2Avanzar"
             style="@style/BtnImagen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

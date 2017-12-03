@@ -9,7 +9,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class Portada extends AppCompatActivity {
-    TextView user, pass;
+    TextView txtUser, txtPass;
     int[] cuentas = {R.string.usuario1, R.string.usuario2, R.string.usuario3, R.string.usuario4, R.string.administrador};
     String cadena;
     String[] userPass;
@@ -24,8 +24,8 @@ public class Portada extends AppCompatActivity {
     }
 
     public void inicializarUI() {
-        user = (TextView) findViewById(R.id.txt1User);
-        pass = (TextView) findViewById(R.id.txt1Pass);
+        txtUser = (TextView) findViewById(R.id.txt1User);
+        txtPass = (TextView) findViewById(R.id.txt1Pass);
 
     }
 
@@ -33,13 +33,13 @@ public class Portada extends AppCompatActivity {
         for (int i = 0; i < cuentas.length; i++) {
             cadena = getString(cuentas[i]);
             userPass = cadena.split("-");
-            ok = ((user.getText().toString().equals(userPass[0])) && (pass.getText().toString().equals(userPass[1])));
+            ok = ((txtUser.getText().toString().equals(userPass[0])) && (txtPass.getText().toString().equals(userPass[1])));
             if(ok){break;}
         }
         int valor = ok ? R.string.autorizado : R.string.denegado;
         Toast.makeText(this, valor, Toast.LENGTH_SHORT).show();
         if (ok) {
-            String usuario = user.getText().toString();
+            String usuario = txtUser.getText().toString();
             Intent intencion = new Intent(getApplicationContext(), SeleccionGenero.class);
             intencion.putExtra("usuario", usuario);
             startActivity(intencion);

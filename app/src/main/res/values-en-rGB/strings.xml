@@ -10,7 +10,7 @@
 <string name="cat2">Drama</string>
 <string name="cat3">Sci-Fi</string>
 <string name="btn4Alquiler">Rent</string>
-<string name="btn4AccEnlaces">GO</string>
+<string name="btn4AccEnlaces">Go</string>
 <string name="wlc">Welcome,</string>
 <string name="volver2">Back</string>
 <string name="Seleccionar2">Select</string>
@@ -177,4 +177,7 @@
     <string name="lbl4lblPais">Country:</string>
     <string name="lbl4lblAnio">Year:</string>
     <string name="lbl4lblDirector">Director:</string>
+    <string name="lbl5MetodoPago1">Credit card</string>
+    <string name="lbl5MetodoPago2">Cash</string>
+    <string name="validez5Checkbox">You must select a paid method</string>
 </resources>
