@@ -68,7 +68,7 @@
         <TextView
             android:id="@+id/lbl5PeliculaAlquilada"
             android:layout_width="175dp"
-            android:layout_height="45dp"
+            android:layout_height="75dp"
             android:layout_below="@+id/btn5Home"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="21dp"

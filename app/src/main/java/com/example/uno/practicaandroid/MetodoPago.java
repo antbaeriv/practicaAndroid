@@ -59,9 +59,11 @@ public class MetodoPago extends AppCompatActivity {
             }else if(id==rbP.getId()){
                 nPago=R.string.lbl5MetodoPago3;
             }
+            Toast.makeText(this,getString(R.string.seleccionPago) + " " + getString(nPago), Toast.LENGTH_SHORT).show();
             intencion.putExtra("usuario",nombre);
             intencion.putExtra("pago",nPago.toString());
             startActivity(intencion);
+
         }else{
             Toast.makeText(this,R.string.validez5Checkbox, Toast.LENGTH_SHORT).show();
         }

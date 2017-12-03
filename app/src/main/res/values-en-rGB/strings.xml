@@ -14,7 +14,21 @@
 <string name="wlc">Welcome,</string>
 <string name="volver2">Back</string>
 <string name="Seleccionar2">Select</string>
-    <string name="salir">Press back again to exit</string>
+<string name="salir">Press back again to exit</string>
+
+    <string-array name="spinCriticas">
+        <item>See critics:</item>
+        <item>Filmaffinity</item>
+        <item>IMDB</item>
+        <item>RottenTomatoes</item>
+    </string-array>
+
+    <string-array name="spnGeneros">
+        <item>Choose a genres:</item>
+        <item>Action</item>
+        <item>Drama</item>
+        <item>Sci-Fi</item>
+    </string-array>
 
 <string name="tituloAC1">Gladiator</string>
 <string name="duracionAC1">150 min.</string>
