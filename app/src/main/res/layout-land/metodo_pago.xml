@@ -16,6 +16,9 @@
             android:layout_height="45dp"
             android:layout_below="@+id/btn5Home"
             android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="209dp"
             tools:layout_editor_absoluteY="50dp" />
 
@@ -51,33 +54,37 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <CheckBox
-            android:id="@+id/cbx5Pago1"
+        <RadioGroup
+            android:id="@+id/rg5Pago"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/lbl5Importe"
-            android:layout_alignBottom="@+id/lbl5Importe"
-            android:layout_toEndOf="@+id/btn5Back"
-            android:text="@string/lbl5MetodoPago1" />
+            android:layout_alignStart="@+id/lbl5Seleccionar"
+            android:layout_alignTop="@+id/lbl5Importe"
+            android:orientation="horizontal">
 
-        <CheckBox
-            android:id="@+id/cbx5Pago2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/cbx5Pago1"
-            android:layout_alignBottom="@+id/cbx5Pago1"
-            android:layout_marginStart="19dp"
-            android:layout_toEndOf="@+id/cbx5Pago1"
-            android:text="@string/lbl5MetodoPago2" />
+            <RadioButton
+                android:id="@+id/rbTarjeta"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lbl5MetodoPago1" />
 
-        <CheckBox
-            android:id="@+id/cbx5Pago3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/lbl5Importe"
-            android:layout_alignBottom="@+id/lbl5Importe"
-            android:layout_centerHorizontal="true"
-            android:text="@string/lbl5MetodoPago3" />
+            <RadioButton
+                android:id="@+id/rbEfectivo"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lbl5MetodoPago2" />
+
+            <RadioButton
+                android:id="@+id/rbPaypal"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/lbl5Seleccionar"
+                android:layout_alignTop="@+id/rg5Pago"
+                android:layout_weight="1"
+                android:text="@string/lbl5MetodoPago3" />
+        </RadioGroup>
 
         <TextView
             android:id="@+id/lbl5Importe"
@@ -95,12 +102,12 @@
             android:layout_width="75dp"
             android:layout_height="20dp"
             android:layout_alignStart="@+id/lbl5Importe"
-            android:layout_below="@+id/cbx5Pago3" />
+            android:layout_below="@+id/lbl5Importe" />
 
         <Button
             android:id="@+id/btn5Pagar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
             android:layout_alignBottom="@+id/btn5Back"
             android:layout_alignEnd="@+id/lbl5Precio"
             android:text="@string/btn5Pagar" />

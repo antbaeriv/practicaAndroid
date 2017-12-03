@@ -34,14 +34,14 @@ public class Portada extends AppCompatActivity {
             cadena = getString(cuentas[i]);
             userPass = cadena.split("-");
             ok = ((user.getText().toString().equals(userPass[0])) && (pass.getText().toString().equals(userPass[1])));
-
+            if(ok){break;}
         }
         int valor = ok ? R.string.autorizado : R.string.denegado;
         Toast.makeText(this, valor, Toast.LENGTH_SHORT).show();
         if (ok) {
             String usuario = user.getText().toString();
             Intent intencion = new Intent(getApplicationContext(), SeleccionGenero.class);
-            intencion.putExtra("Usuario", usuario);
+            intencion.putExtra("usuario", usuario);
             startActivity(intencion);
 
         }

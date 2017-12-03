@@ -14,19 +14,19 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class FichaPeliculas extends AppCompatActivity {
-    String titulo, anio, director, pais, sinopsis, url1, url2, url3;
+    String titulo, anio, director, pais, sinopsis, url1, url2, url3, nombre;
     int imagen;
     TextView lblSinopsis, lblTitulo, lblDirector, lblPais, lblAnio;
     ImageView imgPelicula;
     ImageButton atras, home;
-    String[]enlaces = {"Enlaces a criticas", "Filmaffinity", "IMDB", "Rotten Romatoes"};
     Spinner spnEnlaces;
-
+    ArrayAdapter<CharSequence> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ficha_peliculas);
+        nombre = getIntent().getStringExtra("usuario");
         titulo = getIntent().getStringExtra("titulo");
         anio = getIntent().getStringExtra("anio");
         pais = getIntent().getStringExtra("pais");
@@ -44,7 +44,9 @@ public class FichaPeliculas extends AppCompatActivity {
         lblPais.setText(pais);
         lblSinopsis.setText(sinopsis);
         imgPelicula.setImageResource(imagen);
-        spnEnlaces.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,enlaces));
+        adapter = ArrayAdapter.createFromResource(this, R.array.spinCriticas, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spnEnlaces.setAdapter(adapter);
 
 
     }
@@ -86,8 +88,7 @@ public class FichaPeliculas extends AppCompatActivity {
         }
     }
     public void mostrarInicio(View v) {
-        Intent i = getBaseContext().getPackageManager()
-                .getLaunchIntentForPackage( getBaseContext().getPackageName() );
+        Intent i = new Intent(getApplicationContext(),Portada.class);
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }
@@ -97,6 +98,9 @@ public class FichaPeliculas extends AppCompatActivity {
     }
     public void alquilarPelicula(View v) {
         Intent intencion = new Intent(getApplicationContext(), MetodoPago.class);
+        intencion.putExtra("titulo", titulo);
+        intencion.putExtra("imagen", imagen);
+        intencion.putExtra("usuario",nombre);
         startActivity(intencion);
     }
 }

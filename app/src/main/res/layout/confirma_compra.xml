@@ -8,7 +8,9 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
             android:id="@+id/lbl6gracias"
@@ -16,7 +18,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="85dp"
+            android:layout_marginTop="71dp"
+            android:gravity="center"
             android:text="@string/lbl6gracias"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="24sp"
@@ -25,19 +28,23 @@
         <TextView
             android:id="@+id/lbl6Producto"
             android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/lbl6gracias"
+            android:layout_height="50dp"
+            android:layout_below="@+id/img6Prod"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="81dp" />
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/btn6Exit"
+            style="@style/BtnImagen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/lbl6Producto"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="123dp"
-            app:srcCompat="@android:drawable/checkbox_on_background" />
+            android:layout_marginTop="15dp"
+            android:onClick="salirAlquiler"
+            app:srcCompat="@drawable/home" />
 
         <TextView
             android:id="@+id/lbl6Resumen"
@@ -45,11 +52,19 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/lbl6gracias"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="34dp"
+            android:layout_marginTop="20dp"
             android:text="@string/lbl6resumen"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img6Prod"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/lbl6Resumen"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

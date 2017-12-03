@@ -13,8 +13,27 @@
     <string name="usuario2">Gonzalez-Studium02</string>
     <string name="usuario3">Baena-Studium03</string>
     <string name="usuario4">Sureda-Studium04</string>
-    <string name="salir">Vuelva a presionar para salir</string>
+<string name="salir">Vuelva a presionar para salir</string>
 
+    <string-array name="spinCriticas">
+        <item>Ver críticas:</item>
+        <item>Filmaffinity</item>
+        <item>IMDB</item>
+        <item>RottenTomatoes</item>
+    </string-array>
+
+    <string-array name="spnGeneros">
+        <item>Seleccione un género</item>
+        <item>Acción</item>
+        <item>Drama</item>
+        <item>Ciencia Ficción</item>
+    </string-array>
+
+    <string name="lbl4TituloPelicula">Terminator</string>
+    <string name="lbl4AnoPelicula">1984</string>
+    <string name="lbl4PaisPelicula">Estados Unidos</string>
+    <string name="lbl4DirectorPelicula">James Cameron</string>
+    <string name="lbl4InfoPelicula1">Los Ángeles, año 2029. Las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor, un hombre que nació en los años ochenta. Para acabar con la rebelión, las máquinas deciden enviar al pasado a un robot -Terminator- cuya misión será eliminar a Sarah Connor, la madre de John, e impedir así su nacimiento.</string>
     <string name="btn4Alquiler">Alquilar</string>
     <string name="btn4AccEnlaces">Ir</string>
 
@@ -192,4 +211,10 @@
     <string name="lbl5MetodoPago2">Efectivo</string>
     <string name="lbl5MetodoPago3">PayPal</string>
     <string name="btn5Pagar">Pagar</string>
+
+    <string name="lblSpnEnlaces"></string>
+
+    <string name="validez5Checkbox">Debe seleccionar una forma de pago</string>
+
+    <string name="bienvenido">Bienvenido, </string>
 </resources>

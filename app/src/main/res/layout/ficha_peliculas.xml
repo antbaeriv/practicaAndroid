@@ -57,16 +57,17 @@
             android:id="@+id/lbl4AnioPelicula"
             android:layout_width="50dp"
             android:layout_height="20dp"
-            android:layout_alignStart="@+id/lbl4lblDirector"
-            android:layout_below="@+id/lbl4lblAnio" />
+            android:layout_alignEnd="@+id/lbl4lblDirector"
+            android:layout_below="@+id/lbl4lblAnio"
+            android:gravity="center" />
 
         <TextView
             android:id="@+id/lbl4lblDirector"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@+id/lbl4DirectorPelicula"
-            android:layout_alignEnd="@+id/lbl4PaisPelicula"
-            android:layout_marginEnd="13dp"
+            android:layout_alignEnd="@+id/lbl4DirectorPelicula"
+            android:layout_marginEnd="23dp"
             android:text="@string/lbl4lblDirector" />
 
         <TextView
@@ -75,7 +76,8 @@
             android:layout_height="20dp"
             android:layout_alignStart="@+id/img4Pelicula"
             android:layout_below="@+id/img4Pelicula"
-            android:layout_marginTop="22dp" />
+            android:layout_marginTop="22dp"
+            android:gravity="center" />
 
         <TextView
             android:id="@+id/lbl4DirectorPelicula"
@@ -83,7 +85,8 @@
             android:layout_height="20dp"
             android:layout_alignBottom="@+id/lbl4SinopsisPelicula"
             android:layout_alignStart="@+id/lbl4PaisPelicula"
-            android:layout_marginBottom="41dp" />
+            android:layout_marginBottom="41dp"
+            android:gravity="center" />
 
         <TextView
             android:id="@+id/lbl4SinopsisPelicula"
@@ -136,7 +139,8 @@
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_alignStart="@+id/lbl4lblDirector"
-            android:layout_alignTop="@+id/btn4AccEnlaces" />
+            android:layout_alignTop="@+id/btn4AccEnlaces"
+            android:spinnerMode="dialog" />
 
         <Button
             android:id="@+id/btn4AccEnlaces"
