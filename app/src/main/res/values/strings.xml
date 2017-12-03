@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">VideoStudium</string>
+    <string name="app_name" translatable="false">VideoStudium</string>
     <string name="lbl1User">Usuario:</string>
     <string name="lbl1Pass">Contraseña:</string>
     <string name="btn1Enter">Entrar</string>
@@ -45,7 +45,7 @@
     <string name="tituloAC1">Gladiator</string>
     <string name="duracionAC1">150 min.</string>
     <string name="paisAC1">Estados Unidos </string>
-    <string name="anioAC1">2000</string>
+    <string name="anioAC1" translatable="false">2000</string>
     <string name="directorAC1">Ridley Scott</string>
     <string name="sinopsisAC1">En el año 180, el Imperio Romano domina todo el mundo conocido. Tras una gran victoria sobre los bárbaros del norte, el anciano emperador Marco Aurelio (Richard Harris) decide transferir el poder a Máximo (Russell Crowe), bravo general de sus ejércitos y hombre de inquebrantable lealtad al imperio. Pero su hijo Cómodo (Joaquin Phoenix), que aspiraba al trono, no lo acepta y trata de asesinar a Máximo. </string>
     <string name="urlFilmAC1">https://www.filmaffinity.com/es/film392075.html</string>
@@ -55,7 +55,7 @@
     <string name="tituloAC2">Reservoir Dogs</string>
     <string name="duracionAC2">99 min.</string>
     <string name="paisAC2">Estados Unidos</string>
-    <string name="anioAC2">1992</string>
+    <string name="anioAC2" translatable="false">1992</string>
     <string name="directorAC2">Quentin Tarantino</string>
     <string name="sinopsisAC2">Una banda organizada es contratada para atracar una empresa y llevarse unos diamantes. Sin embargo, antes de que suene la alarma, la policía ya está allí. Algunos miembros de la banda mueren en el enfrentamiento con las fuerzas del orden, y los demás se reúnen en el lugar convenido.</string>
     <string name="urlFilmAC2">https://www.filmaffinity.com/es/film137887.html</string>
@@ -65,7 +65,7 @@
     <string name="tituloAC3">Terminator</string>
     <string name="duracionAC3">108 min.</string>
     <string name="paisAC3">Estados Unidos</string>
-    <string name="anioAC3">1984</string>
+    <string name="anioAC3" translatable="false">1984</string>
     <string name="directorAC3">James Cameron</string>
     <string name="sinopsisAC3">Los Ángeles, año 2029. Las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor, un hombre que nació en los años ochenta. Para acabar con la rebelión, las máquinas deciden enviar al pasado a un robot -Terminator- cuya misión será eliminar a Sarah Connor, la madre de John, e impedir así su nacimiento. </string>
     <string name="urlFilmAC3">https://www.filmaffinity.com/es/film304107.html</string>
@@ -75,7 +75,7 @@
     <string name="tituloAC4">Shooter</string>
     <string name="duracionAC4">124 min.</string>
     <string name="paisAC4">Estados Unidos</string>
-    <string name="anioAC4">2007</string>
+    <string name="anioAC4" translatable="false">2007</string>
     <string name="directorAC4">Antoine Fuqua</string>
     <string name="sinopsisAC4">Bob Lee Swagger (Mark Whalberg) es un ex-tirador de élite del ejército de los Estados Unidos que abandona las fuerzas armadas después del fracaso de una misión extraoficial. Cuando le piden que se reincorpore, regresa al servicio a regañadientes, pero vuelven a engañarlo. A pesar de llevar dos balas en el cuerpo y de ser el objetivo de una caza a nivel nacional, Swagger planea su venganza... </string>
     <string name="urlFilmAC4">https://www.filmaffinity.com/es/film609118.html</string>
@@ -85,7 +85,7 @@
     <string name="tituloAC5">Léon</string>
     <string name="duracionAC5">106 min.</string>
     <string name="paisAC5">Francia</string>
-    <string name="anioAC5">1994</string>
+    <string name="anioAC5" translatable="false">1994</string>
     <string name="directorAC5">Luc Besson</string>
     <string name="sinopsisAC5">Mathilda es una niña de doce años que no se lleva bien con su familia, excepto con su hermano pequeño. Su padre es un narcotraficante que hace negocios con Stan, un corrupto agente de la D.E.A. (Departamento gubernamental contra las drogas). Un día, mientras Mathilda está en un supermercado, Stan mata a su familia.</string>
     <string name="urlFilmAC5">https://www.filmaffinity.com/es/film629496.html</string>
@@ -95,7 +95,7 @@
     <string name="tituloDM1">Cadena perpetua</string>
     <string name="duracionDM1">142 min.</string>
     <string name="paisDM1">Estados Unidos </string>
-    <string name="anioDM1">1994</string>
+    <string name="anioDM1" translatable="false">1994</string>
     <string name="directorDM1">Frank Darabont</string>
     <string name="sinopsisDM1">Acusado del asesinato de su mujer, Andrew Dufresne (Tim Robbins), tras ser condenado a cadena perpetua, es enviado a la cárcel de Shawshank. Con el paso de los años conseguirá ganarse la confianza del director del centro y el respeto de sus compañeros de prisión, especialmente de Red (Morgan Freeman), el jefe de la mafia de los sobornos. </string>
     <string name="urlFilmDM1">https://www.filmaffinity.com/es/film161026.html</string>
@@ -105,7 +105,7 @@
     <string name="tituloDM2">Casablanca</string>
     <string name="duracionDM2">102 min.</string>
     <string name="paisDM2">Estados Unidos</string>
-    <string name="anioDM2">1942</string>
+    <string name="anioDM2" translatable="false">1942</string>
     <string name="directorDM2">Michael Curtiz</string>
     <string name="sinopsisDM2">Años 40. A consecuencia de la Segunda Guerra Mundial, Casablanca era una ciudad a la que llegaban huyendo del nazismo gente de todas partes: llegar era fácil, pero salir era casi imposible, especialmente si el nombre del fugitivo figuraba en las listas de la Gestapo, que presionaba a la autoridades francesas al mando del corrupto inspector Renault. En este caso, el objetivo de la policía secreta alemana es el líder checo y héroe de la resistencia Victor Laszlo, cuya única esperanza es Rick Blaine, propietario del "Rick’s Café" y antiguo amante de su mujer, Ilsa Lund. Rick e Ilsa se habían conocido en París, pero la entrada de las tropas alemanas en la capital francesa les separó.</string>
     <string name="urlFilmDM2">https://www.filmaffinity.com/es/film165208.html</string>
@@ -115,7 +115,7 @@
     <string name="tituloDM3">Cisne Negro</string>
     <string name="duracionDM3">109 min.</string>
     <string name="paisDM3">Estados Unidos</string>
-    <string name="anioDM3">2010</string>
+    <string name="anioDM3" translatable="false">2010</string>
     <string name="directorDM3">Darren Aronofsky</string>
     <string name="sinopsisDM3">Nina (Natalie Portman), una brillante bailarina que forma parte de una compañía de ballet de Nueva York, vive completamente absorbida por la danza. La presión de su controladora madre (Barbara Hershey), la rivalidad con su compañera Lily (Mila Kunis) y las exigencias del severo director (Vincent Cassel) se irán incrementando a medida que se acerca el día del estreno. Esta tensión provoca en Nina un agotamiento nervioso y una confusión mental que la incapacitan para distinguir entre realidad y ficción. </string>
     <string name="urlFilmDM3">https://www.filmaffinity.com/es/film458406.html</string>
@@ -125,7 +125,7 @@
     <string name="tituloDM4">Lo Imposible</string>
     <string name="duracionDM4">107 min.</string>
     <string name="paisDM4">España</string>
-    <string name="anioDM4">2012</string>
+    <string name="anioDM4" translatable="false">2012</string>
     <string name="directorDM4">José Antonio Bayona</string>
     <string name="sinopsisDM4">Diciembre del año 2004. María (Naomi Watts), Henry (Ewan McGregor) y sus tres hijos pequeños vuelan desde Japón a Tailandia para pasar las vacaciones de Navidad en la playa. Una mañana, mientras se encuentran todos en la piscina del complejo a orillas del mar, un tremendo tsunami destroza el hotel y gran parte de la costa del sudeste asiático. Este desastre cambió para siempre la vida de millones de personas. Esta es sólo la historia de una familia.</string>
     <string name="urlFilmDM4">https://www.filmaffinity.com/es/film329915.html</string>
@@ -135,7 +135,7 @@
     <string name="tituloDM5">Titanic</string>
     <string name="duracionDM5">195 min.</string>
     <string name="paisDM5">Estados Unidos</string>
-    <string name="anioDM5">1997</string>
+    <string name="anioDM5" translatable="false">1997</string>
     <string name="directorDM5">James Cameron</string>
     <string name="sinopsisDM5">Jack (DiCaprio), un joven artista, gana en una partida de cartas un pasaje para viajar a América en el Titanic, el transatlántico más grande y seguro jamás construido. A bordo conoce a Rose (Kate Winslet), una joven de una buena familia venida a menos que va a contraer un matrimonio de conveniencia con Cal (Billy Zane), un millonario engreído a quien sólo interesa el prestigioso apellido de su prometida. Jack y Rose se enamoran, pero el prometido y la madre de ella ponen todo tipo de trabas a su relación. Mientras, el gigantesco y lujoso trasatlántico se aproxima hacia un inmenso iceberg.</string>
     <string name="urlFilmDM5">https://www.filmaffinity.com/es/film814379.html</string>
@@ -145,7 +145,7 @@
     <string name="tituloSF1">Rogue One: Una Historia de Star Wars</string>
     <string name="duracionSF1">133 min.</string>
     <string name="paisSF1">Estados Unidos.</string>
-    <string name="anioSF1">2016.</string>
+    <string name="anioSF1" translatable="false">2016.</string>
     <string name="directorSF1">Gareth Edwards.</string>
     <string name="sinopsisSF1">El Imperio Galáctico ha terminado de construir el arma más poderosa de todas, la Estrella de la muerte, pero un grupo de rebeldes decide realizar una misión de muy alto riesgo: robar los planos de dicha estación antes de que entre en operaciones, mientras se enfrentan también al poderoso Lord Sith conocido como Darth Vader, discípulo del despiadado Emperador Palpatine. Film ambientado entre los episodios III y IV de Star Wars.</string>
 
@@ -156,7 +156,7 @@
     <string name="tituloSF2">2001 Una Odisea en el espacio</string>
     <string name="duracionSF2">139 min.</string>
     <string name="paisSF2">Reino Unido</string>
-    <string name="anioSF2">1968</string>
+    <string name="anioSF2" translatable="false">1968</string>
     <string name="directorSF2">Stanley Kubrik</string>
     <string name="sinopsisSF2">La película de ciencia-ficción por excelencia de la historia del cine narra los diversos periodos de la historia de la humanidad, no sólo del pasado, sino también del futuro. Hace millones de años, antes de la aparición del "homo sapiens", unos primates descubren un monolito que los conduce a un estadio de inteligencia superior. Millones de años después, otro monolito, enterrado en una luna, despierta el interés de los científicos. Por último, durante una misión de la NASA, HAL 9000, una máquina dotada de inteligencia artificial, se encarga de controlar todos los sistemas de una nave espacial tripulada.</string>
 
@@ -167,9 +167,9 @@
     <string name="tituloSF3">Star Trek: Primer contacto</string>
     <string name="duracionSF3">111 min.</string>
     <string name="paisSF3">Estados Unidos</string>
-    <string name="anioSF3">1996</string>
+    <string name="anioSF3" translatable="false">1996</string>
     <string name="directorSF3">Jonathan Frakes</string>
-    <string name="sinopsisSF3">La USS-Enterprise se encuentra explorando el espacio, cuando recibe la noticia de que se ha detectado la presencia de un Cubo Borg dirigiéndose hacia la Tierra. El Alto Mando de la flota ordena a Picard que se dirijan a la Zona Neutral para el caso de que los romulanos decidan aprovechar la situación y ataquen a la Federación. Pero en realidad el Alto Mando desconfía de que Picard ayude al enemigo, debido a su anterior asimilación en el colectivo Borg. Cuando la Tierra es atacada y la flota no puede hacer frente a la amenaza, Picard desoye las órdenes y se enfrenta al Borg, liderando la flota en el ataque. El cubo Borg es destruido, pero una pequeña porción escapa y genera un túnel temporal hacia el pasado hasta el año 2063, con el fin de evitar que el Dr. Zefram Cochrane realice el primer viaje a velocidad de curvatura, y contacte con la primera raza extraterrestre. Picard y su tripulación deberán viajar al pasado para restablecer el tiempo y hacer frente a la amenaza Borg en el pasado.</string>
+    <string name="sinopsisSF3" translatable="false">La USS-Enterprise se encuentra explorando el espacio, cuando recibe la noticia de que se ha detectado la presencia de un Cubo Borg dirigiéndose hacia la Tierra. El Alto Mando de la flota ordena a Picard que se dirijan a la Zona Neutral para el caso de que los romulanos decidan aprovechar la situación y ataquen a la Federación. Pero en realidad el Alto Mando desconfía de que Picard ayude al enemigo, debido a su anterior asimilación en el colectivo Borg. Cuando la Tierra es atacada y la flota no puede hacer frente a la amenaza, Picard desoye las órdenes y se enfrenta al Borg, liderando la flota en el ataque. El cubo Borg es destruido, pero una pequeña porción escapa y genera un túnel temporal hacia el pasado hasta el año 2063, con el fin de evitar que el Dr. Zefram Cochrane realice el primer viaje a velocidad de curvatura, y contacte con la primera raza extraterrestre. Picard y su tripulación deberán viajar al pasado para restablecer el tiempo y hacer frente a la amenaza Borg en el pasado.</string>
 
     <string name="urlFilmSF3">https://www.filmaffinity.com/es/film880655.html</string>
     <string name="urlIMDBSF3">http://www.imdb.com/title/tt0117731/?ref_=nv_sr_1</string>
@@ -178,7 +178,7 @@
     <string name="tituloSF4">Blade Runner</string>
     <string name="duracionSF4">117 min.</string>
     <string name="paisSF4">Estados Unidos</string>
-    <string name="anioSF4">1982</string>
+    <string name="anioSF4" translatable="false">1982</string>
     <string name="directorSF4">Ridley Scott</string>
     <string name="sinopsisSF4">A principios del siglo XXI, la poderosa Tyrell Corporation creó, gracias a los avances de la ingeniería genética, un robot llamado Nexus 6, un ser virtualmente idéntico al hombre pero superior a él en fuerza y agilidad, al que se dio el nombre de Replicante. Estos robots trabajaban como esclavos en las colonias exteriores de la Tierra. Después de la sangrienta rebelión de un equipo de Nexus-6, los Replicantes fueron desterrados de la Tierra. Brigadas especiales de policía, los Blade Runners, tenían órdenes de matar a todos los que no hubieran acatado la condena. Pero a esto no se le llamaba ejecución, se le llamaba "retiro". Tras un grave incidente, el ex Blade Runner Rick Deckard es llamado de nuevo al servicio para encontrar y "retirar" a unos replicantes rebeldes.</string>
 
@@ -189,7 +189,7 @@
     <string name="tituloSF5">Matrix</string>
     <string name="duracionSF5">131 min.</string>
     <string name="paisSF5">Estados Unidos</string>
-    <string name="anioSF5">1999</string>
+    <string name="anioSF5" translatable="false">1999</string>
     <string name="directorSF5">Hermanas Wachowski</string>
     <string name="sinopsisSF5">Thomas Anderson es un brillante programador de una respetable compañía de software. Pero fuera del trabajo es Neo, un hacker que un día recibe una misteriosa visita...</string>
 

@@ -1,16 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">VideoStudium</string>
     <string name="lbl1User">Benutzer</string>
     <string name="lbl1Pass">Passwort</string>
     <string name="btn1Enter">EinTragen</string>
     <string name="autorizado">"Autorisierter Zugriff "</string>
     <string name="denegado">"Zugriff verweigert "</string>
-    <string name="lbl4TituloPelicula">Terminator</string>
-    <string name="lbl4AnoPelicula">1984</string>
-    <string name="lbl4PaisPelicula">USA</string>
-    <string name="lbl4InfoPelicula1">Los Angeles, Jahr 2029. Maschinen beherrschen die Welt.  Die Rebellen kämpfen sie haben als Führer John Connor, ein Mann, der in den achtziger Jahren geboren wurde. Um den Aufstand zu beenden, beschließen Maschinen, in die Vergangenheit in einem Roboter - Terminator - zu schicken, deren Mission zu beseitigen Johns Mutter Sarah Connor und damit verhindern, dass seine Geburt sein wird.</string>
     <string name="btn4Alquiler">Miete</string>
     <string name="wlc">Willkommen</string>
     <string name="volver2">Rückkehr</string>
+    <string name="sinopsisAC3">Los Angeles, Jahr 2029. Maschinen beherrschen die Welt. Die Rebellen kämpfen sie haben als Führer John Connor, ein Mann, der in den achtziger Jahren geboren wurde. Um den Aufstand zu beenden, beschließen Maschinen, in die Vergangenheit in einem Roboter - Terminator - zu schicken, deren Mission zu beseitigen Johns Mutter Sarah Connor und damit verhindern, dass seine Geburt sein wird.</string>
+    <string name="btn4AccEnlaces">Gehen</string>
+    <string name="btn5Pagar">Zahlen</string>
+    <string name="casa">Haus</string>
+    <string name="cat1">Aktion</string>
+    <string name="cat2">Drama</string>
+    <string name="cat3">Sci-fi</string>
+    <string name="directorAC1">Ridley Scott</string>
+    <string name="directorAC2">Quentin Tarantino</string>
+    <string name="directorAC3">James Cameron</string>
+    <string name="directorAC4">Antoine Fuqua</string>
+    <string name="directorAC5">Luc Besson</string>
+    <string name="directorDM1">Frank Darabont</string>
+    <string name="directorDM2">Michael Curtiz</string>
+    <string name="directorDM3">Darren Aronofsky</string>
+    <string name="directorDM4">José Antonio Bayona</string>
+    <string name="directorDM5">James Cameron</string>
+    <string name="directorSF1">Gareth Edwards</string>
+    <string name="directorSF2">Stanley Kubrik</string>
+    <string name="directorSF3">Jonathan Frakes</string>
+    <string name="directorSF4">Ridley Scott</string>
+    <string name="directorSF5">Wachowski Schwestern</string>
+    <string name="duracionAC1">150 min.</string>
+    <string name="duracionAC2">" 99 min."</string>
+    <string name="duracionAC3">" 108 min."</string>
+    <string name="duracionAC4">124 min.</string>
+    <string name="duracionAC5">106 min.</string>
+    <string name="duracionDM1">142 min.</string>
+    <string name="duracionDM2">" 102 min."</string>
+    <string name="duracionDM3">109 min.</string>
+    <string name="duracionDM4">107 min.</string>
+    <string name="duracionDM5">195 min.</string>
+    <string name="duracionSF1">133 min.</string>
+    <string name="duracionSF2">139 min.</string>
+    <string name="duracionSF3">111 min.</string>
+    <string name="duracionSF4">117 min.</string>
+    <string name="duracionSF5">131 min.</string>
+    <string name="imagenInfo">Plakat</string>
+    <string name="lbl4lblAnio">Jahre:</string>
+    <string name="lbl4lblDirector">Filmregisseur:</string>
+    <string name="lbl4lblPais">Land:</string>
+    <string name="lbl5Importe">Preis: 3.65 €</string>
+    <string name="lbl5MetodoPago1">Kreditkarte</string>
+    <string name="lbl5MetodoPago2">Bargeld</string>
+    <string name="lbl5Seleccionar">Wählen Sie Ihre Zahlungsmethode:</string>
+    <string name="lbl6gracias">Danke für ihre Miete</string>
+    <string name="lbl6resumen">Mietprodukt</string>
+    <string name="paisAC1">USA</string>
+    <string name="paisAC2">USA</string>
+    <string name="paisAC3">USA</string>
+    <string name="paisAC4">USA</string>
+    <string name="paisAC5">Frankreich</string>
+    <string name="paisDM1">USA</string>
+    <string name="paisDM2">USA</string>
+    <string name="paisDM3">USA</string>
+    <string name="paisDM4">Spanien</string>
+    <string name="paisDM5">USA</string>
+    <string name="paisSF1">USA</string>
+    <string name="paisSF2">Vereinigtes Königreich</string>
+    <string name="paisSF3">USA</string>
+    <string name="paisSF4">USA</string>
+    <string name="paisSF5">USA</string>
+    <string name="salir">Drücken Sie erneut zum Beenden</string>
+    <string name="Seleccionar2">Wählen</string>
+    <string name="seleccionPago">Zahlung per</string>
+    <string name="sinopsisAC1">Im Jahr 180 dominiert das römische Reich in der ganzen Welt bekannt. Nach einem großen Sieg über die Barbaren des Nordens, die älteren Kaiser Marcus Aurelius (Richard Harris) beschließt, die Macht auf Max (Russell Crowe), Bravo general seiner Armeen und Mann der unerschütterliche Loyalität gegenüber dem Kaiserreich zu übertragen. Aber Ihr Kind komfortabel (Joaquin Phoenix), die den Thron anstrebte, akzeptiert es nicht und versucht Max zu töten.</string>
+    <string name="sinopsisAC2">Eine organisierte Bande wird angeheuert, um ein Unternehmen zu berauben und nehmen ein paar Diamanten. Doch bis der Alarm ertönt, die Polizei bereits dort. Einige Mitglieder der Band sterben in der Konfrontation mit den Mächten der Ordnung und andere am vereinbarten Ort zu sammeln.</string>
+    <string name="sinopsisAC4">Bob Lee Swagger (Mark Whalberg) ist ein Ex-Tirador von der Elite der Armee der Vereinigten Staaten, die Streitkräfte nach dem Scheitern einer inoffiziellen Mission lässt. Wenn Sie Fragen, denn es zugegeben werden, täuschen kehrt in den Dienst widerwillig, aber wieder Sie. Trotz des Habens von zwei Kugeln in den Körper und das Ziel einer bundesweiten Jagd sein, Swagger plant seine Rache...</string>
+    <string name="sinopsisAC5">Mathilda ist ein zwölf Jahre altes Mädchen, die nicht zusammen mit seiner Familie, mit Ausnahme von ihren kleinen Bruder bekommen. Sein Vater ist ein Drogendealer Geschäfte mit Stan, eine korrupte Agent der DEA (Government Department gegen Drogen). Eines Tages, während Mathilda befindet sich ein Supermarkt, tötet Stan seine Familie.</string>
+    <string name="sinopsisDM1">Der Mord an seiner Frau beschuldigt, ist Andrew Dufresne (Tim Robbins), nachdem er zu lebenslanger Haft verurteilt Shawshank Gefängnis geschickt. Im Laufe der Jahre gewinnen Sie das Vertrauen der Direktor des Zentrums und den Respekt der Mitgefangenen, vor allem der Red (Morgan Freeman), der Kopf der Mafia an Bestechungsgeldern.</string>
+    <string name="sinopsisDM2">40. Durch den zweiten Weltkrieg Casablanca war eine Stadt, die kam, Nationalsozialismus Menschen überall auf der Flucht: Reichweite war einfach, aber Ausgang war fast unmöglich, vor allem, wenn der Name des der Flüchtling in Listen der Gestapo,, die aufgenommen wurde an gedrängt die französischen Behörden unter dem Kommando des korrupten Inspektors Renault. In diesem Fall soll der deutschen Geheimpolizei der Tschechischen Führer und Held des Widerstands Victor Laszlo, deren einzige Hoffnung Rick Blaine, Besitzer von Ricks Cafe und ehemaligen Liebhaber seiner Frau Ilsa Lund ist. Rick und Ilsa in Paris kennengelernt hatte, aber der Einmarsch der deutschen Truppen in der französischen Hauptstadt trennte sie.</string>
+    <string name="sinopsisDM3">Nina (Natalie Portman), ein brillanter Tänzer, einem New Yorker Ballett Unternehmen gehört, lebt von Tanz vollständig absorbiert. Druck von der Muttergesellschaft Mutter (Barbara Hershey), die Rivalität mit seinem Partner Lily (Mila Kunis) und Forderungen nach schweren Direktor (Vincent Cassel) ist wird, nähert sich der Tag der Premiere erhöhen. Diese Spannung bewirkt, dass Mädchen ein nervöser Erschöpfung und geistige Verwirrung, die es zu unterscheiden zwischen Realität und Fiktion zu deaktivieren.</string>
+    <string name="sinopsisDM4">Dezember 2004. Maria (Naomi Watts), Henry (Ewan McGregor) und ihre drei kleinen Kinder aus Japan nach Thailand fliegen zu die Weihnachtsferien am Strand zu verbringen. Eines morgens, sind während alle in den Pool der Anlage am Ufer des Meeres, ein enormer Tsunami zerstört das Hotel und viel von der Küste von Südostasien. Diese Katastrophe verändert die Leben von Millionen von Menschen. Dies ist nur die Geschichte einer Familie.</string>
+    <string name="sinopsisDM5">Jack (DiCaprio), ein junger Künstler, gewinnt eine Passage in einem Spiel der Karten, die Reise nach Amerika auf der Titanic, das größte und sicherste Liner, die jemals gebaut wurde. An Bord trifft Rose (Kate Winslet), eine junge Frau aus eine gute Familie kommen, es sei denn, Sie mit Cal (Billy Zane), ein Millionär großspurig eine Vernunftehe eingehen werden, die wollen nur des renommierten namens seiner Verlobten. Jack und Rose verlieben sich ineinander, aber der Verlobte und ihre Mutter legte allerlei Hindernisse für ihre Beziehung. In der Zwischenzeit, die riesig und luxuriös transatlantischen Ansätze für einen riesigen Eisberg.</string>
+    <string name="sinopsisSF1">Das Galaktische Imperium hat die stärkste Waffe von allen, den Todesstern, aber beschlossen, dass eine Gruppe von Rebellen eine sehr risikoreiche Mission durchzuführen: die Pläne der Station zu stehlen, bis du in Betrieb, kommst während sie auch Gesicht die mächtigen Sith-Lord bekannt als Darth Vader, Schüler von der rücksichtslosen Imperator Palpatine. Der Film ist zwischen den Episoden III und IV von Star Wars eingestellt.</string>
+    <string name="sinopsisSF3">Die USS Enterprise ist Erforschung des Weltraums, wenn er die Nachricht erhält, die die Anwesenheit von ein Borg-Kubus Richtung Erde erkannt. Das Oberkommando der Flotte befiehlt Picard zu gehen, die neutrale Zone im Fall, dass die Romulaner beschließen, die Situation ausnutzen und die Föderation angegriffen. Aber eigentlich ist das Oberkommando verdächtige von Picard, den Feind aufgrund ihrer vorherigen Assimilation in die kollektive Borg zu helfen. Wenn die Erde angegriffen und die Flotte damit nicht mit der Drohung umgehen kann, Picard ignoriert Aufträge und konfrontiert die Borg, führt die Flotte in den Angriff. Der Borg-Kubus zerstört wird, aber ein kleiner Teil entkommt und erzeugt einen temporäre Tunnel zurück bis ins Jahr 2063, um zu verhindern, dass Dr. Zefram Cochrane machte die erste Reise nach Geschwindigkeit der Krümmung und Kontakt mit dem ersten alien-Rasse. Picard und seine Crew müssen Reisen zurück in die Zeit um die Rückstellzeit und befassen sich mit den Borg Bedrohung in der Vergangenheit.</string>
+    <string name="sinopsisSF2">Der Sci-Fi-Film par excellence von der Geschichte des Kinos erzählt die verschiedenen Perioden der Geschichte der Menschheit, nicht nur von der Vergangenheit, sondern auch der Zukunft. Vor Millionen Jahren vor der Entstehung des Homo Sapiens, einige Primaten entdeckt einen Monolith, der sie zum Stadion von überlegener Intelligenz führt. Millionen Jahre später, weckt eine weitere Monolith begraben in einem Mond das Interesse der Wissenschaftler. Schließlich, während einer Mission der NASA, HAL 9000, eine Maschine mit künstlicher Intelligenz, verpflichtet sich, alle Systeme eines bemannten Raumschiffs zu steuern.</string>
+    <string name="sinopsisSF4">Zu Beginn des 21 Jahrhunderts, die mächtige Tyrell Corporation erstellt, dank der Fortschritte in der Gentechnik, einen Roboter namens Nexus 6, ein Wesen praktisch identisch zu den Mann, aber besser als es in Stärke und Beweglichkeit, die gab den Namen von Replicant. Diese Roboter in ausländischen Kolonien der Erde als Sklaven arbeiten. Nach dem blutigen Aufstand eines Nexus-6 Teams wurden die Replikatoren von der Erde verbannt. Spezielle Brigaden der Polizei, die Blatt-Läufer hatten Befehl, jeden zu töten, die den Satz nicht eingehalten hatte. Aber diese Ausführung hieß Sie nicht, Retreat hieß. Nach einem schweren Vorfall ist die ehemalige Blade Runner Rick Deckard wieder aufgerufen, den Dienst zu finden und entfernen einige Replikanten Rebellen.</string>
+    <string name="sinopsisSF5">Thomas Anderson ist eine brillante Programmierer einer respektablen Softwarefirma. Aber außerhalb der Arbeit Neo, ein Hacker, der eines Tages eine geheimnisvolle bekommt Besuch...</string>
+    <string name="tituloAC1">Gladiator</string>
+    <string name="tituloAC2">Reservoir Dogs</string>
+    <string name="tituloAC3">Terminator</string>
+    <string name="tituloAC4">Shooter</string>
+    <string name="tituloAC5">Leon</string>
+    <string name="tituloDM1">Die verurteilten</string>
+    <string name="tituloDM2">Casablanca</string>
+    <string name="tituloDM3">Schwarzer Schwan</string>
+    <string name="tituloDM4">Das Unmögliche</string>
+    <string name="tituloDM5">Titanic</string>
+    <string name="tituloSF1">Rogue One: A Star Wars Story</string>
+    <string name="tituloSF2">2001: Odyssee im Weltraum</string>
+    <string name="tituloSF3">Star Trek: Der erste Kontakt</string>
+    <string name="tituloSF4">Blade Runner</string>
+    <string name="tituloSF5">Matrix</string>
+    <string name="urlFilmAC1">https://www.filmaffinity.com/en/film392075.html</string>
+    <string name="urlFilmAC2">https://www.filmaffinity.com/en/film137887.html</string>
+    <string name="urlFilmAC3">https://www.filmaffinity.com/en/film304107.html</string>
+    <string name="urlFilmAC4">https://www.filmaffinity.com/en/film609118.html</string>
+    <string name="urlFilmAC5">https://www.filmaffinity.com/en/film629496.html</string>
+    <string name="urlFilmDM1">https://www.filmaffinity.com/en/film161026.html</string>
+    <string name="urlFilmDM2">https://www.filmaffinity.com/en/film165208.html</string>
+    <string name="urlFilmDM3">https://www.filmaffinity.com/en/film458406.html</string>
+    <string name="urlFilmDM4">https://www.filmaffinity.com/en/film329915.html</string>
+    <string name="urlFilmDM5">https://www.filmaffinity.com/en/film814379.html</string>
+    <string name="urlFilmSF1">https://www.filmaffinity.com/en/film769224.html</string>
+    <string name="urlFilmSF2">https://www.filmaffinity.com/en/film171099.html</string>
+    <string name="urlFilmSF3">https://www.filmaffinity.com/en/film880655.html</string>
+    <string name="urlFilmSF4">https://www.filmaffinity.com/en/film358476.html</string>
+    <string name="urlFilmSF5">https://www.filmaffinity.com/en/film932476.html</string>
+    <string name="urlIMDBAC1">http://www.imdb.com/title/tt0172495/?ref_=fn_al_tt_1</string>
+    <string name="urlIMDBAC2">http://www.imdb.com/title/tt0105236/?ref_=nv_sr_1</string>
+    <string name="urlIMDBAC3">http://www.imdb.com/title/tt0088247/?ref_=fn_al_tt_1</string>
+    <string name="urlIMDBAC4">http://www.imdb.com/title/tt0822854/?ref_=nv_sr_2</string>
+    <string name="urlIMDBAC5">http://www.imdb.com/title/tt0110413/?ref_=nv_sr_2</string>
+    <string name="urlIMDBDM1">http://www.imdb.com/title/tt0111161/</string>
+    <string name="urlIMDBDM2">http://www.imdb.com/title/tt0034583/?ref_=nv_sr_1</string>
+    <string name="urlIMDBDM3">http://www.imdb.com/title/tt0947798/?ref_=nv_sr_1</string>
+    <string name="urlIMDBDM4">http://www.imdb.com/title/tt1649419/?ref_=nv_sr_1</string>
+    <string name="urlIMDBDM5">http://www.imdb.com/title/tt0120338/?ref_=nv_sr_1</string>
+    <string name="urlIMDBSF1">http://www.imdb.com/title/tt3748528/?ref_=nv_sr_2</string>
+    <string name="urlIMDBSF2">http://www.imdb.com/title/tt0062622/?ref_=nv_sr_1</string>
+    <string name="urlIMDBSF3">http://www.imdb.com/title/tt0117731/?ref_=nv_sr_1</string>
+    <string name="urlIMDBSF4">http://www.imdb.com/title/tt0083658/?ref_=nv_sr_2</string>
+    <string name="urlIMDBSF5">http://www.imdb.com/title/tt0133093/?ref_=nv_sr_1</string>
+    <string name="urlRTAC1">https://www.rottentomatoes.com/m/gladiator</string>
+    <string name="urlRTAC2">https://www.rottentomatoes.com/m/reservoir_dogs</string>
+    <string name="urlRTAC3">https://www.rottentomatoes.com/franchise/terminator</string>
+    <string name="urlRTAC4">https://www.rottentomatoes.com/m/shooter</string>
+    <string name="urlRTAC5">https://www.rottentomatoes.com/m/leon_the_professional</string>
+    <string name="urlRTDM1">https://www.rottentomatoes.com/m/shawshank_redemption/</string>
+    <string name="urlRTDM2">https://www.rottentomatoes.com/m/1003707_casablanca?</string>
+    <string name="urlRTDM3">https://www.rottentomatoes.com/m/black_swan_2010</string>
+    <string name="urlRTDM4">https://www.rottentomatoes.com/m/the_impossible_2012</string>
+    <string name="urlRTDM5">https://www.rottentomatoes.com/m/titanic</string>
+    <string name="urlRTSF1">https://www.rottentomatoes.com/m/rogue_one_a_star_wars_story</string>
+    <string name="urlRTSF2">https://www.rottentomatoes.com/m/1000085_2001_a_space_odyssey?</string>
+    <string name="urlRTSF3">https://www.rottentomatoes.com/m/star_trek_first_contact</string>
+    <string name="urlRTSF4">https://www.rottentomatoes.com/m/blade_runner</string>
+    <string name="urlRTSF5">https://www.rottentomatoes.com/m/matrix</string>
+    <string name="validez">Der ausgewählte Wert ist nicht gültig</string>
+    <string name="validez5Checkbox">Sie müssen eine kostenpflichtige Methode auswählen.</string>
 </resources>
