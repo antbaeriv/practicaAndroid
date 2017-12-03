@@ -41,7 +41,7 @@
             android:layout_below="@+id/lbl6Producto"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
-            android:onClick="salirAlquiler"
+            android:onClick="volverInicio"
             app:srcCompat="@drawable/home" />
 
         <TextView

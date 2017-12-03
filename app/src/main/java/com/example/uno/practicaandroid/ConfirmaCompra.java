@@ -4,9 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
 public class ConfirmaCompra extends AppCompatActivity {
@@ -32,7 +30,16 @@ public class ConfirmaCompra extends AppCompatActivity {
         imgProducto = (ImageView) findViewById(R.id.img6Prod);
     }
 
-    public void salirAlquiler(View v) {
+    public void volverInicio(View v) {
+        salirAlquiler();
+    }
+    @Override
+    public void onBackPressed() {
+        salirAlquiler();
+    }
+
+    public void salirAlquiler()
+    {
         Intent i = new Intent(getApplicationContext(), SeleccionGenero.class);
         i.putExtra("usuario",nombre);
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
