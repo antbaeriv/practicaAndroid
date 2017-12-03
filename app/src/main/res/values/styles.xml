@@ -1,16 +1,13 @@
 <resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="VideoStudiumTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorNetflix</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
         <item name="colorAccent">@color/colorNetflix</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:actionDropDownStyle">@style/SpinnerStyle</item>
+        <item name="android:textColor">@color/colorBlack</item>
     </style>
     <style name="BtnImagen" parent="android:Widget.ImageButton">
-        <item name="android:background">@color/transparente</item>
+        <item name="android:background">@color/colorNull</item>
         <item name="android:layout_width">40dp</item>
         <item name="android:layout_height">40dp</item>
     </style>
@@ -22,8 +19,4 @@
         <item name="android:layout_width">90dp</item>
         <item name="android:layout_height">40dp</item>
     </style>
-    <style name="SpinnerStyle" parent="android:Widget.Spinner">
-
-    </style>
-
 </resources>

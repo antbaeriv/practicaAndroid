@@ -21,7 +21,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginTop="26dp"
             android:text="@string/lbl6gracias"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/colorBlack"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -51,7 +51,7 @@
             android:layout_below="@+id/lbl6gracias"
             android:layout_marginTop="29dp"
             android:text="@string/lbl6resumen"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/colorBlack"
             android:textSize="18sp"
             android:textStyle="bold" />
 
