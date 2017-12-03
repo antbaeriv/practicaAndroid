@@ -149,4 +149,18 @@
     <string name="urlRTSF5">https://www.rottentomatoes.com/m/matrix</string>
     <string name="validez">Der ausgewählte Wert ist nicht gültig</string>
     <string name="validez5Checkbox">Sie müssen eine kostenpflichtige Methode auswählen.</string>
+
+    <string-array name="spinCriticas">
+        <item>Sehen Sie Kritiker:</item>
+        <item>Filmaffinity</item>
+        <item>IMDB</item>
+        <item>RottenTomatoes</item>
+    </string-array>
+
+    <string-array name="spnGeneros">
+        <item>Wählen Sie ein Genre aus:</item>
+        <item>Aktion</item>
+        <item>Drama</item>
+        <item>Sci-Fi</item>
+    </string-array>
 </resources>
