@@ -120,6 +120,7 @@
             android:layout_height="35dp"
             android:layout_alignBottom="@+id/btn4Back"
             android:layout_alignStart="@+id/btn4AccEnlaces"
+            android:onClick="alquilarPelicula"
             android:text="@string/btn4Alquiler" />
 
         <Spinner
@@ -138,6 +139,7 @@
             android:layout_height="35dp"
             android:layout_alignEnd="@+id/btn4Home"
             android:layout_alignTop="@+id/lbl4AnioPelicula"
+            android:onClick="accederEnlace"
             android:text="@string/btn4AccEnlaces" />
 
     </RelativeLayout>

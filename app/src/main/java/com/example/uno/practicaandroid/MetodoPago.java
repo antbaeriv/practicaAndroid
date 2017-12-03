@@ -44,7 +44,7 @@ public class MetodoPago extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void mostrarFinalizacionCompra(View v){
+    public void mostrarFinCompra(View v){
         Integer nPago=0;
         Integer id;
         if(rbT.isChecked() || rbE.isChecked() || rbP.isChecked()){

@@ -62,7 +62,7 @@
             style="@style/BtnNormal"
             android:layout_alignEnd="@+id/btn5Home"
             android:layout_alignTop="@+id/btn5Back"
-            android:onClick="mostrarFinalizacionCompra"
+            android:onClick="mostrarFinCompra"
             android:text="@string/btn5Pagar" />
 
         <TextView
