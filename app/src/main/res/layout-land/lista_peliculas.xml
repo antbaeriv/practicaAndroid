@@ -13,8 +13,6 @@
         <ImageButton
             android:id="@+id/btn3Back"
             style="@style/BtnImagen"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:layout_gravity="left"
@@ -28,8 +26,6 @@
         <ImageButton
             android:id="@+id/btn3Home"
             style="@style/BtnImagen"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
             android:layout_gravity="right"

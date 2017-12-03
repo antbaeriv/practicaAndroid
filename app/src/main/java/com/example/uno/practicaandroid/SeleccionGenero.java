@@ -52,7 +52,6 @@ public class SeleccionGenero extends AppCompatActivity {
             startActivity(intencion);
         }
 
-
     }
 
 }

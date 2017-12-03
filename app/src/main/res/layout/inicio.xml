@@ -66,6 +66,7 @@
 
         <Button
             android:id="@+id/btn1Enter"
+            style="@style/BtnNormal"
             android:layout_width="320dp"
             android:layout_height="40dp"
             android:onClick="iniciarSesion"

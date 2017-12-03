@@ -38,8 +38,6 @@
         <ImageButton
             android:id="@+id/btn6Exit"
             style="@style/BtnImagen"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_below="@+id/lbl6Producto"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
