@@ -32,7 +32,7 @@
 
         <TextView
             android:id="@+id/lbl5Seleccionar"
-            android:layout_width="275dp"
+            android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:layout_below="@+id/btn5Home"
             android:layout_centerHorizontal="true"
@@ -43,19 +43,14 @@
 
         <TextView
             android:id="@+id/lbl5Importe"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/lbl5Precio"
-            android:layout_toStartOf="@+id/btn5Pagar"
-            android:text="@string/lbl5Importe"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/lbl5Precio"
             android:layout_width="75dp"
-            android:layout_height="25dp"
-            android:layout_alignStart="@+id/lbl5Importe"
-            android:layout_below="@+id/rg5Pago" />
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/lbl5Seleccionar"
+            android:layout_below="@+id/rg5Pago"
+            android:text="@string/lbl5Importe"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn5Pagar"
@@ -67,7 +62,7 @@
 
         <TextView
             android:id="@+id/lbl5PeliculaAlquilada"
-            android:layout_width="175dp"
+            android:layout_width="250dp"
             android:layout_height="75dp"
             android:layout_below="@+id/btn5Home"
             android:layout_centerHorizontal="true"

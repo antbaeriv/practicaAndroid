@@ -13,7 +13,7 @@
     <string name="usuario2">Gonzalez-Studium02</string>
     <string name="usuario3">Baena-Studium03</string>
     <string name="usuario4">Sureda-Studium04</string>
-<string name="salir">Vuelva a presionar para salir</string>
+    <string name="salir">Vuelva a presionar para salir</string>
 
     <string-array name="spinCriticas">
         <item>Ver críticas:</item>
@@ -206,7 +206,7 @@
     <string name="lbl6resumen">Producto alquilado:</string>
     <string name="validez">El valor seleccionado no es válido</string>
     <string name="lbl5Seleccionar">Seleccione el metodo de pago:</string>
-    <string name="lbl5Importe">Importe:</string>
+    <string name="lbl5Importe">Importe: 3.65€</string>
     <string name="lbl5MetodoPago1">Tarjeta</string>
     <string name="lbl5MetodoPago2">Efectivo</string>
     <string name="lbl5MetodoPago3" translatable="false">PayPal</string>

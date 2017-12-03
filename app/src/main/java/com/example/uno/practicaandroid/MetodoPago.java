@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MetodoPago extends AppCompatActivity {
-    TextView lblProducto,lblPrecio;
+    TextView lblProducto;
     RadioButton rbT,rbE,rbP;
     RadioGroup radioGroup;
     String titulo, nombre;
@@ -30,7 +30,6 @@ public class MetodoPago extends AppCompatActivity {
     }
 
     public void inicializarUI(){
-        lblPrecio = (TextView) findViewById(R.id.lbl5Precio);
         lblProducto = (TextView) findViewById(R.id.lbl5PeliculaAlquilada);
         rbT = (RadioButton) findViewById(R.id.rb5Tarjeta);
         rbE = (RadioButton) findViewById(R.id.rb5Efectivo);

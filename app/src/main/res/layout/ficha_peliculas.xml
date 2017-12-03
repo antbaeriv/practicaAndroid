@@ -82,10 +82,10 @@
         <TextView
             android:id="@+id/lbl4DirectorPelicula"
             android:layout_width="100dp"
-            android:layout_height="20dp"
+            android:layout_height="40dp"
             android:layout_alignBottom="@+id/lbl4SinopsisPelicula"
             android:layout_alignStart="@+id/lbl4PaisPelicula"
-            android:layout_marginBottom="41dp"
+            android:layout_marginBottom="16dp"
             android:gravity="center" />
 
         <TextView
@@ -93,9 +93,8 @@
             android:layout_width="200dp"
             android:layout_height="275dp"
 
-            android:layout_alignEnd="@+id/btn4AccEnlaces"
+            android:layout_alignStart="@+id/lbl4TituloPelicula"
             android:layout_below="@+id/lbl4TituloPelicula"
-            android:layout_marginEnd="28dp"
             android:scrollbars="vertical" />
 
         <ImageButton

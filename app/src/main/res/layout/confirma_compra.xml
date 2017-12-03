@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="71dp"
+            android:layout_marginTop="40dp"
             android:gravity="center"
             android:text="@string/lbl6gracias"
             android:textColor="@color/colorPrimaryDark"
@@ -40,7 +40,7 @@
             style="@style/BtnImagen"
             android:layout_below="@+id/lbl6Producto"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="30dp"
             android:onClick="volverInicio"
             app:srcCompat="@drawable/home" />
 
