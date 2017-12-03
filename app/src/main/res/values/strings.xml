@@ -215,5 +215,5 @@
     <string name="lblSpnEnlaces"></string>
 
     <string name="validez5Checkbox">Debe seleccionar una forma de pago</string>
-    <string name="seleccionPago">Has seleccionado como método de pago: </string>
+    <string name="seleccionPago">Has seleccionado como método de pago:</string>
 </resources>
