@@ -208,4 +208,7 @@
     <string name="btn5Pagar">Pagar</string>
     <string name="validez5Checkbox">Debe seleccionar una forma de pago</string>
     <string name="seleccionPago">Pago realizado mediante:</string>
+    <string name="precioTarjeta">4.50 €</string>
+    <string name="precioEfectivo">3.65 €</string>
+    <string name="precioPaypal">5.00 €</string>
 </resources>
