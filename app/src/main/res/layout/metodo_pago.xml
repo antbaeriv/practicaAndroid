@@ -28,7 +28,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginStart="10dp"
             android:onClick="mostrarListaPeliculas"
-            app:srcCompat="@drawable/backarrow" />
+            app:srcCompat="@drawable/backarrow"/>
 
         <TextView
             android:id="@+id/lbl5Seleccionar"
