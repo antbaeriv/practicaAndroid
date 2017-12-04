@@ -206,9 +206,6 @@
     <string name="lbl5MetodoPago2">Efectivo</string>
     <string name="lbl5MetodoPago3" translatable="false">PayPal</string>
     <string name="btn5Pagar">Pagar</string>
-
-    <string name="lblSpnEnlaces"></string>
-
     <string name="validez5Checkbox">Debe seleccionar una forma de pago</string>
     <string name="seleccionPago">Pago realizado mediante:</string>
 </resources>
