@@ -41,7 +41,7 @@
             android:layout_marginTop="10dp"
             android:contentDescription="@string/volver2"
             android:onClick="mostrarInicio"
-            app:srcCompat="@drawable/home" />
+            app:srcCompat="@drawable/exit" />
 
         <ImageButton
             android:id="@+id/btn2Avanzar"

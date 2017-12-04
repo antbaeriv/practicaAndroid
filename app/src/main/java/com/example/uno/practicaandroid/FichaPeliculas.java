@@ -88,7 +88,8 @@ public class FichaPeliculas extends AppCompatActivity {
         }
     }
     public void mostrarInicio(View v) {
-        Intent i = new Intent(getApplicationContext(),Portada.class);
+        Intent i = new Intent(getApplicationContext(), SeleccionGenero.class);
+        i.putExtra("usuario",nombre);
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }
