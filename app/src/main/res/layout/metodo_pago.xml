@@ -20,16 +20,6 @@
             android:onClick="mostrarInicio"
             app:srcCompat="@drawable/home" />
 
-        <ImageButton
-            android:id="@+id/btn5Back"
-            style="@style/BtnImagen"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="10dp"
-            android:layout_marginStart="10dp"
-            android:onClick="mostrarListaPeliculas"
-            app:srcCompat="@drawable/backarrow" />
-
         <TextView
             android:id="@+id/lbl5Seleccionar"
             android:layout_width="wrap_content"
@@ -51,14 +41,6 @@
             android:textAlignment="textEnd"
             android:textSize="18sp"
             android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/btn5Pagar"
-            style="@style/BtnNormal"
-            android:layout_alignEnd="@+id/btn5Home"
-            android:layout_alignTop="@+id/btn5Back"
-            android:onClick="mostrarFinCompra"
-            android:text="@string/btn5Pagar" />
 
         <TextView
             android:id="@+id/lbl5PeliculaAlquilada"
@@ -102,4 +84,23 @@
         </RadioGroup>
 
     </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btn5Back"
+        style="@style/BtnImagen"
+        android:layout_alignParentTop="true"
+        android:onClick="mostrarListaPeliculas"
+        app:srcCompat="@drawable/backarrow"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <Button
+        android:id="@+id/btn5Pagar"
+        style="@style/BtnNormal"
+        android:layout_alignEnd="@+id/btn5Home"
+        android:layout_alignTop="@+id/btn5Back"
+        android:onClick="mostrarFinCompra"
+        android:text="@string/btn5Pagar"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 </android.support.constraint.ConstraintLayout>
