@@ -49,7 +49,7 @@
     <string name="lbl4lblAnio">Jahre:</string>
     <string name="lbl4lblDirector">Filmregisseur:</string>
     <string name="lbl4lblPais">Land:</string>
-    <string name="lbl5Importe">Preis: 3.65 €</string>
+    <string name="lbl5Importe">Preis:</string>
     <string name="lbl5MetodoPago1">Kreditkarte</string>
     <string name="lbl5MetodoPago2">Bargeld</string>
     <string name="lbl5Seleccionar">Wählen Sie Ihre Zahlungsmethode:</string>

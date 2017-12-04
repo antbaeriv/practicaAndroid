@@ -169,7 +169,7 @@
     <string name="paisSF3">Estados Unidos</string>
     <string name="anioSF3" translatable="false">1996</string>
     <string name="directorSF3">Jonathan Frakes</string>
-    <string name="sinopsisSF3" translatable="false">La USS-Enterprise se encuentra explorando el espacio, cuando recibe la noticia de que se ha detectado la presencia de un Cubo Borg dirigiéndose hacia la Tierra. El Alto Mando de la flota ordena a Picard que se dirijan a la Zona Neutral para el caso de que los romulanos decidan aprovechar la situación y ataquen a la Federación. Pero en realidad el Alto Mando desconfía de que Picard ayude al enemigo, debido a su anterior asimilación en el colectivo Borg. Cuando la Tierra es atacada y la flota no puede hacer frente a la amenaza, Picard desoye las órdenes y se enfrenta al Borg, liderando la flota en el ataque. El cubo Borg es destruido, pero una pequeña porción escapa y genera un túnel temporal hacia el pasado hasta el año 2063, con el fin de evitar que el Dr. Zefram Cochrane realice el primer viaje a velocidad de curvatura, y contacte con la primera raza extraterrestre. Picard y su tripulación deberán viajar al pasado para restablecer el tiempo y hacer frente a la amenaza Borg en el pasado.</string>
+    <string name="sinopsisSF3">La USS-Enterprise se encuentra explorando el espacio, cuando recibe la noticia de que se ha detectado la presencia de un Cubo Borg dirigiéndose hacia la Tierra. El Alto Mando de la flota ordena a Picard que se dirijan a la Zona Neutral para el caso de que los romulanos decidan aprovechar la situación y ataquen a la Federación. Pero en realidad el Alto Mando desconfía de que Picard ayude al enemigo, debido a su anterior asimilación en el colectivo Borg. Cuando la Tierra es atacada y la flota no puede hacer frente a la amenaza, Picard desoye las órdenes y se enfrenta al Borg, liderando la flota en el ataque. El cubo Borg es destruido, pero una pequeña porción escapa y genera un túnel temporal hacia el pasado hasta el año 2063, con el fin de evitar que el Dr. Zefram Cochrane realice el primer viaje a velocidad de curvatura, y contacte con la primera raza extraterrestre. Picard y su tripulación deberán viajar al pasado para restablecer el tiempo y hacer frente a la amenaza Borg en el pasado.</string>
 
     <string name="urlFilmSF3">https://www.filmaffinity.com/es/film880655.html</string>
     <string name="urlIMDBSF3">http://www.imdb.com/title/tt0117731/?ref_=nv_sr_1</string>
@@ -201,7 +201,7 @@
     <string name="lbl6resumen">Producto alquilado:</string>
     <string name="validez">El valor seleccionado no es válido</string>
     <string name="lbl5Seleccionar">Seleccione el metodo de pago:</string>
-    <string name="lbl5Importe">Importe: 3.65€</string>
+    <string name="lbl5Importe">Importe:</string>
     <string name="lbl5MetodoPago1">Tarjeta</string>
     <string name="lbl5MetodoPago2">Efectivo</string>
     <string name="lbl5MetodoPago3" translatable="false">PayPal</string>
