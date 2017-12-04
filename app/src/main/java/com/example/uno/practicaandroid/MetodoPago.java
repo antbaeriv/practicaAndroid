@@ -15,6 +15,7 @@ public class MetodoPago extends AppCompatActivity {
     RadioGroup radioGroup;
     String titulo, nombre;
     int imagen;
+    TextView lblPrecio;
 
 
     @Override
@@ -27,6 +28,25 @@ public class MetodoPago extends AppCompatActivity {
         imagen = getIntent().getIntExtra("imagen", 0);
         lblProducto.setText(titulo);
 
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            public void onCheckedChanged(RadioGroup group, int checkedID) {
+                View radioButton = radioGroup.findViewById(checkedID);
+                int index = radioGroup.indexOfChild(radioButton);
+
+                switch (index){
+                    case 0:
+                        lblPrecio.setText(getString(R.string.lbl5Importe)+" "+getString(R.string.precioTarjeta));
+                        break;
+                    case 1:
+                        lblPrecio.setText(getString(R.string.lbl5Importe)+" "+getString(R.string.precioEfectivo));
+                        break;
+                    case 2:
+                        lblPrecio.setText(getString(R.string.lbl5Importe)+" "+getString(R.string.precioPaypal));
+                        break;
+                }
+            }
+        }) ;
+
     }
 
     public void inicializarUI(){
@@ -35,6 +55,7 @@ public class MetodoPago extends AppCompatActivity {
         rbE = (RadioButton) findViewById(R.id.rb5Efectivo);
         rbP = (RadioButton) findViewById(R.id.rb5Paypal);
         radioGroup = (RadioGroup) findViewById(R.id.rg5Pago);
+        lblPrecio = (TextView) findViewById(R.id.lbl5Importe);
     }
 
     public void mostrarInicio(View v){
